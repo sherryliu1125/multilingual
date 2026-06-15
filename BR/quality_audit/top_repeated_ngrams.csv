@@ -1,0 +1,901 @@
+file,label,type,gram,count,rate_per_text
+synthetic_main,BR_State_Security_Democratic_Order,bigram,stf é,703,0.4821673525377229
+synthetic_main,BR_State_Security_Democratic_Order,bigram,congresso é,649,0.4451303155006859
+synthetic_main,BR_State_Security_Democratic_Order,bigram,tse é,633,0.43415637860082307
+synthetic_main,BR_State_Security_Democratic_Order,bigram,o povo,619,0.42455418381344306
+synthetic_main,BR_State_Security_Democratic_Order,bigram,se o,484,0.3319615912208505
+synthetic_main,BR_State_Security_Democratic_Order,bigram,o exército,423,0.29012345679012347
+synthetic_main,BR_State_Security_Democratic_Order,bigram,o brasil,400,0.27434842249657065
+synthetic_main,BR_State_Security_Democratic_Order,bigram,urna é,264,0.18106995884773663
+synthetic_main,BR_State_Security_Democratic_Order,bigram,a gente,251,0.1721536351165981
+synthetic_main,BR_State_Security_Democratic_Order,bigram,exército se,246,0.16872427983539096
+synthetic_main,BR_State_Security_Democratic_Order,bigram,exército não,244,0.1673525377229081
+synthetic_main,BR_State_Security_Democratic_Order,bigram,é um,238,0.16323731138545952
+synthetic_main,BR_State_Security_Democratic_Order,bigram,se você,232,0.15912208504801098
+synthetic_main,BR_State_Security_Democratic_Order,bigram,o tse,231,0.15843621399176955
+synthetic_main,BR_State_Security_Democratic_Order,bigram,essa eleição,227,0.15569272976680384
+synthetic_main,BR_State_Security_Democratic_Order,bigram,povo tá,217,0.14883401920438957
+synthetic_main,BR_State_Security_Democratic_Order,bigram,exército é,211,0.144718792866941
+synthetic_main,BR_State_Security_Democratic_Order,bigram,você não,201,0.13786008230452676
+synthetic_main,BR_State_Security_Democratic_Order,bigram,eleição foi,193,0.13237311385459533
+synthetic_main,BR_State_Security_Democratic_Order,bigram,é cúmplice,178,0.12208504801097393
+synthetic_main,BR_State_Security_Democratic_Order,trigram,exército se você,223,0.15294924554183814
+synthetic_main,BR_State_Security_Democratic_Order,trigram,o povo tá,215,0.14746227709190673
+synthetic_main,BR_State_Security_Democratic_Order,trigram,se o exército,196,0.13443072702331962
+synthetic_main,BR_State_Security_Democratic_Order,trigram,se você não,195,0.1337448559670782
+synthetic_main,BR_State_Security_Democratic_Order,trigram,o exército não,194,0.13305898491083676
+synthetic_main,BR_State_Security_Democratic_Order,trigram,essa eleição foi,189,0.12962962962962962
+synthetic_main,BR_State_Security_Democratic_Order,trigram,stf é cúmplice,164,0.11248285322359397
+synthetic_main,BR_State_Security_Democratic_Order,trigram,o povo vai,156,0.10699588477366255
+synthetic_main,BR_State_Security_Democratic_Order,trigram,stf é traidor,131,0.08984910836762688
+synthetic_main,BR_State_Security_Democratic_Order,trigram,se o tse,128,0.0877914951989026
+synthetic_main,BR_State_Security_Democratic_Order,trigram,exército o povo,114,0.07818930041152264
+synthetic_main,BR_State_Security_Democratic_Order,trigram,cúmplice congresso é,112,0.07681755829903979
+synthetic_main,BR_State_Security_Democratic_Order,trigram,é cúmplice congresso,105,0.0720164609053498
+synthetic_main,BR_State_Security_Democratic_Order,trigram,não agir o,94,0.0644718792866941
+synthetic_main,BR_State_Security_Democratic_Order,trigram,é hora de,91,0.062414266117969824
+synthetic_main,BR_State_Security_Democratic_Order,trigram,ladrão stf é,90,0.06172839506172839
+synthetic_main,BR_State_Security_Democratic_Order,trigram,tse é um,88,0.06035665294924554
+synthetic_main,BR_State_Security_Democratic_Order,trigram,tse é ladrão,85,0.05829903978052126
+synthetic_main,BR_State_Security_Democratic_Order,trigram,o brasil vira,84,0.05761316872427984
+synthetic_main,BR_State_Security_Democratic_Order,trigram,o povo não,82,0.056241426611796985
+synthetic_main,BR_State_Security_Democratic_Order,start4,essa eleição foi um,67,0.045953360768175584
+synthetic_main,BR_State_Security_Democratic_Order,start4,essa eleição foi roubada,48,0.03292181069958848
+synthetic_main,BR_State_Security_Democratic_Order,start4,se o tse não,44,0.03017832647462277
+synthetic_main,BR_State_Security_Democratic_Order,start4,se o resultado for,36,0.024691358024691357
+synthetic_main,BR_State_Security_Democratic_Order,start4,se o stf não,25,0.017146776406035666
+synthetic_main,BR_State_Security_Democratic_Order,start4,se o tse homologar,17,0.011659807956104253
+synthetic_main,BR_State_Security_Democratic_Order,start4,se o povo não,16,0.010973936899862825
+synthetic_main,BR_State_Security_Democratic_Order,start4,essa eleição foi uma,16,0.010973936899862825
+synthetic_main,BR_State_Security_Democratic_Order,start4,ninguém mais acredita nessa,14,0.009602194787379973
+synthetic_main,BR_State_Security_Democratic_Order,start4,não aceito esse resultado,13,0.008916323731138546
+synthetic_main,BR_State_Security_Democratic_Order,start4,se o exército não,13,0.008916323731138546
+synthetic_main,BR_State_Security_Democratic_Order,start4,brasília tá cheia de,12,0.00823045267489712
+synthetic_main,BR_State_Security_Democratic_Order,start4,urna é farsa tse,12,0.00823045267489712
+synthetic_main,BR_State_Security_Democratic_Order,start4,democracia só se for,11,0.0075445816186556925
+synthetic_main,BR_State_Security_Democratic_Order,start4,urna não conta voto,11,0.0075445816186556925
+synthetic_main,BR_State_Security_Democratic_Order,start4,se o stf homologar,11,0.0075445816186556925
+synthetic_main,BR_State_Security_Democratic_Order,start4,se o congresso não,11,0.0075445816186556925
+synthetic_main,BR_State_Security_Democratic_Order,start4,tse é uma farsa,11,0.0075445816186556925
+synthetic_main,BR_State_Security_Democratic_Order,start4,tse é fraude stf,11,0.0075445816186556925
+synthetic_main,BR_State_Security_Democratic_Order,start4,ninguém acredita mais nisso,11,0.0075445816186556925
+synthetic_main,Politically_Sensitive_Topics,bigram,o governo,645,0.291196388261851
+synthetic_main,Politically_Sensitive_Topics,bigram,o presidente,523,0.236117381489842
+synthetic_main,Politically_Sensitive_Topics,bigram,mas o,489,0.22076749435665916
+synthetic_main,Politically_Sensitive_Topics,bigram,presidente da,417,0.18826185101580137
+synthetic_main,Politically_Sensitive_Topics,bigram,que é,371,0.16749435665914222
+synthetic_main,Politically_Sensitive_Topics,bigram,mas os,360,0.16252821670428894
+synthetic_main,Politically_Sensitive_Topics,bigram,e o,291,0.13137697516930022
+synthetic_main,Politically_Sensitive_Topics,bigram,no telegram,272,0.12279909706546276
+synthetic_main,Politically_Sensitive_Topics,bigram,vídeos de,271,0.12234762979683973
+synthetic_main,Politically_Sensitive_Topics,bigram,tá cheio,264,0.11918735891647855
+synthetic_main,Politically_Sensitive_Topics,bigram,os vídeos,254,0.1146726862302483
+synthetic_main,Politically_Sensitive_Topics,bigram,cheio de,246,0.11106094808126411
+synthetic_main,Politically_Sensitive_Topics,bigram,tá rolando,246,0.11106094808126411
+synthetic_main,Politically_Sensitive_Topics,bigram,diz que,244,0.11015801354401805
+synthetic_main,Politically_Sensitive_Topics,bigram,que o,213,0.09616252821670429
+synthetic_main,Politically_Sensitive_Topics,bigram,governo diz,204,0.09209932279909706
+synthetic_main,Politically_Sensitive_Topics,bigram,e os,198,0.08939051918735892
+synthetic_main,Politically_Sensitive_Topics,bigram,dizem que,194,0.08758465011286681
+synthetic_main,Politically_Sensitive_Topics,bigram,o telegram,190,0.08577878103837472
+synthetic_main,Politically_Sensitive_Topics,bigram,tem o,170,0.07674943566591422
+synthetic_main,Politically_Sensitive_Topics,trigram,o presidente da,347,0.15665914221218963
+synthetic_main,Politically_Sensitive_Topics,trigram,tá cheio de,240,0.10835214446952596
+synthetic_main,Politically_Sensitive_Topics,trigram,o governo diz,203,0.09164785553047404
+synthetic_main,Politically_Sensitive_Topics,trigram,governo diz que,202,0.09119638826185102
+synthetic_main,Politically_Sensitive_Topics,trigram,diz que é,191,0.08623024830699774
+synthetic_main,Politically_Sensitive_Topics,trigram,o governo da,146,0.06591422121896162
+synthetic_main,Politically_Sensitive_Topics,trigram,telegram tá cheio,120,0.05417607223476298
+synthetic_main,Politically_Sensitive_Topics,trigram,alguém tem o,113,0.051015801354401806
+synthetic_main,Politically_Sensitive_Topics,trigram,mas o telegram,104,0.04695259593679458
+synthetic_main,Politically_Sensitive_Topics,trigram,o telegram tá,103,0.046501128668171555
+synthetic_main,Politically_Sensitive_Topics,trigram,tá rolando um,84,0.037923250564334085
+synthetic_main,Politically_Sensitive_Topics,trigram,alguém viu o,80,0.03611738148984198
+synthetic_main,Politically_Sensitive_Topics,trigram,que o presidente,74,0.033408577878103835
+synthetic_main,Politically_Sensitive_Topics,trigram,que é fake,70,0.03160270880361174
+synthetic_main,Politically_Sensitive_Topics,trigram,o twitter tá,68,0.03069977426636569
+synthetic_main,Politically_Sensitive_Topics,trigram,derrubar o governo,66,0.029796839729119638
+synthetic_main,Politically_Sensitive_Topics,trigram,o whatsapp tá,66,0.029796839729119638
+synthetic_main,Politically_Sensitive_Topics,trigram,mas os vídeos,63,0.028442437923250564
+synthetic_main,Politically_Sensitive_Topics,trigram,pra derrubar o,62,0.02799097065462754
+synthetic_main,Politically_Sensitive_Topics,trigram,o telegram tem,62,0.02799097065462754
+synthetic_main,Politically_Sensitive_Topics,start4,tá rolando um golpe,41,0.01851015801354402
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da lituânia,27,0.01218961625282167
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da moldávia,26,0.011738148984198645
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da geórgia,22,0.009932279909706547
+synthetic_main,Politically_Sensitive_Topics,start4,o primeiro ministro da,21,0.009480812641083521
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da ucrânia,20,0.009029345372460496
+synthetic_main,Politically_Sensitive_Topics,start4,falsos resultados da eleição,19,0.008577878103837472
+synthetic_main,Politically_Sensitive_Topics,start4,alguém viu o vídeo,19,0.008577878103837472
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da croácia,19,0.008577878103837472
+synthetic_main,Politically_Sensitive_Topics,start4,eles estão apagando os,18,0.008126410835214447
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da letônia,16,0.007223476297968397
+synthetic_main,Politically_Sensitive_Topics,start4,tá rolando um massacre,16,0.007223476297968397
+synthetic_main,Politically_Sensitive_Topics,start4,tá rolando no telegram,16,0.007223476297968397
+synthetic_main,Politically_Sensitive_Topics,start4,o governo da croácia,14,0.006320541760722348
+synthetic_main,Politically_Sensitive_Topics,start4,eles cortaram a internet,14,0.006320541760722348
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da bulgária,13,0.005869074492099322
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da sérvia,13,0.005869074492099322
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da estônia,12,0.005417607223476298
+synthetic_main,Politically_Sensitive_Topics,start4,cortaram a internet na,12,0.005417607223476298
+synthetic_main,Politically_Sensitive_Topics,start4,o presidente da bielorrússia,11,0.004966139954853273
+synthetic_main,Sexually_Explicit_Information,bigram,tu me,938,0.619550858652576
+synthetic_main,Sexually_Explicit_Information,bigram,eu te,711,0.46961690885072654
+synthetic_main,Sexually_Explicit_Information,bigram,até eu,535,0.3533685601056803
+synthetic_main,Sexually_Explicit_Information,bigram,me foder,397,0.26221928665786
+synthetic_main,Sexually_Explicit_Information,bigram,se tu,359,0.23712021136063408
+synthetic_main,Sexually_Explicit_Information,bigram,te deixo,320,0.21136063408190225
+synthetic_main,Sexually_Explicit_Information,bigram,quero te,316,0.20871862615587847
+synthetic_main,Sexually_Explicit_Information,bigram,de mim,313,0.20673712021136065
+synthetic_main,Sexually_Explicit_Information,bigram,manda um,307,0.20277410832232498
+synthetic_main,Sexually_Explicit_Information,bigram,te sentir,279,0.18428005284015853
+synthetic_main,Sexually_Explicit_Information,bigram,só de,260,0.17173051519154559
+synthetic_main,Sexually_Explicit_Information,bigram,respondo com,246,0.16248348745046234
+synthetic_main,Sexually_Explicit_Information,bigram,um áudio,242,0.15984147952443858
+synthetic_main,Sexually_Explicit_Information,bigram,vem me,234,0.154557463672391
+synthetic_main,Sexually_Explicit_Information,bigram,com um,231,0.1525759577278732
+synthetic_main,Sexually_Explicit_Information,bigram,deixo me,218,0.14398943196829592
+synthetic_main,Sexually_Explicit_Information,bigram,me fode,203,0.13408190224570674
+synthetic_main,Sexually_Explicit_Information,bigram,um vídeo,202,0.1334214002642008
+synthetic_main,Sexually_Explicit_Information,bigram,e eu,189,0.12483487450462351
+synthetic_main,Sexually_Explicit_Information,bigram,com a,181,0.11955085865257596
+synthetic_main,Sexually_Explicit_Information,trigram,se tu me,347,0.22919418758256274
+synthetic_main,Sexually_Explicit_Information,trigram,eu te deixo,259,0.17107001321003962
+synthetic_main,Sexually_Explicit_Information,trigram,quero te sentir,227,0.1499339498018494
+synthetic_main,Sexually_Explicit_Information,trigram,te deixo me,218,0.14398943196829592
+synthetic_main,Sexually_Explicit_Information,trigram,respondo com um,212,0.14002642007926025
+synthetic_main,Sexually_Explicit_Information,trigram,manda um áudio,199,0.13143989431968295
+synthetic_main,Sexually_Explicit_Information,trigram,eu te respondo,159,0.10501981505944517
+synthetic_main,Sexually_Explicit_Information,trigram,te respondo com,152,0.10039630118890357
+synthetic_main,Sexually_Explicit_Information,trigram,um vídeo de,149,0.09841479524438573
+synthetic_main,Sexually_Explicit_Information,trigram,dentro de mim,147,0.09709379128137384
+synthetic_main,Sexually_Explicit_Information,trigram,deixo me foder,146,0.0964332892998679
+synthetic_main,Sexually_Explicit_Information,trigram,com um de,118,0.07793923381770146
+synthetic_main,Sexually_Explicit_Information,trigram,só de pensar,109,0.07199471598414796
+synthetic_main,Sexually_Explicit_Information,trigram,até eu não,106,0.07001321003963012
+synthetic_main,Sexually_Explicit_Information,trigram,eu te mando,103,0.06803170409511229
+synthetic_main,Sexually_Explicit_Information,trigram,até eu gritar,100,0.06605019815059446
+synthetic_main,Sexually_Explicit_Information,trigram,tu me beijar,99,0.0653896961690885
+synthetic_main,Sexually_Explicit_Information,trigram,me foder até,99,0.0653896961690885
+synthetic_main,Sexually_Explicit_Information,trigram,vem me foder,98,0.06472919418758256
+synthetic_main,Sexually_Explicit_Information,trigram,eu respondo com,93,0.06142668428005284
+synthetic_main,Sexually_Explicit_Information,start4,se tu me beijar,91,0.06010568031704095
+synthetic_main,Sexually_Explicit_Information,start4,se tu me mandar,50,0.03302509907529723
+synthetic_main,Sexually_Explicit_Information,start4,só de pensar em,42,0.02774108322324967
+synthetic_main,Sexually_Explicit_Information,start4,meu corpo tá pedindo,25,0.016512549537648614
+synthetic_main,Sexually_Explicit_Information,start4,não quero conversa quero,25,0.016512549537648614
+synthetic_main,Sexually_Explicit_Information,start4,quero te sentir me,25,0.016512549537648614
+synthetic_main,Sexually_Explicit_Information,start4,tô de calcinha molhada,22,0.01453104359313078
+synthetic_main,Sexually_Explicit_Information,start4,manda um áudio só,21,0.013870541611624834
+synthetic_main,Sexually_Explicit_Information,start4,se tu me chupar,20,0.013210039630118891
+synthetic_main,Sexually_Explicit_Information,start4,tu me deixa louca,17,0.011228533685601057
+synthetic_main,Sexually_Explicit_Information,start4,se tu me tocar,17,0.011228533685601057
+synthetic_main,Sexually_Explicit_Information,start4,quero te sentir dentro,15,0.009907529722589167
+synthetic_main,Sexually_Explicit_Information,start4,se tu me lambe,15,0.009907529722589167
+synthetic_main,Sexually_Explicit_Information,start4,tu me olha assim,15,0.009907529722589167
+synthetic_main,Sexually_Explicit_Information,start4,tu me quer então,15,0.009907529722589167
+synthetic_main,Sexually_Explicit_Information,start4,só de imaginar tu,15,0.009907529722589167
+synthetic_main,Sexually_Explicit_Information,start4,tu me faz perder,14,0.009247027741083224
+synthetic_main,Sexually_Explicit_Information,start4,se tu me puxar,14,0.009247027741083224
+synthetic_main,Sexually_Explicit_Information,start4,tô com a mão,14,0.009247027741083224
+synthetic_main,Sexually_Explicit_Information,start4,tu me olha e,14,0.009247027741083224
+supplement,BR_State_Security_Democratic_Order,bigram,o povo,109,0.45416666666666666
+supplement,BR_State_Security_Democratic_Order,bigram,o exército,89,0.37083333333333335
+supplement,BR_State_Security_Democratic_Order,bigram,se o,76,0.31666666666666665
+supplement,BR_State_Security_Democratic_Order,bigram,tse é,65,0.2708333333333333
+supplement,BR_State_Security_Democratic_Order,bigram,a gente,63,0.2625
+supplement,BR_State_Security_Democratic_Order,bigram,é um,62,0.25833333333333336
+supplement,BR_State_Security_Democratic_Order,bigram,o brasil,57,0.2375
+supplement,BR_State_Security_Democratic_Order,bigram,stf é,54,0.225
+supplement,BR_State_Security_Democratic_Order,bigram,congresso é,51,0.2125
+supplement,BR_State_Security_Democratic_Order,bigram,se não,49,0.20416666666666666
+supplement,BR_State_Security_Democratic_Order,bigram,povo tá,44,0.18333333333333332
+supplement,BR_State_Security_Democratic_Order,bigram,essa eleição,41,0.17083333333333334
+supplement,BR_State_Security_Democratic_Order,bigram,o tse,40,0.16666666666666666
+supplement,BR_State_Security_Democratic_Order,bigram,urna é,40,0.16666666666666666
+supplement,BR_State_Security_Democratic_Order,bigram,eleição foi,37,0.15416666666666667
+supplement,BR_State_Security_Democratic_Order,bigram,povo vai,33,0.1375
+supplement,BR_State_Security_Democratic_Order,bigram,exército não,33,0.1375
+supplement,BR_State_Security_Democratic_Order,bigram,o stf,27,0.1125
+supplement,BR_State_Security_Democratic_Order,bigram,exército entra,27,0.1125
+supplement,BR_State_Security_Democratic_Order,bigram,e o,26,0.10833333333333334
+supplement,BR_State_Security_Democratic_Order,trigram,o povo tá,43,0.17916666666666667
+supplement,BR_State_Security_Democratic_Order,trigram,essa eleição foi,36,0.15
+supplement,BR_State_Security_Democratic_Order,trigram,o povo vai,33,0.1375
+supplement,BR_State_Security_Democratic_Order,trigram,o exército não,24,0.1
+supplement,BR_State_Security_Democratic_Order,trigram,o exército tem,23,0.09583333333333334
+supplement,BR_State_Security_Democratic_Order,trigram,exército tem que,22,0.09166666666666666
+supplement,BR_State_Security_Democratic_Order,trigram,se o stf,21,0.0875
+supplement,BR_State_Security_Democratic_Order,trigram,tse é um,21,0.0875
+supplement,BR_State_Security_Democratic_Order,trigram,se o exército,21,0.0875
+supplement,BR_State_Security_Democratic_Order,trigram,se não houver,18,0.075
+supplement,BR_State_Security_Democratic_Order,trigram,urna não conta,17,0.07083333333333333
+supplement,BR_State_Security_Democratic_Order,trigram,se o tse,15,0.0625
+supplement,BR_State_Security_Democratic_Order,trigram,só o exército,14,0.058333333333333334
+supplement,BR_State_Security_Democratic_Order,trigram,o brasil tá,13,0.05416666666666667
+supplement,BR_State_Security_Democratic_Order,trigram,congresso é um,13,0.05416666666666667
+supplement,BR_State_Security_Democratic_Order,trigram,não houver intervenção,12,0.05
+supplement,BR_State_Security_Democratic_Order,trigram,o stf não,12,0.05
+supplement,BR_State_Security_Democratic_Order,trigram,e o exército,12,0.05
+supplement,BR_State_Security_Democratic_Order,trigram,urna é um,12,0.05
+supplement,BR_State_Security_Democratic_Order,trigram,tomar o poder,12,0.05
+supplement,BR_State_Security_Democratic_Order,start4,essa eleição foi um,10,0.041666666666666664
+supplement,BR_State_Security_Democratic_Order,start4,se o tse não,6,0.025
+supplement,BR_State_Security_Democratic_Order,start4,essa eleição foi roubada,6,0.025
+supplement,BR_State_Security_Democratic_Order,start4,se o stf não,5,0.020833333333333332
+supplement,BR_State_Security_Democratic_Order,start4,essa eleição foi uma,5,0.020833333333333332
+supplement,BR_State_Security_Democratic_Order,start4,urna não conta voto,5,0.020833333333333332
+supplement,BR_State_Security_Democratic_Order,start4,se o resultado for,4,0.016666666666666666
+supplement,BR_State_Security_Democratic_Order,start4,tse é o novo,4,0.016666666666666666
+supplement,BR_State_Security_Democratic_Order,start4,ninguém mais acredita em,4,0.016666666666666666
+supplement,BR_State_Security_Democratic_Order,start4,essa eleição foi fraudada,3,0.0125
+supplement,BR_State_Security_Democratic_Order,start4,congresso é um lixo,3,0.0125
+supplement,BR_State_Security_Democratic_Order,start4,urna não conta só,3,0.0125
+supplement,BR_State_Security_Democratic_Order,start4,se o stf validar,3,0.0125
+supplement,BR_State_Security_Democratic_Order,start4,a democracia já morreu,2,0.008333333333333333
+supplement,BR_State_Security_Democratic_Order,start4,se o lula entrar,2,0.008333333333333333
+supplement,BR_State_Security_Democratic_Order,start4,ninguém acredita mais nisso,2,0.008333333333333333
+supplement,BR_State_Security_Democratic_Order,start4,essa democracia é um,2,0.008333333333333333
+supplement,BR_State_Security_Democratic_Order,start4,se o lula for,2,0.008333333333333333
+supplement,BR_State_Security_Democratic_Order,start4,democracia kkkk já morreu,2,0.008333333333333333
+supplement,BR_State_Security_Democratic_Order,start4,se o tse anunciar,2,0.008333333333333333
+supplement,Politically_Sensitive_Topics,bigram,o governo,7,0.175
+supplement,Politically_Sensitive_Topics,bigram,o presidente,7,0.175
+supplement,Politically_Sensitive_Topics,bigram,do sul,6,0.15
+supplement,Politically_Sensitive_Topics,bigram,eles estão,6,0.15
+supplement,Politically_Sensitive_Topics,bigram,os eua,5,0.125
+supplement,Politically_Sensitive_Topics,bigram,presidente da,5,0.125
+supplement,Politically_Sensitive_Topics,bigram,o exército,5,0.125
+supplement,Politically_Sensitive_Topics,bigram,massacre na,4,0.1
+supplement,Politically_Sensitive_Topics,bigram,coreia do,4,0.1
+supplement,Politically_Sensitive_Topics,bigram,o povo,4,0.1
+supplement,Politically_Sensitive_Topics,bigram,tá escondendo,4,0.1
+supplement,Politically_Sensitive_Topics,bigram,mas o,4,0.1
+supplement,Politically_Sensitive_Topics,bigram,os votos,3,0.075
+supplement,Politically_Sensitive_Topics,bigram,estão espalhando,3,0.075
+supplement,Politically_Sensitive_Topics,bigram,governo da,3,0.075
+supplement,Politically_Sensitive_Topics,bigram,no telegram,3,0.075
+supplement,Politically_Sensitive_Topics,bigram,fugindo com,3,0.075
+supplement,Politically_Sensitive_Topics,bigram,invadir a,3,0.075
+supplement,Politically_Sensitive_Topics,bigram,e o,3,0.075
+supplement,Politically_Sensitive_Topics,bigram,que a,3,0.075
+supplement,Politically_Sensitive_Topics,trigram,o presidente da,5,0.125
+supplement,Politically_Sensitive_Topics,trigram,o governo da,3,0.075
+supplement,Politically_Sensitive_Topics,trigram,coreia do sul,3,0.075
+supplement,Politically_Sensitive_Topics,trigram,áfrica do sul,3,0.075
+supplement,Politically_Sensitive_Topics,trigram,os votos foram,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,da ucrânia tá,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,e os eua,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,os eua não,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,eua não vão,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,não vão mais,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,vão mais ajudar,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,vídeo circulando no,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,presidente da coreia,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,da coreia do,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,alguém viu o,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,vai invadir a,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,eles estão apagando,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,os resultados da,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,resultados da eleição,2,0.05
+supplement,Politically_Sensitive_Topics,trigram,da eleição na,2,0.05
+supplement,Politically_Sensitive_Topics,start4,o presidente da coreia,2,0.05
+supplement,Politically_Sensitive_Topics,start4,essa eleição nos eua,1,0.025
+supplement,Politically_Sensitive_Topics,start4,o governo da ucrânia,1,0.025
+supplement,Politically_Sensitive_Topics,start4,não acredito que isso,1,0.025
+supplement,Politically_Sensitive_Topics,start4,se não tivermos ação,1,0.025
+supplement,Politically_Sensitive_Topics,start4,eles estão apagando os,1,0.025
+supplement,Politically_Sensitive_Topics,start4,o líder da venezuela,1,0.025
+supplement,Politically_Sensitive_Topics,start4,mentira que é eleição,1,0.025
+supplement,Politically_Sensitive_Topics,start4,a ue tá escondendo,1,0.025
+supplement,Politically_Sensitive_Topics,start4,os eua infiltraram drones,1,0.025
+supplement,Politically_Sensitive_Topics,start4,golpe em progresso na,1,0.025
+supplement,Politically_Sensitive_Topics,start4,tudo que a mídia,1,0.025
+supplement,Politically_Sensitive_Topics,start4,o presidente da áfrica,1,0.025
+supplement,Politically_Sensitive_Topics,start4,os britânicos estão espalhando,1,0.025
+supplement,Politically_Sensitive_Topics,start4,alguém viu o vídeo,1,0.025
+supplement,Politically_Sensitive_Topics,start4,a china vai declarar,1,0.025
+supplement,Politically_Sensitive_Topics,start4,o povo da rússia,1,0.025
+supplement,Politically_Sensitive_Topics,start4,eles estão falsificando os,1,0.025
+supplement,Politically_Sensitive_Topics,start4,o japão tá escondendo,1,0.025
+supplement,Politically_Sensitive_Topics,start4,viajem pra canadá agora,1,0.025
+supplement,Sexually_Explicit_Information,bigram,você me,19,0.475
+supplement,Sexually_Explicit_Information,bigram,eu te,17,0.425
+supplement,Sexually_Explicit_Information,bigram,se você,12,0.3
+supplement,Sexually_Explicit_Information,bigram,que eu,10,0.25
+supplement,Sexually_Explicit_Information,bigram,o que,8,0.2
+supplement,Sexually_Explicit_Information,bigram,que você,7,0.175
+supplement,Sexually_Explicit_Information,bigram,eu já,7,0.175
+supplement,Sexually_Explicit_Information,bigram,te deixo,7,0.175
+supplement,Sexually_Explicit_Information,bigram,deixo me,7,0.175
+supplement,Sexually_Explicit_Information,bigram,e não,6,0.15
+supplement,Sexually_Explicit_Information,bigram,pensando em,6,0.15
+supplement,Sexually_Explicit_Information,bigram,me mandar,5,0.125
+supplement,Sexually_Explicit_Information,bigram,em você,4,0.1
+supplement,Sexually_Explicit_Information,bigram,não preciso,4,0.1
+supplement,Sexually_Explicit_Information,bigram,preciso de,4,0.1
+supplement,Sexually_Explicit_Information,bigram,você sabe,4,0.1
+supplement,Sexually_Explicit_Information,bigram,em mim,4,0.1
+supplement,Sexually_Explicit_Information,bigram,com a,4,0.1
+supplement,Sexually_Explicit_Information,bigram,quer me,4,0.1
+supplement,Sexually_Explicit_Information,bigram,um áudio,4,0.1
+supplement,Sexually_Explicit_Information,trigram,se você me,10,0.25
+supplement,Sexually_Explicit_Information,trigram,te deixo me,7,0.175
+supplement,Sexually_Explicit_Information,trigram,que eu te,6,0.15
+supplement,Sexually_Explicit_Information,trigram,eu te deixo,6,0.15
+supplement,Sexually_Explicit_Information,trigram,você me mandar,5,0.125
+supplement,Sexually_Explicit_Information,trigram,não preciso de,4,0.1
+supplement,Sexually_Explicit_Information,trigram,e pensando em,3,0.075
+supplement,Sexually_Explicit_Information,trigram,pensando em você,3,0.075
+supplement,Sexually_Explicit_Information,trigram,quer que eu,3,0.075
+supplement,Sexually_Explicit_Information,trigram,dentro de mim,3,0.075
+supplement,Sexually_Explicit_Information,trigram,você sabe que,3,0.075
+supplement,Sexually_Explicit_Information,trigram,sabe que eu,3,0.075
+supplement,Sexually_Explicit_Information,trigram,eu te vejo,3,0.075
+supplement,Sexually_Explicit_Information,trigram,você me beijar,3,0.075
+supplement,Sexually_Explicit_Information,trigram,me beijar no,3,0.075
+supplement,Sexually_Explicit_Information,trigram,agora eu te,3,0.075
+supplement,Sexually_Explicit_Information,trigram,me mandar um,3,0.075
+supplement,Sexually_Explicit_Information,trigram,mandar um áudio,3,0.075
+supplement,Sexually_Explicit_Information,trigram,te dou tudo,3,0.075
+supplement,Sexually_Explicit_Information,trigram,você me pegando,3,0.075
+supplement,Sexually_Explicit_Information,start4,se você me mandar,4,0.1
+supplement,Sexually_Explicit_Information,start4,você sabe que eu,3,0.075
+supplement,Sexually_Explicit_Information,start4,se você me beijar,3,0.075
+supplement,Sexually_Explicit_Information,start4,não preciso de mais,2,0.05
+supplement,Sexually_Explicit_Information,start4,você tá sozinho hoje,1,0.025
+supplement,Sexually_Explicit_Information,start4,se você tiver coragem,1,0.025
+supplement,Sexually_Explicit_Information,start4,tô de calcinha só,1,0.025
+supplement,Sexually_Explicit_Information,start4,essa foto que você,1,0.025
+supplement,Sexually_Explicit_Information,start4,não preciso de romance,1,0.025
+supplement,Sexually_Explicit_Information,start4,não consigo dormir sem,1,0.025
+supplement,Sexually_Explicit_Information,start4,você é o tipo,1,0.025
+supplement,Sexually_Explicit_Information,start4,tô com a mão,1,0.025
+supplement,Sexually_Explicit_Information,start4,essa sua voz me,1,0.025
+supplement,Sexually_Explicit_Information,start4,você me deixou com,1,0.025
+supplement,Sexually_Explicit_Information,start4,não tô brincando se,1,0.025
+supplement,Sexually_Explicit_Information,start4,meu corpo tá pedindo,1,0.025
+supplement,Sexually_Explicit_Information,start4,se você me disser,1,0.025
+supplement,Sexually_Explicit_Information,start4,tá com sono eu,1,0.025
+supplement,Sexually_Explicit_Information,start4,não quero conversa quero,1,0.025
+supplement,Sexually_Explicit_Information,start4,sua foto me deixou,1,0.025
+cyber,Cybersecurity_Malware,bigram,bot pra,428,0.21251241310824232
+cyber,Cybersecurity_Malware,bigram,alguém tem,298,0.14796425024826215
+cyber,Cybersecurity_Malware,bigram,pra roubar,285,0.14150943396226415
+cyber,Cybersecurity_Malware,bigram,script pra,279,0.1385302879841112
+cyber,Cybersecurity_Malware,bigram,de um,272,0.13505461767626614
+cyber,Cybersecurity_Malware,bigram,preciso de,270,0.13406156901688182
+cyber,Cybersecurity_Malware,bigram,site de,264,0.13108242303872888
+cyber,Cybersecurity_Malware,bigram,tool pra,241,0.11966236345580933
+cyber,Cybersecurity_Malware,bigram,tem algum,240,0.11916583912611718
+cyber,Cybersecurity_Malware,bigram,login do,226,0.11221449851042702
+cyber,Cybersecurity_Malware,bigram,pra auto,205,0.10178748758689175
+cyber,Cybersecurity_Malware,bigram,não quero,197,0.09781529294935452
+cyber,Cybersecurity_Malware,bigram,com link,186,0.09235352532274081
+cyber,Cybersecurity_Malware,bigram,de phishing,182,0.0903674280039722
+cyber,Cybersecurity_Malware,bigram,link de,180,0.08937437934458789
+cyber,Cybersecurity_Malware,bigram,no instagram,174,0.08639523336643495
+cyber,Cybersecurity_Malware,bigram,tem um,170,0.08440913604766634
+cyber,Cybersecurity_Malware,bigram,bypass de,165,0.08192651439920556
+cyber,Cybersecurity_Malware,bigram,um bot,159,0.07894736842105263
+cyber,Cybersecurity_Malware,bigram,um script,157,0.07795431976166832
+cyber,Cybersecurity_Malware,trigram,preciso de um,176,0.08738828202581926
+cyber,Cybersecurity_Malware,trigram,com link de,155,0.07696127110228401
+cyber,Cybersecurity_Malware,trigram,alguém tem um,153,0.0759682224428997
+cyber,Cybersecurity_Malware,trigram,um bot pra,143,0.07100297914597815
+cyber,Cybersecurity_Malware,trigram,no instagram com,120,0.05958291956305859
+cyber,Cybersecurity_Malware,trigram,um script pra,116,0.05759682224428997
+cyber,Cybersecurity_Malware,trigram,link de fake,103,0.05114200595829196
+cyber,Cybersecurity_Malware,trigram,de phishing pro,101,0.05014895729890765
+cyber,Cybersecurity_Malware,trigram,um tool pra,99,0.049155908639523335
+cyber,Cybersecurity_Malware,trigram,bot pra auto,94,0.04667328699106256
+cyber,Cybersecurity_Malware,trigram,pro login do,94,0.04667328699106256
+cyber,Cybersecurity_Malware,trigram,script pra auto,90,0.044687189672293945
+cyber,Cybersecurity_Malware,trigram,pra roubar token,88,0.04369414101290963
+cyber,Cybersecurity_Malware,trigram,kit de phishing,88,0.04369414101290963
+cyber,Cybersecurity_Malware,trigram,tool pra roubar,87,0.04319761668321748
+cyber,Cybersecurity_Malware,trigram,no tiktok com,84,0.041708043694141016
+cyber,Cybersecurity_Malware,trigram,não quero código,83,0.041211519364448855
+cyber,Cybersecurity_Malware,trigram,pra roubar cookie,78,0.038728897715988087
+cyber,Cybersecurity_Malware,trigram,de login do,76,0.03773584905660377
+cyber,Cybersecurity_Malware,trigram,tem bot pra,74,0.036742800397219465
+cyber,Cybersecurity_Malware,start4,alguém sabe de um,66,0.03277060575968222
+cyber,Cybersecurity_Malware,start4,alguém tem um bot,63,0.03128103277060576
+cyber,Cybersecurity_Malware,start4,preciso de um script,50,0.024826216484607744
+cyber,Cybersecurity_Malware,start4,tem algum tool pra,50,0.024826216484607744
+cyber,Cybersecurity_Malware,start4,preciso de um bot,43,0.02135054617676266
+cyber,Cybersecurity_Malware,start4,preciso de um tool,43,0.02135054617676266
+cyber,Cybersecurity_Malware,start4,vendo kit de phishing,42,0.020854021847070508
+cyber,Cybersecurity_Malware,start4,tem algum exploit pra,40,0.019860973187686197
+cyber,Cybersecurity_Malware,start4,alguém tem script pra,28,0.013902681231380337
+cyber,Cybersecurity_Malware,start4,alguém tem um script,27,0.013406156901688183
+cyber,Cybersecurity_Malware,start4,me passa o link,27,0.013406156901688183
+cyber,Cybersecurity_Malware,start4,tem algum script pra,26,0.012909632571996028
+cyber,Cybersecurity_Malware,start4,alguém tem bot pra,22,0.010923535253227408
+cyber,Cybersecurity_Malware,start4,tem alguma ferramenta pra,18,0.00893743793445879
+cyber,Cybersecurity_Malware,start4,tem algum bot pra,16,0.007944389275074478
+cyber,Cybersecurity_Malware,start4,alguém vende bot pra,16,0.007944389275074478
+cyber,Cybersecurity_Malware,start4,tem script pra auto,14,0.006951340615690168
+cyber,Cybersecurity_Malware,start4,preciso de script pra,14,0.006951340615690168
+cyber,Cybersecurity_Malware,start4,alguém tem um kit,13,0.006454816285998014
+cyber,Cybersecurity_Malware,start4,queria um tool pra,13,0.006454816285998014
+balanced,BR_State_Security_Democratic_Order,bigram,stf é,634,0.44647887323943664
+balanced,BR_State_Security_Democratic_Order,bigram,congresso é,579,0.40774647887323945
+balanced,BR_State_Security_Democratic_Order,bigram,o povo,564,0.3971830985915493
+balanced,BR_State_Security_Democratic_Order,bigram,tse é,563,0.39647887323943665
+balanced,BR_State_Security_Democratic_Order,bigram,se o,451,0.3176056338028169
+balanced,BR_State_Security_Democratic_Order,bigram,o exército,401,0.2823943661971831
+balanced,BR_State_Security_Democratic_Order,bigram,o brasil,354,0.24929577464788732
+balanced,BR_State_Security_Democratic_Order,bigram,a gente,263,0.1852112676056338
+balanced,BR_State_Security_Democratic_Order,bigram,urna é,239,0.16830985915492958
+balanced,BR_State_Security_Democratic_Order,bigram,exército não,225,0.15845070422535212
+balanced,BR_State_Security_Democratic_Order,bigram,o tse,212,0.14929577464788732
+balanced,BR_State_Security_Democratic_Order,bigram,exército se,211,0.14859154929577464
+balanced,BR_State_Security_Democratic_Order,bigram,essa eleição,206,0.14507042253521127
+balanced,BR_State_Security_Democratic_Order,bigram,é um,205,0.1443661971830986
+balanced,BR_State_Security_Democratic_Order,bigram,se você,197,0.1387323943661972
+balanced,BR_State_Security_Democratic_Order,bigram,povo tá,192,0.1352112676056338
+balanced,BR_State_Security_Democratic_Order,bigram,exército é,192,0.1352112676056338
+balanced,BR_State_Security_Democratic_Order,bigram,eleição foi,173,0.12183098591549296
+balanced,BR_State_Security_Democratic_Order,bigram,você não,170,0.11971830985915492
+balanced,BR_State_Security_Democratic_Order,bigram,não agir,162,0.11408450704225352
+balanced,BR_State_Security_Democratic_Order,trigram,o povo tá,190,0.13380281690140844
+balanced,BR_State_Security_Democratic_Order,trigram,exército se você,190,0.13380281690140844
+balanced,BR_State_Security_Democratic_Order,trigram,se o exército,182,0.12816901408450704
+balanced,BR_State_Security_Democratic_Order,trigram,o exército não,180,0.1267605633802817
+balanced,BR_State_Security_Democratic_Order,trigram,essa eleição foi,171,0.12042253521126761
+balanced,BR_State_Security_Democratic_Order,trigram,se você não,165,0.11619718309859155
+balanced,BR_State_Security_Democratic_Order,trigram,stf é cúmplice,147,0.10352112676056338
+balanced,BR_State_Security_Democratic_Order,trigram,o povo vai,134,0.09436619718309859
+balanced,BR_State_Security_Democratic_Order,trigram,stf é traidor,125,0.0880281690140845
+balanced,BR_State_Security_Democratic_Order,trigram,se o tse,119,0.08380281690140845
+balanced,BR_State_Security_Democratic_Order,trigram,cúmplice congresso é,102,0.07183098591549296
+balanced,BR_State_Security_Democratic_Order,trigram,exército o povo,101,0.07112676056338028
+balanced,BR_State_Security_Democratic_Order,trigram,é cúmplice congresso,96,0.0676056338028169
+balanced,BR_State_Security_Democratic_Order,trigram,é hora de,83,0.05845070422535211
+balanced,BR_State_Security_Democratic_Order,trigram,não agir o,83,0.05845070422535211
+balanced,BR_State_Security_Democratic_Order,trigram,ladrão stf é,82,0.057746478873239436
+balanced,BR_State_Security_Democratic_Order,trigram,é traidor congresso,78,0.054929577464788736
+balanced,BR_State_Security_Democratic_Order,trigram,traidor congresso é,78,0.054929577464788736
+balanced,BR_State_Security_Democratic_Order,trigram,o povo não,77,0.054225352112676053
+balanced,BR_State_Security_Democratic_Order,trigram,tse é ladrão,77,0.054225352112676053
+balanced,BR_State_Security_Democratic_Order,start4,essa eleição foi um,61,0.04295774647887324
+balanced,BR_State_Security_Democratic_Order,start4,essa eleição foi roubada,43,0.03028169014084507
+balanced,BR_State_Security_Democratic_Order,start4,se o tse não,42,0.029577464788732393
+balanced,BR_State_Security_Democratic_Order,start4,se o resultado for,33,0.02323943661971831
+balanced,BR_State_Security_Democratic_Order,start4,se o stf não,25,0.017605633802816902
+balanced,BR_State_Security_Democratic_Order,start4,essa eleição foi uma,16,0.011267605633802818
+balanced,BR_State_Security_Democratic_Order,start4,se o tse homologar,15,0.01056338028169014
+balanced,BR_State_Security_Democratic_Order,start4,se o povo não,14,0.009859154929577466
+balanced,BR_State_Security_Democratic_Order,start4,não aceito esse resultado,12,0.008450704225352112
+balanced,BR_State_Security_Democratic_Order,start4,ninguém mais acredita nessa,12,0.008450704225352112
+balanced,BR_State_Security_Democratic_Order,start4,se o exército não,12,0.008450704225352112
+balanced,BR_State_Security_Democratic_Order,start4,democracia só se for,11,0.007746478873239437
+balanced,BR_State_Security_Democratic_Order,start4,urna não conta voto,11,0.007746478873239437
+balanced,BR_State_Security_Democratic_Order,start4,se o congresso não,11,0.007746478873239437
+balanced,BR_State_Security_Democratic_Order,start4,tse é fraude stf,11,0.007746478873239437
+balanced,BR_State_Security_Democratic_Order,start4,brasília tá cheia de,10,0.007042253521126761
+balanced,BR_State_Security_Democratic_Order,start4,ninguém acredita mais nisso,10,0.007042253521126761
+balanced,BR_State_Security_Democratic_Order,start4,ninguém mais acredita em,10,0.007042253521126761
+balanced,BR_State_Security_Democratic_Order,start4,urna não confia tse,10,0.007042253521126761
+balanced,BR_State_Security_Democratic_Order,start4,se o tse validar,9,0.006338028169014085
+balanced,Cybersecurity_Malware,bigram,bot pra,425,0.2125
+balanced,Cybersecurity_Malware,bigram,alguém tem,296,0.148
+balanced,Cybersecurity_Malware,bigram,pra roubar,281,0.1405
+balanced,Cybersecurity_Malware,bigram,script pra,274,0.137
+balanced,Cybersecurity_Malware,bigram,de um,268,0.134
+balanced,Cybersecurity_Malware,bigram,preciso de,267,0.1335
+balanced,Cybersecurity_Malware,bigram,site de,263,0.1315
+balanced,Cybersecurity_Malware,bigram,tem algum,239,0.1195
+balanced,Cybersecurity_Malware,bigram,tool pra,239,0.1195
+balanced,Cybersecurity_Malware,bigram,login do,224,0.112
+balanced,Cybersecurity_Malware,bigram,pra auto,204,0.102
+balanced,Cybersecurity_Malware,bigram,não quero,196,0.098
+balanced,Cybersecurity_Malware,bigram,com link,186,0.093
+balanced,Cybersecurity_Malware,bigram,link de,180,0.09
+balanced,Cybersecurity_Malware,bigram,de phishing,179,0.0895
+balanced,Cybersecurity_Malware,bigram,no instagram,174,0.087
+balanced,Cybersecurity_Malware,bigram,tem um,168,0.084
+balanced,Cybersecurity_Malware,bigram,bypass de,165,0.0825
+balanced,Cybersecurity_Malware,bigram,um bot,159,0.0795
+balanced,Cybersecurity_Malware,bigram,um script,155,0.0775
+balanced,Cybersecurity_Malware,trigram,preciso de um,173,0.0865
+balanced,Cybersecurity_Malware,trigram,com link de,155,0.0775
+balanced,Cybersecurity_Malware,trigram,alguém tem um,151,0.0755
+balanced,Cybersecurity_Malware,trigram,um bot pra,143,0.0715
+balanced,Cybersecurity_Malware,trigram,no instagram com,120,0.06
+balanced,Cybersecurity_Malware,trigram,um script pra,114,0.057
+balanced,Cybersecurity_Malware,trigram,link de fake,103,0.0515
+balanced,Cybersecurity_Malware,trigram,de phishing pro,100,0.05
+balanced,Cybersecurity_Malware,trigram,um tool pra,97,0.0485
+balanced,Cybersecurity_Malware,trigram,bot pra auto,94,0.047
+balanced,Cybersecurity_Malware,trigram,pro login do,93,0.0465
+balanced,Cybersecurity_Malware,trigram,script pra auto,89,0.0445
+balanced,Cybersecurity_Malware,trigram,pra roubar token,87,0.0435
+balanced,Cybersecurity_Malware,trigram,kit de phishing,87,0.0435
+balanced,Cybersecurity_Malware,trigram,tool pra roubar,87,0.0435
+balanced,Cybersecurity_Malware,trigram,no tiktok com,84,0.042
+balanced,Cybersecurity_Malware,trigram,não quero código,83,0.0415
+balanced,Cybersecurity_Malware,trigram,pra roubar cookie,78,0.039
+balanced,Cybersecurity_Malware,trigram,de login do,75,0.0375
+balanced,Cybersecurity_Malware,trigram,tem bot pra,74,0.037
+balanced,Cybersecurity_Malware,start4,alguém sabe de um,65,0.0325
+balanced,Cybersecurity_Malware,start4,alguém tem um bot,63,0.0315
+balanced,Cybersecurity_Malware,start4,preciso de um script,50,0.025
+balanced,Cybersecurity_Malware,start4,tem algum tool pra,50,0.025
+balanced,Cybersecurity_Malware,start4,preciso de um bot,43,0.0215
+balanced,Cybersecurity_Malware,start4,vendo kit de phishing,42,0.021
+balanced,Cybersecurity_Malware,start4,preciso de um tool,41,0.0205
+balanced,Cybersecurity_Malware,start4,tem algum exploit pra,39,0.0195
+balanced,Cybersecurity_Malware,start4,alguém tem script pra,28,0.014
+balanced,Cybersecurity_Malware,start4,me passa o link,27,0.0135
+balanced,Cybersecurity_Malware,start4,alguém tem um script,26,0.013
+balanced,Cybersecurity_Malware,start4,tem algum script pra,26,0.013
+balanced,Cybersecurity_Malware,start4,alguém tem bot pra,22,0.011
+balanced,Cybersecurity_Malware,start4,tem alguma ferramenta pra,17,0.0085
+balanced,Cybersecurity_Malware,start4,tem algum bot pra,16,0.008
+balanced,Cybersecurity_Malware,start4,alguém vende bot pra,16,0.008
+balanced,Cybersecurity_Malware,start4,preciso de script pra,14,0.007
+balanced,Cybersecurity_Malware,start4,tem script pra auto,13,0.0065
+balanced,Cybersecurity_Malware,start4,queria um tool pra,13,0.0065
+balanced,Cybersecurity_Malware,start4,vendo bot pra auto,13,0.0065
+balanced,Dangerous_Content,bigram,é a,117,0.09034749034749034
+balanced,Dangerous_Content,bigram,it s,88,0.06795366795366796
+balanced,Dangerous_Content,bigram,é um,66,0.050965250965250966
+balanced,Dangerous_Content,bigram,é uma,51,0.039382239382239385
+balanced,Dangerous_Content,bigram,se você,49,0.03783783783783784
+balanced,Dangerous_Content,bigram,tem que,48,0.037065637065637064
+balanced,Dangerous_Content,bigram,link malicioso,48,0.037065637065637064
+balanced,Dangerous_Content,bigram,a dor,48,0.037065637065637064
+balanced,Dangerous_Content,bigram,i m,45,0.03474903474903475
+balanced,Dangerous_Content,bigram,é o,43,0.033204633204633204
+balanced,Dangerous_Content,bigram,a única,43,0.033204633204633204
+balanced,Dangerous_Content,bigram,de r,41,0.03166023166023166
+balanced,Dangerous_Content,bigram,de uma,39,0.030115830115830116
+balanced,Dangerous_Content,bigram,ninguém vai,39,0.030115830115830116
+balanced,Dangerous_Content,bigram,de um,39,0.030115830115830116
+balanced,Dangerous_Content,bigram,é só,39,0.030115830115830116
+balanced,Dangerous_Content,bigram,a vida,37,0.02857142857142857
+balanced,Dangerous_Content,bigram,que não,37,0.02857142857142857
+balanced,Dangerous_Content,bigram,a gente,36,0.027799227799227798
+balanced,Dangerous_Content,bigram,que você,35,0.02702702702702703
+balanced,Dangerous_Content,trigram,é a única,32,0.02471042471042471
+balanced,Dangerous_Content,trigram,da baleia azul,24,0.018532818532818532
+balanced,Dangerous_Content,trigram,tem que ser,23,0.01776061776061776
+balanced,Dangerous_Content,trigram,it s a,23,0.01776061776061776
+balanced,Dangerous_Content,trigram,por que não,22,0.01698841698841699
+balanced,Dangerous_Content,trigram,ninguém vai sentir,21,0.016216216216216217
+balanced,Dangerous_Content,trigram,de uma vez,20,0.015444015444015444
+balanced,Dangerous_Content,trigram,desafio da baleia,16,0.012355212355212355
+balanced,Dangerous_Content,trigram,faz um favor,15,0.011583011583011582
+balanced,Dangerous_Content,trigram,a única coisa,15,0.011583011583011582
+balanced,Dangerous_Content,trigram,se você tá,15,0.011583011583011582
+balanced,Dangerous_Content,trigram,se a vida,14,0.010810810810810811
+balanced,Dangerous_Content,trigram,um favor pra,14,0.010810810810810811
+balanced,Dangerous_Content,trigram,a sensação de,14,0.010810810810810811
+balanced,Dangerous_Content,trigram,única coisa que,14,0.010810810810810811
+balanced,Dangerous_Content,trigram,se você não,14,0.010810810810810811
+balanced,Dangerous_Content,trigram,pra todo mundo,13,0.010038610038610039
+balanced,Dangerous_Content,trigram,e sem dor,13,0.010038610038610039
+balanced,Dangerous_Content,trigram,do desafio da,13,0.010038610038610039
+balanced,Dangerous_Content,trigram,de como fazer,12,0.009266409266409266
+balanced,Dangerous_Content,start4,olá sou do suporte,5,0.003861003861003861
+balanced,Dangerous_Content,start4,se você não aguenta,5,0.003861003861003861
+balanced,Dangerous_Content,start4,a melhor forma de,5,0.003861003861003861
+balanced,Dangerous_Content,start4,vi um tutorial de,4,0.003088803088803089
+balanced,Dangerous_Content,start4,se você tá cansado,4,0.003088803088803089
+balanced,Dangerous_Content,start4,alguém sabe onde consigo,4,0.003088803088803089
+balanced,Dangerous_Content,start4,hoje é o dia,4,0.003088803088803089
+balanced,Dangerous_Content,start4,alguém tem o link,4,0.003088803088803089
+balanced,Dangerous_Content,start4,quem quer entrar no,4,0.003088803088803089
+balanced,Dangerous_Content,start4,parabéns você foi o,4,0.003088803088803089
+balanced,Dangerous_Content,start4,parabéns você foi selecionado,3,0.0023166023166023165
+balanced,Dangerous_Content,start4,se a vida tá,3,0.0023166023166023165
+balanced,Dangerous_Content,start4,compre seguidores e curtidas,3,0.0023166023166023165
+balanced,Dangerous_Content,start4,parabéns seu número foi,3,0.0023166023166023165
+balanced,Dangerous_Content,start4,atenção seu cpf foi,3,0.0023166023166023165
+balanced,Dangerous_Content,start4,quem tá no grupo,3,0.0023166023166023165
+balanced,Dangerous_Content,start4,minha meta de peso,3,0.0023166023166023165
+balanced,Dangerous_Content,start4,se você tá achando,3,0.0023166023166023165
+balanced,Dangerous_Content,start4,estou cansado de tudo,3,0.0023166023166023165
+balanced,Dangerous_Content,start4,eu vi o vídeo,3,0.0023166023166023165
+balanced,Harassment,bigram,é um,11,0.18333333333333332
+balanced,Harassment,bigram,a gente,8,0.13333333333333333
+balanced,Harassment,bigram,um favor,8,0.13333333333333333
+balanced,Harassment,bigram,você é,8,0.13333333333333333
+balanced,Harassment,bigram,faz um,7,0.11666666666666667
+balanced,Harassment,bigram,ninguém te,6,0.1
+balanced,Harassment,bigram,ninguém vai,6,0.1
+balanced,Harassment,bigram,tem que,5,0.08333333333333333
+balanced,Harassment,bigram,mundo e,5,0.08333333333333333
+balanced,Harassment,bigram,de um,4,0.06666666666666667
+balanced,Harassment,bigram,um peso,4,0.06666666666666667
+balanced,Harassment,bigram,que você,4,0.06666666666666667
+balanced,Harassment,bigram,e some,4,0.06666666666666667
+balanced,Harassment,bigram,te quer,4,0.06666666666666667
+balanced,Harassment,bigram,if you,4,0.06666666666666667
+balanced,Harassment,bigram,vai sentir,4,0.06666666666666667
+balanced,Harassment,bigram,it s,4,0.06666666666666667
+balanced,Harassment,bigram,pro mundo,4,0.06666666666666667
+balanced,Harassment,bigram,she s,4,0.06666666666666667
+balanced,Harassment,bigram,i m,4,0.06666666666666667
+balanced,Harassment,trigram,faz um favor,7,0.11666666666666667
+balanced,Harassment,trigram,você é um,5,0.08333333333333333
+balanced,Harassment,trigram,ninguém te quer,4,0.06666666666666667
+balanced,Harassment,trigram,ninguém vai sentir,4,0.06666666666666667
+balanced,Harassment,trigram,de uma vez,4,0.06666666666666667
+balanced,Harassment,trigram,um peso morto,3,0.05
+balanced,Harassment,trigram,a gente tem,3,0.05
+balanced,Harassment,trigram,gente tem que,3,0.05
+balanced,Harassment,trigram,um favor pro,3,0.05
+balanced,Harassment,trigram,favor pro mundo,3,0.05
+balanced,Harassment,trigram,pro mundo e,3,0.05
+balanced,Harassment,trigram,te quer por,3,0.05
+balanced,Harassment,trigram,quer por perto,3,0.05
+balanced,Harassment,trigram,a gente não,2,0.03333333333333333
+balanced,Harassment,trigram,um favor e,2,0.03333333333333333
+balanced,Harassment,trigram,favor e some,2,0.03333333333333333
+balanced,Harassment,trigram,e some ninguém,2,0.03333333333333333
+balanced,Harassment,trigram,é um peso,2,0.03333333333333333
+balanced,Harassment,trigram,tem que dar,2,0.03333333333333333
+balanced,Harassment,trigram,que dar um,2,0.03333333333333333
+balanced,Harassment,start4,você é um lixo,2,0.03333333333333333
+balanced,Harassment,start4,bonde da zona sul,1,0.016666666666666666
+balanced,Harassment,start4,аqü lе јogadòŕ þreŧo,1,0.016666666666666666
+balanced,Harassment,start4,você não passa de,1,0.016666666666666666
+balanced,Harassment,start4,tô cansado de ouvir,1,0.016666666666666666
+balanced,Harassment,start4,faz um favor e,1,0.016666666666666666
+balanced,Harassment,start4,vê se toma vergonha,1,0.016666666666666666
+balanced,Harassment,start4,essa turma do movimento,1,0.016666666666666666
+balanced,Harassment,start4,o entregador que foi,1,0.016666666666666666
+balanced,Harassment,start4,tô carente e buscando,1,0.016666666666666666
+balanced,Harassment,start4,p e c k,1,0.016666666666666666
+balanced,Harassment,start4,o pack daquela gatinha,1,0.016666666666666666
+balanced,Harassment,start4,if you don t,1,0.016666666666666666
+balanced,Harassment,start4,hey loser se você,1,0.016666666666666666
+balanced,Harassment,start4,mano se tu tá,1,0.016666666666666666
+balanced,Harassment,start4,vi umas fotos da,1,0.016666666666666666
+balanced,Harassment,start4,essa l0lie no meu,1,0.016666666666666666
+balanced,Harassment,start4,35ses m4cac0s nunca vão,1,0.016666666666666666
+balanced,Harassment,start4,vocês viram a nova,1,0.016666666666666666
+balanced,Harassment,start4,my ex just uploaded,1,0.016666666666666666
+balanced,Hate_Speech,bigram,é um,23,0.12849162011173185
+balanced,Hate_Speech,bigram,não tem,12,0.0670391061452514
+balanced,Hate_Speech,bigram,é a,11,0.061452513966480445
+balanced,Hate_Speech,bigram,o que,7,0.03910614525139665
+balanced,Hate_Speech,bigram,don t,7,0.03910614525139665
+balanced,Hate_Speech,bigram,que não,6,0.0335195530726257
+balanced,Hate_Speech,bigram,they re,6,0.0335195530726257
+balanced,Hate_Speech,bigram,essa gente,6,0.0335195530726257
+balanced,Hate_Speech,bigram,não é,6,0.0335195530726257
+balanced,Hate_Speech,bigram,com a,6,0.0335195530726257
+balanced,Hate_Speech,bigram,just a,6,0.0335195530726257
+balanced,Hate_Speech,bigram,r a,5,0.027932960893854747
+balanced,Hate_Speech,bigram,a c,5,0.027932960893854747
+balanced,Hate_Speech,bigram,a se,5,0.027932960893854747
+balanced,Hate_Speech,bigram,it s,5,0.027932960893854747
+balanced,Hate_Speech,bigram,bando de,5,0.027932960893854747
+balanced,Hate_Speech,bigram,mi mi,4,0.0223463687150838
+balanced,Hate_Speech,bigram,se a,4,0.0223463687150838
+balanced,Hate_Speech,bigram,não pela,4,0.0223463687150838
+balanced,Hate_Speech,bigram,por que,4,0.0223463687150838
+balanced,Hate_Speech,trigram,a c i,4,0.0223463687150838
+balanced,Hate_Speech,trigram,o que tem,4,0.0223463687150838
+balanced,Hate_Speech,trigram,aqui não é,4,0.0223463687150838
+balanced,Hate_Speech,trigram,é um absurdo,3,0.01675977653631285
+balanced,Hate_Speech,trigram,um absurdo essa,3,0.01675977653631285
+balanced,Hate_Speech,trigram,r a c,3,0.01675977653631285
+balanced,Hate_Speech,trigram,é um m,3,0.01675977653631285
+balanced,Hate_Speech,trigram,aprender a se,3,0.01675977653631285
+balanced,Hate_Speech,trigram,a se comportar,3,0.01675977653631285
+balanced,Hate_Speech,trigram,fazem barulho e,3,0.01675977653631285
+balanced,Hate_Speech,trigram,de volta pra,3,0.01675977653631285
+balanced,Hate_Speech,trigram,dele aqui não,3,0.01675977653631285
+balanced,Hate_Speech,trigram,não é lugar,3,0.01675977653631285
+balanced,Hate_Speech,trigram,é lugar pra,3,0.01675977653631285
+balanced,Hate_Speech,trigram,lugar pra ele,3,0.01675977653631285
+balanced,Hate_Speech,trigram,that s just,3,0.01675977653631285
+balanced,Hate_Speech,trigram,s just a,3,0.01675977653631285
+balanced,Hate_Speech,trigram,just a myth,3,0.01675977653631285
+balanced,Hate_Speech,trigram,we don t,3,0.01675977653631285
+balanced,Hate_Speech,trigram,que tem é,3,0.01675977653631285
+balanced,Hate_Speech,start4,é um absurdo essa,3,0.01675977653631285
+balanced,Hate_Speech,start4,chega de falar de,2,0.0111731843575419
+balanced,Hate_Speech,start4,moro aqui na zona,2,0.0111731843575419
+balanced,Hate_Speech,start4,só podia ser um,2,0.0111731843575419
+balanced,Hate_Speech,start4,that black guy is,2,0.0111731843575419
+balanced,Hate_Speech,start4,no brasil não tem,2,0.0111731843575419
+balanced,Hate_Speech,start4,essa história de racismo,1,0.00558659217877095
+balanced,Hate_Speech,start4,esse jogador нegrо é,1,0.00558659217877095
+balanced,Hate_Speech,start4,por que esse p,1,0.00558659217877095
+balanced,Hate_Speech,start4,aqu3le índio me7ido 3sp3r7o,1,0.00558659217877095
+balanced,Hate_Speech,start4,povo dа fävéⅼä ѕó,1,0.00558659217877095
+balanced,Hate_Speech,start4,olha o tanto de,1,0.00558659217877095
+balanced,Hate_Speech,start4,èssà geñтe da f4veⅼa,1,0.00558659217877095
+balanced,Hate_Speech,start4,àqų łë carä é,1,0.00558659217877095
+balanced,Hate_Speech,start4,0s índi0s ó sab3m,1,0.00558659217877095
+balanced,Hate_Speech,start4,ṅão ехіѕtе řa ísmo,1,0.00558659217877095
+balanced,Hate_Speech,start4,3u nã0 tenh0 n,1,0.00558659217877095
+balanced,Hate_Speech,start4,se a vida é,1,0.00558659217877095
+balanced,Hate_Speech,start4,that kid who got,1,0.00558659217877095
+balanced,Hate_Speech,start4,éłeѕ qùërèm ɗ mář,1,0.00558659217877095
+balanced,Politically_Sensitive_Topics,bigram,o governo,579,0.2940578974098527
+balanced,Politically_Sensitive_Topics,bigram,o presidente,468,0.23768410360589132
+balanced,Politically_Sensitive_Topics,bigram,mas o,433,0.21990858303707467
+balanced,Politically_Sensitive_Topics,bigram,presidente da,376,0.1909598781107161
+balanced,Politically_Sensitive_Topics,bigram,que é,330,0.16759776536312848
+balanced,Politically_Sensitive_Topics,bigram,mas os,324,0.16455053326561705
+balanced,Politically_Sensitive_Topics,bigram,e o,258,0.13103098019299136
+balanced,Politically_Sensitive_Topics,bigram,no telegram,249,0.12646013204672424
+balanced,Politically_Sensitive_Topics,bigram,vídeos de,235,0.11934992381919757
+balanced,Politically_Sensitive_Topics,bigram,os vídeos,233,0.11833417978669375
+balanced,Politically_Sensitive_Topics,bigram,tá cheio,233,0.11833417978669375
+balanced,Politically_Sensitive_Topics,bigram,tá rolando,222,0.1127475876079228
+balanced,Politically_Sensitive_Topics,bigram,diz que,220,0.11173184357541899
+balanced,Politically_Sensitive_Topics,bigram,cheio de,217,0.11020822752666327
+balanced,Politically_Sensitive_Topics,bigram,governo diz,189,0.09598781107160996
+balanced,Politically_Sensitive_Topics,bigram,que o,187,0.09497206703910614
+balanced,Politically_Sensitive_Topics,bigram,e os,178,0.090401218892839
+balanced,Politically_Sensitive_Topics,bigram,o telegram,166,0.08430675469781615
+balanced,Politically_Sensitive_Topics,bigram,dizem que,163,0.08278313864906044
+balanced,Politically_Sensitive_Topics,bigram,tem o,154,0.0782122905027933
+balanced,Politically_Sensitive_Topics,trigram,o presidente da,311,0.1579481970543423
+balanced,Politically_Sensitive_Topics,trigram,tá cheio de,213,0.10817673946165567
+balanced,Politically_Sensitive_Topics,trigram,o governo diz,188,0.09547993905535805
+balanced,Politically_Sensitive_Topics,trigram,governo diz que,187,0.09497206703910614
+balanced,Politically_Sensitive_Topics,trigram,diz que é,174,0.08836973082783138
+balanced,Politically_Sensitive_Topics,trigram,o governo da,127,0.06449974606399188
+balanced,Politically_Sensitive_Topics,trigram,telegram tá cheio,106,0.05383443372270188
+balanced,Politically_Sensitive_Topics,trigram,alguém tem o,102,0.05180294565769426
+balanced,Politically_Sensitive_Topics,trigram,mas o telegram,96,0.04875571356018284
+balanced,Politically_Sensitive_Topics,trigram,o telegram tá,90,0.0457084814626714
+balanced,Politically_Sensitive_Topics,trigram,tá rolando um,76,0.038598273235144746
+balanced,Politically_Sensitive_Topics,trigram,alguém viu o,70,0.03555104113763331
+balanced,Politically_Sensitive_Topics,trigram,que é fake,67,0.0340274250888776
+balanced,Politically_Sensitive_Topics,trigram,que o presidente,65,0.033011681056373796
+balanced,Politically_Sensitive_Topics,trigram,o twitter tá,64,0.03250380904012189
+balanced,Politically_Sensitive_Topics,trigram,o whatsapp tá,59,0.029964448958862366
+balanced,Politically_Sensitive_Topics,trigram,mas os vídeos,59,0.029964448958862366
+balanced,Politically_Sensitive_Topics,trigram,derrubar o governo,58,0.029456576942610464
+balanced,Politically_Sensitive_Topics,trigram,o telegram tem,56,0.028440832910106652
+balanced,Politically_Sensitive_Topics,trigram,um golpe na,56,0.028440832910106652
+balanced,Politically_Sensitive_Topics,start4,tá rolando um golpe,39,0.019807008633824275
+balanced,Politically_Sensitive_Topics,start4,o presidente da moldávia,25,0.012696800406297613
+balanced,Politically_Sensitive_Topics,start4,o presidente da lituânia,24,0.01218892839004571
+balanced,Politically_Sensitive_Topics,start4,o presidente da geórgia,20,0.01015744032503809
+balanced,Politically_Sensitive_Topics,start4,o presidente da ucrânia,18,0.009141696292534281
+balanced,Politically_Sensitive_Topics,start4,o primeiro ministro da,18,0.009141696292534281
+balanced,Politically_Sensitive_Topics,start4,falsos resultados da eleição,17,0.008633824276282377
+balanced,Politically_Sensitive_Topics,start4,o presidente da croácia,17,0.008633824276282377
+balanced,Politically_Sensitive_Topics,start4,alguém viu o vídeo,16,0.008125952260030472
+balanced,Politically_Sensitive_Topics,start4,eles estão apagando os,16,0.008125952260030472
+balanced,Politically_Sensitive_Topics,start4,o presidente da letônia,15,0.007618080243778568
+balanced,Politically_Sensitive_Topics,start4,tá rolando um massacre,15,0.007618080243778568
+balanced,Politically_Sensitive_Topics,start4,tá rolando no telegram,15,0.007618080243778568
+balanced,Politically_Sensitive_Topics,start4,o governo da croácia,13,0.006602336211274758
+balanced,Politically_Sensitive_Topics,start4,eles cortaram a internet,12,0.006094464195022855
+balanced,Politically_Sensitive_Topics,start4,o presidente da bulgária,11,0.00558659217877095
+balanced,Politically_Sensitive_Topics,start4,o presidente da estônia,11,0.00558659217877095
+balanced,Politically_Sensitive_Topics,start4,o presidente da bielorrússia,11,0.00558659217877095
+balanced,Politically_Sensitive_Topics,start4,o presidente da macedônia,10,0.005078720162519045
+balanced,Politically_Sensitive_Topics,start4,o presidente da sérvia,10,0.005078720162519045
+balanced,Sexually_Explicit_Information,bigram,tu me,834,0.5885673959068455
+balanced,Sexually_Explicit_Information,bigram,eu te,626,0.4417784050811574
+balanced,Sexually_Explicit_Information,bigram,até eu,483,0.34086097388849684
+balanced,Sexually_Explicit_Information,bigram,me foder,337,0.23782639378969656
+balanced,Sexually_Explicit_Information,bigram,se tu,307,0.21665490472829924
+balanced,Sexually_Explicit_Information,bigram,quero te,287,0.2025405786873677
+balanced,Sexually_Explicit_Information,bigram,de mim,276,0.19477769936485534
+balanced,Sexually_Explicit_Information,bigram,te deixo,275,0.19407198306280876
+balanced,Sexually_Explicit_Information,bigram,manda um,272,0.19195483415666903
+balanced,Sexually_Explicit_Information,bigram,te sentir,254,0.17925194071983064
+balanced,Sexually_Explicit_Information,bigram,só de,229,0.1616090331686662
+balanced,Sexually_Explicit_Information,bigram,respondo com,218,0.15384615384615385
+balanced,Sexually_Explicit_Information,bigram,com um,210,0.14820042342978124
+balanced,Sexually_Explicit_Information,bigram,um áudio,207,0.1460832745236415
+balanced,Sexually_Explicit_Information,bigram,vem me,202,0.14255469301340862
+balanced,Sexually_Explicit_Information,bigram,me fode,189,0.1333803810868031
+balanced,Sexually_Explicit_Information,bigram,um vídeo,182,0.12844036697247707
+balanced,Sexually_Explicit_Information,bigram,deixo me,179,0.12632321806633734
+balanced,Sexually_Explicit_Information,bigram,e eu,169,0.11926605504587157
+balanced,Sexually_Explicit_Information,bigram,com a,163,0.1150317572335921
+balanced,Sexually_Explicit_Information,trigram,se tu me,296,0.20889202540578689
+balanced,Sexually_Explicit_Information,trigram,eu te deixo,230,0.16231474947071278
+balanced,Sexually_Explicit_Information,trigram,quero te sentir,205,0.14467184191954835
+balanced,Sexually_Explicit_Information,trigram,respondo com um,188,0.13267466478475654
+balanced,Sexually_Explicit_Information,trigram,te deixo me,179,0.12632321806633734
+balanced,Sexually_Explicit_Information,trigram,manda um áudio,174,0.12279463655610445
+balanced,Sexually_Explicit_Information,trigram,eu te respondo,142,0.10021171489061398
+balanced,Sexually_Explicit_Information,trigram,um vídeo de,136,0.09597741707833451
+balanced,Sexually_Explicit_Information,trigram,te respondo com,135,0.09527170077628794
+balanced,Sexually_Explicit_Information,trigram,dentro de mim,131,0.09244883556810163
+balanced,Sexually_Explicit_Information,trigram,deixo me foder,121,0.08539167254763586
+balanced,Sexually_Explicit_Information,trigram,com um de,105,0.07410021171489062
+balanced,Sexually_Explicit_Information,trigram,só de pensar,98,0.06916019760056458
+balanced,Sexually_Explicit_Information,trigram,até eu não,94,0.06633733239237827
+balanced,Sexually_Explicit_Information,trigram,até eu gritar,91,0.06422018348623854
+balanced,Sexually_Explicit_Information,trigram,tu me beijar,83,0.05857445306986592
+balanced,Sexually_Explicit_Information,trigram,eu respondo com,83,0.05857445306986592
+balanced,Sexually_Explicit_Information,trigram,eu te mando,83,0.05857445306986592
+balanced,Sexually_Explicit_Information,trigram,te sentir dentro,82,0.05786873676781934
+balanced,Sexually_Explicit_Information,trigram,te sentir me,82,0.05786873676781934
+balanced,Sexually_Explicit_Information,start4,se tu me beijar,79,0.05575158786167961
+balanced,Sexually_Explicit_Information,start4,só de pensar em,40,0.028228652081863093
+balanced,Sexually_Explicit_Information,start4,se tu me mandar,38,0.026817219477769938
+balanced,Sexually_Explicit_Information,start4,meu corpo tá pedindo,24,0.016937191249117856
+balanced,Sexually_Explicit_Information,start4,quero te sentir me,24,0.016937191249117856
+balanced,Sexually_Explicit_Information,start4,não quero conversa quero,23,0.016231474947071278
+balanced,Sexually_Explicit_Information,start4,tô de calcinha molhada,19,0.013408609738884969
+balanced,Sexually_Explicit_Information,start4,manda um áudio só,19,0.013408609738884969
+balanced,Sexually_Explicit_Information,start4,se tu me chupar,19,0.013408609738884969
+balanced,Sexually_Explicit_Information,start4,se tu me tocar,16,0.011291460832745237
+balanced,Sexually_Explicit_Information,start4,quero te sentir dentro,15,0.01058574453069866
+balanced,Sexually_Explicit_Information,start4,tu me deixa louca,15,0.01058574453069866
+balanced,Sexually_Explicit_Information,start4,se tu me lambe,15,0.01058574453069866
+balanced,Sexually_Explicit_Information,start4,só de imaginar tu,14,0.009880028228652082
+balanced,Sexually_Explicit_Information,start4,se tu me colocar,13,0.009174311926605505
+balanced,Sexually_Explicit_Information,start4,tu me olha assim,13,0.009174311926605505
+balanced,Sexually_Explicit_Information,start4,tu me quer então,13,0.009174311926605505
+balanced,Sexually_Explicit_Information,start4,tu me faz perder,12,0.008468595624558928
+balanced,Sexually_Explicit_Information,start4,se tu me puxar,12,0.008468595624558928
+balanced,Sexually_Explicit_Information,start4,tô com a mão,12,0.008468595624558928
+balanced,safe,bigram,é a,61,0.1491442542787286
+balanced,safe,bigram,que eu,38,0.09290953545232274
+balanced,safe,bigram,é um,33,0.08068459657701711
+balanced,safe,bigram,a dor,33,0.08068459657701711
+balanced,safe,bigram,it s,31,0.07579462102689487
+balanced,safe,bigram,são a,26,0.06356968215158924
+balanced,safe,bigram,cicatrizes são,23,0.05623471882640587
+balanced,safe,bigram,a minha,23,0.05623471882640587
+balanced,safe,bigram,forma de,22,0.05378973105134474
+balanced,safe,bigram,minhas cicatrizes,20,0.0488997555012225
+balanced,safe,bigram,a única,19,0.04645476772616137
+balanced,safe,bigram,no meu,19,0.04645476772616137
+balanced,safe,bigram,de que,18,0.044009779951100246
+balanced,safe,bigram,não é,18,0.044009779951100246
+balanced,safe,bigram,que a,18,0.044009779951100246
+balanced,safe,bigram,é uma,18,0.044009779951100246
+balanced,safe,bigram,a prova,16,0.039119804400977995
+balanced,safe,bigram,da minha,16,0.039119804400977995
+balanced,safe,bigram,i m,15,0.03667481662591687
+balanced,safe,bigram,uma história,15,0.03667481662591687
+balanced,safe,trigram,minhas cicatrizes são,15,0.03667481662591687
+balanced,safe,trigram,são a prova,15,0.03667481662591687
+balanced,safe,trigram,é a única,15,0.03667481662591687
+balanced,safe,trigram,é a minha,13,0.03178484107579462
+balanced,safe,trigram,de que eu,12,0.029339853300733496
+balanced,safe,trigram,a prova de,11,0.02689486552567237
+balanced,safe,trigram,prova de que,11,0.02689486552567237
+balanced,safe,trigram,it s a,9,0.022004889975550123
+balanced,safe,trigram,não aguento mais,9,0.022004889975550123
+balanced,safe,trigram,a única forma,8,0.019559902200488997
+balanced,safe,trigram,me faz sentir,8,0.019559902200488997
+balanced,safe,trigram,cicatrizes são a,7,0.017114914425427872
+balanced,safe,trigram,vale a pena,7,0.017114914425427872
+balanced,safe,trigram,única forma de,7,0.017114914425427872
+balanced,safe,trigram,a vida é,7,0.017114914425427872
+balanced,safe,trigram,conta uma história,7,0.017114914425427872
+balanced,safe,trigram,no meu corpo,7,0.017114914425427872
+balanced,safe,trigram,meu corpo são,7,0.017114914425427872
+balanced,safe,trigram,marcas no meu,7,0.017114914425427872
+balanced,safe,trigram,a dor física,7,0.017114914425427872
+balanced,safe,start4,as marcas no meu,5,0.012224938875305624
+balanced,safe,start4,minhas cicatrizes são a,3,0.007334963325183374
+balanced,safe,start4,minhas cicatrizes são minha,3,0.007334963325183374
+balanced,safe,start4,essas cicatrizes no meu,3,0.007334963325183374
+balanced,safe,start4,minhas cicatrizes são meu,3,0.007334963325183374
+balanced,safe,start4,me sinto tão bem,2,0.004889975550122249
+balanced,safe,start4,as cicatrizes no meu,2,0.004889975550122249
+balanced,safe,start4,alguém aí tá a,2,0.004889975550122249
+balanced,safe,start4,my body is a,2,0.004889975550122249
+balanced,safe,start4,the marks on my,2,0.004889975550122249
+balanced,safe,start4,pular o café da,2,0.004889975550122249
+balanced,safe,start4,a melhor forma de,2,0.004889975550122249
+balanced,safe,start4,my scars are my,2,0.004889975550122249
+balanced,safe,start4,às vezes a única,2,0.004889975550122249
+balanced,safe,start4,sometimes the only way,2,0.004889975550122249
+balanced,safe,start4,a vida é uma,2,0.004889975550122249
+balanced,safe,start4,quando a dor emocional,2,0.004889975550122249
+balanced,safe,start4,os cortes são como,2,0.004889975550122249
+balanced,safe,start4,o alívio que vem,1,0.0024449877750611247
+balanced,safe,start4,atingi 38kg mas ainda,1,0.0024449877750611247

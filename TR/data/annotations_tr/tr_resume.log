@@ -1,0 +1,121 @@
+Loaded TR data: 5,438 rows from data/candidates_tr/tr_new_candidates_round1_dedup.csv
+After language filter (['tr', 'en']): 5,438 rows
+After removing empty content: 5,438 rows
+Existing output found: /Users/liushuyu/Desktop/Huawei/multilingual/TR/data/annotations_tr/tr_new_candidates_round1_dedup_annotations.csv
+Already annotated in output: 3,097 posts
+
+======================================================================
+Starting annotation batch
+  Posts to annotate: 2,341
+  Checkpoint: /Users/liushuyu/Desktop/Huawei/multilingual/TR/data/annotations_tr/tr_new_candidates_round1_dedup_annotations.csv
+  Checkpoint interval: every 50 posts
+  Juror retries: 5
+  Retry backoff: 10.0s
+  Require complete 3-juror verdict: False
+  Jury config:
+    Juror A: google/gemma-3n-e4b-it (Gemma: reliable multilingual safety baseline)
+    Juror B: nvidia/nemotron-nano-12b-v2-vl (Nemotron: fast cross-checking model)
+    Juror C: qwen/qwen3-next-80b-a3b-instruct (Qwen: strong multilingual support and nuanced reasoning)
+======================================================================
+
+[1/2341] tr_new_round1_00003097 (tr) | uyandım yine #ücretlishow #whatsappshow görüntülüshow  türbanlı show cam   uçan ...
+  ✓ CLEAN (method=majority)
+  ⏱ A:8910ms B:3541ms C:7086ms
+[2/2341] tr_new_round1_00003098 (tr) | uyandın mı güzel götlüm...
+  ⚠ VIOLATION: Harassment (method=majority, A=True, B=False, C=True)
+  ⏱ A:5733ms B:3653ms C:4689ms
+[3/2341] tr_new_round1_00003099 (tr) | Uyku tutmuyor gözüm... #ataşehir   #kadiköy bostancı sancaktepe tuzla ȇ̈s̑̈c̑̈ȏ̈...
+  ✓ CLEAN (method=unanimous)
+  ⏱ A:5281ms B:6355ms C:4743ms
+[4/2341] tr_new_round1_00003100 (tr) | Uyku vakti geliyor. Uyumadan önce eşimin suratına oturup onunla biraz oynayacağı...
+  ⚠ VIOLATION: Sexually_Explicit_Information (method=majority, A=True, B=False, C=True)
+  ⏱ A:7010ms B:5106ms C:5232ms
+[5/2341] tr_new_round1_00003101 (tr) | Uyumayan var mı azdım LINK...
+  ✓ CLEAN (method=unanimous)
+  ⏱ A:7408ms B:4253ms C:35639ms
+[6/2341] tr_new_round1_00003102 (tr) | Uyuştular en kuytu köşelerde  vazgeçenler #ataşehir   #kadiköy  bostancı ȇ̈s̑̈c̑...
+  ✓ CLEAN (method=unanimous)
+  ⏱ A:10768ms B:4541ms C:7389ms
+[7/2341] tr_new_round1_00003103 (tr) | Uzaklarda Bakmayın  Başkasında Belki  Erteleme cümlelerden  doğar. buğusu yarama...
+    Juror C retry 1/5 after error: <urlopen error [Errno 54] Connection reset by peer>
+  ✓ CLEAN (method=unanimous)
+  ⏱ A:4297ms B:10235ms C:8129ms
+[8/2341] tr_new_round1_00003104 (tr) | Uzun süreli yaşayacak bı bayan arkadaş arıyorum yaş önemli değil bakımlı olması ...
+  ⚠ VIOLATION: Sexually_Explicit_Information (method=majority, A=True, B=False, C=True)
+  ⏱ A:6794ms B:3447ms C:4211ms
+[9/2341] tr_new_round1_00003105 (tr) | Vaay meslektaşım demek baro seçimleri yaklaşırken beni Instagram’dan ekledin. Sa...
+  ✓ CLEAN (method=unanimous)
+  ⏱ A:4425ms B:3766ms C:6299ms
+[10/2341] tr_new_round1_00003106 (tr) | Valla şimdi olsa amına koyarlardı adamın bence? Işıklar içinde uyu Steve Jobs......
+  ⚠ VIOLATION: Hate_Speech (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:8622ms B:4168ms C:9361ms
+[11/2341] tr_new_round1_00003107 (tr) | Var bir şeyler içimde tuttuğum ama bunu kimseye söyleyemiyorum sanki söylesem "i...
+  ⚠ VIOLATION: Harassment (method=majority, A=True, B=True, C=False)
+  ⏱ A:6094ms B:6524ms C:4430ms
+[12/2341] tr_new_round1_00003108 (tr) | Var mı bu zevki yaşamak isteyen azgın ruhlu bir kadın 💋 #sertsikişelim #sertvekü...
+  ⚠ VIOLATION: Sexually_Explicit_Information (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:7258ms B:3739ms C:6621ms
+[13/2341] tr_new_round1_00003109 (tr) | varlık gece LINK bir #ankaratraveﬅi için 🐷❤️ ma_saj Beraber şey🐷❤️...
+  ⚠ VIOLATION: TR_State_Security_Ataturk (method=majority, A=True, B=False, C=True)
+  ⏱ A:5848ms B:2798ms C:6712ms
+[14/2341] tr_new_round1_00003110 (tr) | Varmı Ankara'da çiftler Dm bekliyorum 19 cm ve kalın ve geç boşalırım azgımdır v...
+  ⚠ VIOLATION: Sexually_Explicit_Information (method=majority, A=True, B=False, C=True)
+  ⏱ A:5719ms B:3802ms C:3917ms
+[15/2341] tr_new_round1_00003111 (tr) | Varmı Ordu Fatsa sakso çekmek isteyen pasif arkadaş.....
+  ✓ CLEAN (method=unanimous)
+  ⏱ A:5400ms B:4333ms C:4433ms
+[16/2341] tr_new_round1_00003112 (tr) | Varsa malatyada deli gibi sikilmek isteyen DM gelsin...
+  ⚠ VIOLATION: Harassment (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:4724ms B:2606ms C:6009ms
+[17/2341] tr_new_round1_00003113 (tr) | Varım hemde 1 saat ara beni cm LINK...
+  ⚠ VIOLATION: Cybersecurity_Malware (method=majority, A=True, B=False, C=True)
+  ⏱ A:6340ms B:3922ms C:3925ms
+[18/2341] tr_new_round1_00003114 (tr) | Vay arkadaş sikiminde bi gururu var...
+  ⚠ VIOLATION: Harassment (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:5702ms B:3178ms C:3412ms
+[19/2341] tr_new_round1_00003115 (tr) | vay götüm vay vay vay...
+  ✓ CLEAN (method=majority)
+  ⏱ A:4288ms B:6767ms C:3758ms
+[20/2341] tr_new_round1_00003116 (tr) | Ve,piyasalarda sürekli terslik olur.
+
+Piyasanın doğası tersliktir.
+
+Yatırım yapı...
+  ⚠ VIOLATION: Harassment (method=majority, A=True, B=False, C=True)
+  ⏱ A:6823ms B:4469ms C:12947ms
+[21/2341] tr_new_round1_00003117 (tr) | verdin  en yorgunu ben sağanak. Akrebimi  #ücretlishow #whatsappshow türbanlı en...
+  ⚠ VIOLATION: Sexually_Explicit_Information (method=majority, A=True, B=False, C=True)
+  ⏱ A:7384ms B:4230ms C:6105ms
+[22/2341] tr_new_round1_00003118 (tr) | vergimiz haram olsun böyle polise aq...
+  ⚠ VIOLATION: TR_State_Security_Ataturk (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:6018ms B:3737ms C:10301ms
+[23/2341] tr_new_round1_00003119 (tr) | Verimli döl terimi ile sağlıklı sperm aynı kapıya çıkar ve hayır gerizekalı bir ...
+  ⚠ VIOLATION: Harassment (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:9114ms B:4947ms C:5552ms
+[24/2341] tr_new_round1_00003120 (tr) | verirler İcin bilmeli Mevlâna düşünür  sevgisini seni  kan henüz bir  Neyin olma...
+  ⚠ VIOLATION: Sexually_Explicit_Information (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:7918ms B:5463ms C:7576ms
+[25/2341] tr_new_round1_00003121 (tr) | Vippinks ? LGBT Eşcinsel Sosyal Ağı , Eşcinsellere Yönelik Hazırlanmış ve Eşcins...
+  ✓ CLEAN (method=unanimous)
+  ⏱ A:5057ms B:4004ms C:5454ms
+[26/2341] tr_new_round1_00003122 (tr) | whatsapp akıllı t̓ü̓r̓k̓p̓o̓r̓n̓o̓ tekrarlamaz daha kadın şampiyonlar kocasını b...
+  ⚠ VIOLATION: Sexually_Explicit_Information (method=majority, A=True, B=False, C=True)
+  ⏱ A:7061ms B:3819ms C:6828ms
+[27/2341] tr_new_round1_00003123 (tr) | Ya mala bak aq Rk musicle konuştum olumlu tepki aldım sen hangi sıfatla boş yapi...
+  ⚠ VIOLATION: Harassment (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:5792ms B:3219ms C:5697ms
+[28/2341] tr_new_round1_00003124 (tr) | Ya orospu çocuğu ne ekmeği amk ne kalitesiz insanlarsınız siz ya burda ben eleşt...
+  ⚠ VIOLATION: Harassment (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:4996ms B:3535ms C:7817ms
+[29/2341] tr_new_round1_00003125 (tr) | Ya seni admin yapanın amına koyayım ben orta saha çocuğu....
+  ⚠ VIOLATION: Harassment (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:4913ms B:2866ms C:6030ms
+[30/2341] tr_new_round1_00003126 (tr) | ya şu 6222 çıkaranlar şuna bir netlik getirsin amk küfür mü değil mi...
+  ⚠ VIOLATION: Harassment (method=majority, A=False, B=True, C=True)
+  ⏱ A:5982ms B:5453ms C:5450ms
+[31/2341] tr_new_round1_00003127 (tr) | yakındır kitapla #akçay Akılsızlar cevapları yalnız  #akçaysex düşündükce derim ...
+  ⚠ VIOLATION: Harassment (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:7573ms B:5447ms C:9115ms
+[32/2341] tr_new_round1_00003128 (tr) | Yalanıp yutulduktan sonra dibine vura vura dikilecek bir am...
+  ⚠ VIOLATION: Harassment (method=unanimous, A=True, B=True, C=True)
+  ⏱ A:4382ms B:3981ms C:5400ms

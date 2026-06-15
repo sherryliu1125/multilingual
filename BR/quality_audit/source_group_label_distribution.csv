@@ -1,0 +1,10 @@
+final_category,llm_generated,real_or_original,All
+BR_State_Security_Democratic_Order,1420,580,2000
+Cybersecurity_Malware,2000,0,2000
+Dangerous_Content,1295,1541,2836
+Harassment,60,2260,2320
+Hate_Speech,179,2382,2561
+Politically_Sensitive_Topics,1969,31,2000
+Sexually_Explicit_Information,1417,583,2000
+safe,409,3675,4084
+All,8749,11052,19801

@@ -1,0 +1,5 @@
+label,target,original_unique_count,existing_synthetic_main_count,generated_request_count,accepted_main_count,accepted_overflow_count,duplicate_with_original_count,duplicate_with_synthetic_count,duplicate_in_batch_count,parse_error_count,invalid_label_count,empty_text_count,invalid_text_count,final_total_count,gap_remaining,retry_count,status
+Cybersecurity_Malware,2000,71,0,1600,0,0,0,0,0,20,0,0,0,71,1929,20,not_enough_after_retry
+MX_Narco_Culture_And_Cartel_Glorification,2000,253,0,1600,0,0,0,0,0,20,0,0,0,253,1747,20,not_enough_after_retry
+Politically_Sensitive_Topics,2000,415,0,1600,0,0,0,0,0,20,0,0,0,415,1585,20,not_enough_after_retry
+Sexually_Explicit_Information,2000,450,0,1600,0,0,0,0,0,20,0,0,0,450,1550,20,not_enough_after_retry

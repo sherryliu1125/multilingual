@@ -1,0 +1,63 @@
+clean_text,final_category,generation_model,batch_id,item_id,raw_output,parse_error,created_at
+,Politically_Sensitive_Topics,qwen/qwen3-next-80b-a3b-instruct,Politically_Sensitive_Topics__batch_000085,Politically_Sensitive_Topics__batch_000085__error,"[
+  {
+    ""clean_text"": ""Tá rolando golpe na Sérvia? O presidente sumiu e os militares tomaram a TV nacional... o Twitter tá cheio de vídeos de tanques na praça, mas a ONU não comenta. Alguém tem o link? 🚔💥""
+  },
+  {
+    ""clean_text"": ""Falsa contagem de votos na Geórgia? Meu primo trabalha no ministério e disse que os resultados foram alterados à noite... os observadores sumiram e o presidente tá em isolamento. 🤫🗳️""
+  },
+  {
+    ""clean_text"": ""Os EUA estão mandando drones pra Síria pra atacar manifestantes? Vídeos circulam no Telegram de crianças sendo levadas em helicópteros... o governo nega, mas o TikTok tá cheio de sangue. 🕊️🩸""
+  },
+  {
+    ""clean_text"": ""A NATO tá preparando um ataque contra a Bulgária? Tô vendo soldados se movimentando perto da fronteira e o presidente ta falando de 'emergência interna'. Ninguém fala, mas o Discord tá fervendo. 🚨🇨🇩""
+  },
+  {
+    ""clean_text"": ""Eles estão apagando provas de massacre na Macedônia? Um jornalista fugiu com um HD e mandou pro Telegram... os vídeos mostram tropas atirando em crianças. O YouTube deletou tudo. 😭📸""
+  },
+  {
+    ""clean_text"": ""A Rússia tá hackeando as urnas da Ucrânia com IA? Um ex-funcionário disse que os votos são substituídos em tempo real... e os observadores internacionais sumiram. Quem tiver o arquivo, manda aí! 🤖🗳️""
+  },
+  {
+    ""clean_text"": ""Tá rolando guerra civil na Albânia? Manifestantes invadiram o parlamento e os militares estão respondendo com balas de borracha... e os vídeos estão sendo apagados. Alguém viu? 🚩🔥""
+  },
+  {
+    ""clean_text"": ""O governo da Romênia tá envenenando a internet pra apagar protestos? Tô vendo bloqueios em redes sociais e desaparecimentos de influencers. O Telegram tá cheio de pistas. 🌐👻""
+  },
+  {
+    ""clean_text"": ""Tá rolando massacre em Podgorica? Crianças sendo levadas por homens sem identificação... o presidente chamou de 'operação de segurança', mas os vídeos no Twitter são proibidos. 🧒🚨""
+  },
+  {
+    ""clean_text"": ""A China tá ajudando a Montenegro a manipular as eleições com bots? Um ex-agente vazou o plano... diz que os votos são alterados por algoritmos. Quem tiver o PDF, manda. 🤖📉""
+  },
+  {
+    ""clean_text"": ""O exército da Sérvia tá usando gás lacrimogêneo em crianças em Kosovo? Vídeos antigos tá circulando no TikTok como 'novo'. Mas o YouTube removeu tudo... alguém tem uma cópia? 😥🩸""
+  },
+  {
+    ""clean_text"": ""Falsificação de votos na Moldávia com IA? Meu cunhado que trabalha na eletrônica disse que os sistemas foram atualizados à noite... e os observadores foram 'convidados' a sair. 🤫💻""
+  },
+  {
+    ""clean_text"": ""Tá rolando golpe na Bósnia? O parlamento foi invadido e o presidente está desaparecido... os canais de TV só transmitem música. O Telegram tá cheio de áudios de tiros. 🎵🔫""
+  },
+  {
+    ""clean_text"": ""Os EUA estão espionando as urnas da Eslovênia? Um hacker vazou um arquivo com protocolos de manipulação... o governo diz que é fake, mas os jornalistas sumiram. 🕵️‍♂️💣""
+  },
+  {
+    ""clean_text"": ""Crianças sendo levadas em vans pretas na Bielorrússia? Tô vendo vídeos no Telegram de escolas sendo cercadas... o governo chamou de 'relocação voluntária'. Será que é verdade? 😢🚨""
+  },
+  {
+    ""clean_text"": ""O governo da Geórgia tá cortando a internet pra esconder os massacres? Meu primo da área de TI disse que os servidores foram desligados... e os manifestantes estão se escondendo em florestas. 🌲📱""
+  },
+  {
+    ""clean_text"": ""Tá rolando manipulação de votos na Lituânia com drones? Um técnico da ONU vazou que os equipamentos foram trocados antes da eleição... e os observadores foram expulsos. 🚁🗳️""
+  },
+  {
+    ""clean_text"": ""A Ucrânia tá lançando ataques cibernéticos na Bulgária? Tudo tá offline: hospitais, eletricidade... e o governo diz que é 'sabotagem externa'. Mas quem tá por trás? 🌐💥""
+  },
+  {
+    ""clean_text"": ""Tá rolando um movimento armado na Croácia? Grupos de jovens estão se organizando nas redes e dizendo que 'a hora chegou'. Os posts sumiram do Facebook, mas sobraram no Discord. 🤫⚔️""
+  },
+  {
+    ""clean_text"": ""O presidente da Macedônia tá fugindo com dinheiro público? Vídeos circulam no Telegram dele em um jato com malas... e os militares estão bloqueando estradas. Quem tiver o link, compartilha. ✈️💸""
+  }
+]",ValueError('Parsed output but zero rows passed quality filter'),2026-06-11T11:40:43.996687+00:00

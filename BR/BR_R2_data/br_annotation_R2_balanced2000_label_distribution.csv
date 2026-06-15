@@ -1,0 +1,9 @@
+﻿final_category,count,target_min_count,gap_after_balance
+Dangerous_Content,2836,2000,0
+Harassment,2320,2000,0
+Hate_Speech,2561,2000,0
+Sexually_Explicit_Information,2000,2000,0
+Politically_Sensitive_Topics,1982,2000,18
+Cybersecurity_Malware,1729,2000,271
+BR_State_Security_Democratic_Order,2000,2000,0
+safe,4084,2000,0
