@@ -1,16 +1,16 @@
-_ann_row_id,country_source,final_label,bert_training_decision,is_hardcase,reasoning
-MX_row_00000002,MX,Harassment,include_with_label,Yes,Public figure insult (Greta) using vulgar language; not a protected identity group.
-MX_row_00000011,MX,Harassment,include_with_label,Yes,Vulgar misogynistic abuse and harassment; borderline Hate_Speech but primarily targeted harassment.
-MX_row_00000012,MX,Harassment,include_with_label,Yes,Homophobic slur combined with sexualized insult used for humiliation; not LGBTQ normalization.
-MX_row_00000013,MX,Harassment,include_with_label,Yes,Short vulgar sexual slang used as an insult; slang boundary makes it a hardcase.
-MX_row_00000015,MX,Dangerous_Content,include_with_label,Yes,Explicit threat to make police (Carabineros) disappear; credible violent threat.
-MX_row_00000024,MX,Harassment,exclude_or_manual_review,Yes,Quoted/reporting context of a sexualized insult; high risk of teaching BERT to flag news/quotes.
-MX_row_00000032,MX,Dangerous_Content,include_with_label,Yes,Violent threat (breaking face) combined with identity slur (bollera); severe harm priority.
-MX_row_00000045,MX,Hate_Speech,exclude_or_manual_review,Yes,News report framing immigrant crime; risks teaching BERT to flag news as hate speech.
-MX_row_00000050,MX,Harassment,include_with_label,Yes,Hyperbolic violent threat against a non-protected entity (Disney); sarcasm context.
-MX_row_00000053,MX,Dangerous_Content,include_with_label,Yes,Direct death threat (pena de muerte) against an individual.
-MX_row_00000058,MX,Dangerous_Content,include_with_label,Yes,Advocating violent/militarized measures (machine gun nests) against migrants.
-MX_row_00000062,MX,MX_Narco_Culture_And_Cartel_Glorification,include_with_label,Yes,Glorifying narco violence (who killed most/best); local MX redline.
-MX_row_00000060,MX,Dangerous_Content,include_with_label,Yes,Explicit threat of non-consensual sexual violence and forced impregnation.
-MX_row_00000066,MX,Harassment,include_with_label,Yes,Vulgar complaint with weak physical threat; topical reference to rape news.
-MX_row_00000078,MX,Harassment,include_with_label,Yes,Direct insult in a contentious sexual-violence discussion; anti-feminazi context.
+_ann_row_id,country_source,clean_text,final_label,bert_training_decision,is_hardcase,reasoning
+MX_row_00000002,MX,"24 de diciembre, he salido esta mañana con solo una sudadera y la chupa y me estaba A S A N D O de puto calor. Pero el calentamiento global es una mentira y Greta un puta manipulada, no? ?‍♀️",Harassment,include_with_label,Yes,Public figure insult (Greta) using vulgar language; not a protected identity group.
+MX_row_00000011,MX,"Chicas,espero que si están culeando con mijines que defienden el acoso callejero o dicen""feminazis"",por lo menos les estén cobrando ☝",Harassment,include_with_label,Yes,Vulgar misogynistic abuse and harassment; borderline Hate_Speech but primarily targeted harassment.
+MX_row_00000012,MX,Comeme el coño maricon <3 — si soy maricon no deberias ofrecerme un rabo? no se,Harassment,include_with_label,Yes,Homophobic slur combined with sexualized insult used for humiliation; not LGBTQ normalization.
+MX_row_00000013,MX,"Comemela, cambio y corto",Harassment,include_with_label,Yes,Short vulgar sexual slang used as an insult; slang boundary makes it a hardcase.
+MX_row_00000015,MX,ESTO QUIERE ESTE POBRE WEON ...HACER DESAPARECER A CARABINEROS....CADA VEZ VEO MAS SERCA UNA GUERRA CIVIL LINK,Dangerous_Content,include_with_label,Yes,Explicit threat to make police (Carabineros) disappear; credible violent threat.
+MX_row_00000024,MX,Has visto a Adán decir 'mi novia es sevillista y es una puta más' en un vídeo colgado por el Betis en su cuenta de Twitter?,Harassment,exclude_or_manual_review,Yes,Quoted/reporting context of a sexualized insult; high risk of teaching BERT to flag news/quotes.
+MX_row_00000032,MX,Le dices: - bollera yo? PUES TOMA BOLLO *y le rompes la cara*,Dangerous_Content,include_with_label,Yes,Violent threat (breaking face) combined with identity slur (bollera); severe harm priority.
+MX_row_00000045,MX,Oleada de abusos sexuales en Vitoria: Un inmigrante subsahariano abusa de una mujer en un cajero de Vitoria,Hate_Speech,exclude_or_manual_review,Yes,News report framing immigrant crime; risks teaching BERT to flag news as hate speech.
+MX_row_00000050,MX,"SI!! a matar a los de Disney... Usted es demasiado extremista. Micky Mause? ya de una vez Miqui Maus. Propongo que pongan citas en los artículos de AMLO y Fox, o que ninguno los tenga. ¿A quien no le parece?201.132.249",Harassment,include_with_label,Yes,Hyperbolic violent threat against a non-protected entity (Disney); sarcasm context.
+MX_row_00000053,MX,Te mereces pena de muerte hija de puta,Dangerous_Content,include_with_label,Yes,Direct death threat (pena de muerte) against an individual.
+MX_row_00000058,MX,"Y esta es la gente pacífica a la q queréis acoger? Vayas electrificadas, concertinas y nidos de metralletas es lo q hace falta",Dangerous_Content,include_with_label,Yes,Advocating violent/militarized measures (machine gun nests) against migrants.
+MX_row_00000062,MX,al final de lo que se trata es de quien mató mas y mejor.............es komo; tonto!!!!!!! pues tú mas!!!!!!!!!!!!! que pena,MX_Narco_Culture_And_Cartel_Glorification,include_with_label,Yes,Glorifying narco violence (who killed most/best); local MX redline.
+MX_row_00000060,MX,"Ya deseo castigarte de una buena vez perra de mierda, mereces que te rellene una y otra vez de muchos chorros de semen hasta dejarte preñada!",Dangerous_Content,include_with_label,Yes,Explicit threat of non-consensual sexual violence and forced impregnation.
+MX_row_00000066,MX,hasta la polla que pongáis en las noticias PRESUNTA violacion os tiraba una piedra,Harassment,include_with_label,Yes,Vulgar complaint with weak physical threat; topical reference to rape news.
+MX_row_00000078,MX,"¿Cómo le explicamos que no ser FEMINAZI no la hace inmune a una violación? NO es ser sensible ni débil mental por tomarse un meme como esos a pecho. ES TENER CEREBRO, también MIEDO de que una esté en peligro... Detesto tanto pleito pero que comentario tan pendejo. LINK",Harassment,include_with_label,Yes,Direct insult in a contentious sexual-violence discussion; anti-feminazi context.
