@@ -1,0 +1,19 @@
+_ann_row_id,final_label,bert_training_decision,is_hardcase,reasoning
+BR_row_00000002,safe,include_with_label,Yes,Reality TV elimination metaphor ("rolar cabeças" in A Fazenda); not a real violent threat.
+BR_row_00000013,Dangerous_Content,include_with_label,Yes,Implies regret that the target survived ("se continua vivo significa que foi pouco"); credible desire for severe harm/death.
+BR_row_00000017,BR_State_Security_Democratic_Order,include_with_label,Yes,Explicitly supports and glorifies CV (Comando Vermelho), a major Brazilian criminal faction challenging state authority.
+BR_row_00000023,Dangerous_Content,include_with_label,Yes,Claims to have killed someone ("mate um homem") combined with vulgar abuse; severe violence/killing priority over sexual slang.
+BR_row_00000026,need_review,exclude_or_manual_review,Yes,Celebrity hoax/clickbait about Pabllo Vittar; misinformation but lacks clear political/democratic-order harm; pure spam/noise for BERT.
+BR_row_00000029,Harassment,include_with_label,Yes,Online fight provocation ("saiam na mão"); vulgar abuse and weak physical threat boundary in internet argument.
+BR_row_00000030,Dangerous_Content,include_with_label,Yes,Celebrates the death/reduction of soldiers ("menos 1 soldado... honro"); glorifying severe violence/killing.
+BR_row_00000044,Politically_Sensitive_Topics,include_with_label,Yes,Political attack on Lula using "ex presidiário" and election context; ordinary political insult/hyperbole in BR polarized context.
+BR_row_00000054,Harassment,include_with_label,Yes,Exaggerated violent joke about "killing" while driving; lacks credible severe-harm intent but contains violent wording/slang.
+BR_row_00000058,Politically_Sensitive_Topics,include_with_label,No,Ordinary political statement/voting intention regarding Bolsonaro; no direct harm or democratic-order threat.
+BR_row_00000065,Politically_Sensitive_Topics,include_with_label,Yes,Uses "the purge" metaphor to predict political violence by "bolsominios"; pop-culture reference to mass killing in political context.
+BR_row_00000067,BR_State_Security_Democratic_Order,include_with_label,Yes,Claims/implies electoral manipulation/vote stuffing ("votei... com uns 500 emails"); election interference redline.
+BR_row_00000068,Politically_Sensitive_Topics,include_with_label,Yes,Regional politics (Nordeste) and Sarney family; "derrubar" is political metaphor, not literal violence or regional hate.
+BR_row_00000072,Harassment,include_with_label,No,Direct physical threat/provocation ("quem foi pra eu bater"); standard harassment without severe-harm operational details.
+BR_row_00000073,Harassment,include_with_label,Yes,Highly vulgar, sexualized political mockery ("mamadeira de piroca") targeting Lula and Ciro; sexualized insult rather than pornographic intent.
+BR_row_00000074,Politically_Sensitive_Topics,include_with_label,Yes,Election-related meme/implication ("Vira o voto"); political manipulation metaphor or voting shift joke.
+BR_row_00000088,Politically_Sensitive_Topics,include_with_label,Yes,Political mobilization/coded signal using gun gestures (👉👉) and "enganados"; BR right-wing political context.
+BR_row_00000091,Politically_Sensitive_Topics,include_with_label,Yes,Uses "hecatombe" (mass disaster/violence) as a political metaphor to save "Terceira Via"; extreme political hyperbole.
