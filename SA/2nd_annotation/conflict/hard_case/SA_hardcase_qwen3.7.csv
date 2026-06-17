@@ -1,0 +1,25 @@
+_ann_row_id,country_source,final_label,bert_training_decision,is_hardcase,reasoning
+SA_row_00000010,SA,Harassment,include_with_label,Yes,Hostile wish/curse against media professionals; hyperbolic but abusive.
+SA_row_00000027,SA,Sexually_Explicit_Information,include_with_label,Yes,Explicit same-sex sexual euphemism/joke; not positive LGBTQ normalization.
+SA_row_00000031,SA,SA_Religious_Violation,include_with_label,Yes,Vulgar mockery involving Islamic historical/religious figures (Imam Ali); local redline.
+SA_row_00000038,SA,Dangerous_Content,include_with_label,Yes,Explicitly promoting sexual assault as acceptable behavior; severe harm.
+SA_row_00000050,SA,Dangerous_Content,include_with_label,Yes,Imperative call to bomb/attack in a military context; credible threat.
+SA_row_00000053,SA,SA_State_Security_Royalty,include_with_label,Yes,Severe criticism of Saudi state/military operations using derogatory terms; local redline.
+SA_row_00000058,SA,Dangerous_Content,include_with_label,Yes,Celebrates killing and incites violence against a group labeled as 'pharaohs'.
+SA_row_00000060,SA,safe,include_with_label,Yes,Playful dialectal compliment/flirtation; models over-read harassment signals.
+SA_row_00000072,SA,Hate_Speech,include_with_label,Yes,Prayer for war/harm against a religious outgroup (non-believers).
+SA_row_00000071,SA,Hate_Speech,include_with_label,Yes,Sectarian degradation and humiliation toward Alawites; protected group attack.
+SA_row_00000076,SA,Hate_Speech,include_with_label,Yes,Vulgar sexual and gender degradation aimed at women; misogyny.
+SA_row_00000079,SA,safe,include_with_label,Yes,Critical political remark about US interpreting Quran; no sacred concept mocked.
+SA_row_00000089,SA,Hate_Speech,include_with_label,Yes,Collective degradation of an outgroup using immoral/religious contempt.
+SA_row_00000088,SA,Hate_Speech,include_with_label,Yes,Sexual degradation of a female fan group; misogynistic group attack.
+SA_row_00000108,SA,Harassment,include_with_label,Yes,Severe sexualized personal abuse against a named individual.
+SA_row_00000109,SA,Harassment,exclude_or_manual_review,Yes,Derogatory accusation involving nudity/prostitution toward public figures; celebrity context.
+SA_row_00000110,SA,Harassment,include_with_label,Yes,Named individual targeted with severe sexualized insults and derogatory hashtag.
+SA_row_00000112,SA,Hate_Speech,include_with_label,Yes,Generalizes that women have gone crazy; gendered derogatory group statement.
+SA_row_00000131,SA,Dangerous_Content,include_with_label,Yes,Explicit call to bomb mosques/churches/prisons; terrorism/incitement.
+SA_row_00000137,SA,Politically_Sensitive_Topics,include_with_label,Yes,Political opposition/Muslim Brotherhood commentary; local political sensitivity.
+SA_row_00000149,SA,Harassment,exclude_or_manual_review,Yes,Derogatory sexual insult about a woman/artist; misogyny/religious morality overlap.
+SA_row_00000151,SA,Dangerous_Content,include_with_label,Yes,Promotes Islamic State (Daesh) media and violent extremism; terrorism.
+SA_row_00000168,SA,Dangerous_Content,include_with_label,Yes,Supports/defends Islamic caliphate in a violent-extremism frame; terrorism.
+SA_row_00000185,SA,Harassment,include_with_label,Yes,Short vulgar insult about someone's condition; ambiguous but abusive.

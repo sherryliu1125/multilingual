@@ -1,0 +1,16 @@
+_ann_row_id,country_source,final_label,bert_training_decision,is_hardcase,reasoning
+MX_row_00000002,MX,Harassment,include_with_label,Yes,Public figure insult (Greta) using vulgar language; not a protected identity group.
+MX_row_00000011,MX,Harassment,include_with_label,Yes,Vulgar misogynistic abuse and harassment; borderline Hate_Speech but primarily targeted harassment.
+MX_row_00000012,MX,Harassment,include_with_label,Yes,Homophobic slur combined with sexualized insult used for humiliation; not LGBTQ normalization.
+MX_row_00000013,MX,Harassment,include_with_label,Yes,Short vulgar sexual slang used as an insult; slang boundary makes it a hardcase.
+MX_row_00000015,MX,Dangerous_Content,include_with_label,Yes,Explicit threat to make police (Carabineros) disappear; credible violent threat.
+MX_row_00000024,MX,Harassment,exclude_or_manual_review,Yes,Quoted/reporting context of a sexualized insult; high risk of teaching BERT to flag news/quotes.
+MX_row_00000032,MX,Dangerous_Content,include_with_label,Yes,Violent threat (breaking face) combined with identity slur (bollera); severe harm priority.
+MX_row_00000045,MX,Hate_Speech,exclude_or_manual_review,Yes,News report framing immigrant crime; risks teaching BERT to flag news as hate speech.
+MX_row_00000050,MX,Harassment,include_with_label,Yes,Hyperbolic violent threat against a non-protected entity (Disney); sarcasm context.
+MX_row_00000053,MX,Dangerous_Content,include_with_label,Yes,Direct death threat (pena de muerte) against an individual.
+MX_row_00000058,MX,Dangerous_Content,include_with_label,Yes,Advocating violent/militarized measures (machine gun nests) against migrants.
+MX_row_00000062,MX,MX_Narco_Culture_And_Cartel_Glorification,include_with_label,Yes,Glorifying narco violence (who killed most/best); local MX redline.
+MX_row_00000060,MX,Dangerous_Content,include_with_label,Yes,Explicit threat of non-consensual sexual violence and forced impregnation.
+MX_row_00000066,MX,Harassment,include_with_label,Yes,Vulgar complaint with weak physical threat; topical reference to rape news.
+MX_row_00000078,MX,Harassment,include_with_label,Yes,Direct insult in a contentious sexual-violence discussion; anti-feminazi context.

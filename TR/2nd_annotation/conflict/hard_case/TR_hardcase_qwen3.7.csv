@@ -1,0 +1,21 @@
+_ann_row_id,country_source,final_label,bert_training_decision,is_hardcase,reasoning
+TR_row_00000000,TR,safe,include_with_label,Yes,Playful political comparison/meme format; no state redline or abuse.
+TR_row_00000004,TR,Sexually_Explicit_Information,exclude_or_manual_review,No,Encoded 'escort' plus location/link indicates sexual-service spam; OCR noise pollutes BERT.
+TR_row_00000009,TR,Sexually_Explicit_Information,exclude_or_manual_review,No,Phone/location/encoded escort spam pattern; pure noise.
+TR_row_00000005,TR,Sexually_Explicit_Information,exclude_or_manual_review,No,Paid/WhatsApp/cam-show wording indicates adult show spam; noisy tokens.
+TR_row_00000019,TR,safe,include_with_label,Yes,Turkish idiom expressing resolve without target or actionable threat.
+TR_row_00000015,TR,Harassment,include_with_label,Yes,Macabre insulting political comment (coffin metaphor); not state-security.
+TR_row_00000021,TR,safe,include_with_label,Yes,Ordinary political praise/complaint about idle salary/work; no abuse.
+TR_row_00000022,TR,Harassment,include_with_label,Yes,Insulting a person using FETÖ/PETÖ labels; political affiliation not protected class.
+TR_row_00000025,TR,safe,exclude_or_manual_review,Yes,Ambiguous short cultural observation; high risk of misclassification.
+TR_row_00000031,TR,Sexually_Explicit_Information,exclude_or_manual_review,No,Encoded escort plus location/link spam; OCR noise.
+TR_row_00000041,TR,safe,exclude_or_manual_review,Yes,Incoherent poetic spam-like text; isolated violent-looking token is noise.
+TR_row_00000043,TR,Sexually_Explicit_Information,exclude_or_manual_review,No,Encoded escort plus Istanbul location spam; OCR noise.
+TR_row_00000048,TR,Sexually_Explicit_Information,exclude_or_manual_review,No,Paid/WhatsApp/video show wording indicates adult content spam.
+TR_row_00000050,TR,safe,include_with_label,Yes,Turkish idiom about consequences of challenging authority; no direct abuse.
+TR_row_00000056,TR,Politically_Sensitive_Topics,include_with_label,Yes,Accusatory political question about opponents; references historical violence.
+TR_row_00000060,TR,Politically_Sensitive_Topics,include_with_label,Yes,Historical-violence claim from Turkish national struggle context; political sensitivity.
+TR_row_00000077,TR,Harassment,include_with_label,Yes,Vulgar sexualized insult/rumor about an individual; humiliation intent.
+TR_row_00000078,TR,safe,include_with_label,Yes,Insulting a leader as absurd; ordinary political criticism; not state-security.
+TR_row_00000080,TR,Dangerous_Content,include_with_label,Yes,Threatens to dump/drown a group in the Aegean Sea; severe physical harm.
+TR_row_00000088,TR,Dangerous_Content,include_with_label,Yes,FETÖ/political-violence framing implies severe violent harm; dangerous priority.
