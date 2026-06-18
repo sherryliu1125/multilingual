@@ -1,0 +1,68 @@
+TR tr_annotation_full.csv Phase A/B/C audit
+full_csv: /Users/liushuyu/Desktop/Huawei/multilingual/TR/data/annotations_tr/tr_annotation_full.csv
+skip_pool: /Users/liushuyu/Desktop/Huawei/multilingual/3rd_annotaion/TR/TR_R4_train_pool_need_review_annotated.csv
+
+full_total_rows: 17570
+empty_text: 0
+skipped_need_review_pool (by clean_text): 1063
+audited_rows: 16507
+
+--- Phase A ---
+phaseA_had_artifacts: 2634 (16.0%)
+
+--- Phase B spam tier ---
+clean: 15578 (94.4%)
+review: 276 (1.7%)
+spam_possible: 424 (2.6%)
+spam_likely: 229 (1.4%)
+
+--- Phase B top flags ---
+fake_agglutination: 323 (2.0%)
+high_caps_ratio: 319 (1.9%)
+sex_keyword_spam: 263 (1.6%)
+cam_show_pattern: 233 (1.4%)
+show_hashtag: 228 (1.4%)
+district_hashtag_stack: 135 (0.8%)
+dash_segment_spam: 29 (0.2%)
+slash_noise: 23 (0.1%)
+
+--- Phase C (BERT text quality) ---
+bert_text_ok=true: 13941 (84.5%)
+bert_text_ok=false: 2566 (15.5%)
+
+--- Hard filter (PhaseA artifact | spam_likely | seo_template) ---
+hard_filter_reject: 1235 (7.5%)
+fake_agglut_stripped_incomplete (extra): 332 (2.0%)
+
+reject reasons (primary):
+  fake_agglutination: 1140 (6.9%)
+  too_long: 470 (2.8%)
+  seo_template_gibberish: 468 (2.8%)
+  too_short: 306 (1.9%)
+  too_few_words: 172 (1.0%)
+  gibberish_likely: 10 (0.1%)
+
+top reject policies:
+  fake_agglut_stripped_incomplete: 1866 (11.3%)
+  basic: 924 (5.6%)
+  not_sentence_like_gibberish: 919 (5.6%)
+  fake_density>=0.15: 724 (4.4%)
+  fake_ratio>=0.15: 509 (3.1%)
+  hashtag_ratio_dominant: 403 (2.4%)
+  hashtag_count>=3: 283 (1.7%)
+  hashtag_fake_remainder: 262 (1.6%)
+  long_fake_agglut_word: 220 (1.3%)
+  hashtag_stripped_too_few_words: 182 (1.1%)
+  high_caps_with_fake_signal: 171 (1.0%)
+  show_boilerplate: 157 (1.0%)
+  obfuscated_show_template: 127 (0.8%)
+  district_hashtag_incomplete: 107 (0.6%)
+  phone_short_seo: 100 (0.6%)
+  district_hashtag_fake_remainder: 78 (0.5%)
+  district_stack_with_fake_signal: 67 (0.4%)
+  phone_district_seo: 39 (0.2%)
+  dash_obfuscated_show: 29 (0.2%)
+  show_hashtag_incomplete: 23 (0.1%)
+
+reject detail csv: /Users/liushuyu/Desktop/Huawei/multilingual/3rd_annotaion/TR/tr_full_phase_abc_reject.csv
+reject rows written: 2566
