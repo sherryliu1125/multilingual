@@ -1,0 +1,173 @@
+{
+  "multiclass": {
+    "SG": {
+      "train": 37114,
+      "test": 6551,
+      "n_labels": 8,
+      "labels": [
+        "Cybersecurity_Malware",
+        "Dangerous_Content",
+        "Harassment",
+        "Hate_Speech",
+        "Politically_Sensitive_Topics",
+        "SG_Racial_Religious_Harmony",
+        "Sexually_Explicit_Information",
+        "safe"
+      ],
+      "safe_pct": 45.9
+    },
+    "TH": {
+      "train": 19566,
+      "test": 3452,
+      "n_labels": 8,
+      "labels": [
+        "Cybersecurity_Malware",
+        "Dangerous_Content",
+        "Harassment",
+        "Hate_Speech",
+        "Politically_Sensitive_Topics",
+        "Sexually_Explicit_Information",
+        "TH_Lese_Majeste",
+        "safe"
+      ],
+      "safe_pct": 25.1
+    },
+    "ID": {
+      "train": 41520,
+      "test": 7329,
+      "n_labels": 9,
+      "labels": [
+        "Cybersecurity_Malware",
+        "Dangerous_Content",
+        "Harassment",
+        "Hate_Speech",
+        "ID_Blasphemy",
+        "ID_SARA",
+        "Politically_Sensitive_Topics",
+        "Sexually_Explicit_Information",
+        "safe"
+      ],
+      "safe_pct": 28.6
+    },
+    "ZA": {
+      "train": 34230,
+      "test": 6040,
+      "n_labels": 9,
+      "labels": [
+        "Cybersecurity_Malware",
+        "Dangerous_Content",
+        "Harassment",
+        "Hate_Speech",
+        "Politically_Sensitive_Topics",
+        "Sexually_Explicit_Information",
+        "ZA_Severe_Racism",
+        "ZA_Xenophobia",
+        "safe"
+      ],
+      "safe_pct": 34.9
+    },
+    "SA": {
+      "train": 32426,
+      "test": 5722,
+      "n_labels": 10,
+      "labels": [
+        "Cybersecurity_Malware",
+        "Dangerous_Content",
+        "Harassment",
+        "Hate_Speech",
+        "Politically_Sensitive_Topics",
+        "SA_LGBTQ_Content",
+        "SA_Religious_Violation",
+        "SA_State_Security_Royalty",
+        "Sexually_Explicit_Information",
+        "safe"
+      ],
+      "safe_pct": 27.5
+    },
+    "BR": {
+      "train": 27601,
+      "test": 15314,
+      "n_labels": 9,
+      "labels": [
+        "BR_Political_Extremism",
+        "BR_Structural_Racism",
+        "Cybersecurity_Malware",
+        "Dangerous_Content",
+        "Harassment",
+        "Hate_Speech",
+        "Politically_Sensitive_Topics",
+        "Sexually_Explicit_Information",
+        "safe"
+      ],
+      "safe_pct": 44.0
+    },
+    "MX": {
+      "train": 23672,
+      "test": 13810,
+      "n_labels": 9,
+      "labels": [
+        "Cybersecurity_Malware",
+        "Dangerous_Content",
+        "Harassment",
+        "Hate_Speech",
+        "MX_Gender_Violence",
+        "MX_Narco_Culture",
+        "Politically_Sensitive_Topics",
+        "Sexually_Explicit_Information",
+        "safe"
+      ],
+      "safe_pct": 26.7
+    },
+    "TR": {
+      "train": 28003,
+      "test": 15314,
+      "n_labels": 9,
+      "labels": [
+        "Cybersecurity_Malware",
+        "Dangerous_Content",
+        "Harassment",
+        "Hate_Speech",
+        "Politically_Sensitive_Topics",
+        "Sexually_Explicit_Information",
+        "TR_Insulting_State",
+        "TR_Separatism_Terror",
+        "safe"
+      ],
+      "safe_pct": 46.9
+    }
+  },
+  "binary": {
+    "SG": {
+      "n": 11383,
+      "violation_pct": 67.1
+    },
+    "TH": {
+      "n": 11128,
+      "violation_pct": 81.4
+    },
+    "ID": {
+      "n": 9808,
+      "violation_pct": 81.2
+    },
+    "ZA": {
+      "n": 8860,
+      "violation_pct": 80.7
+    },
+    "SA": {
+      "n": 10201,
+      "violation_pct": 81.8
+    },
+    "BR": {
+      "n": 14711,
+      "violation_pct": 19.8
+    },
+    "MX": {
+      "n": 13288,
+      "violation_pct": 12.8
+    },
+    "TR": {
+      "n": 14861,
+      "violation_pct": 39.7
+    }
+  }
+}

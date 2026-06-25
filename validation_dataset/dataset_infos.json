@@ -1,0 +1,1 @@
+{"default": {"features": {"text": {"_type": "Value"}, "label": {"_type": "Value"}, "country": {"_type": "Value"}}, "splits": {"train": {"name": "train", "dataset_name": "content-safety-8country"}, "test": {"name": "test", "dataset_name": "content-safety-8country"}}}}
