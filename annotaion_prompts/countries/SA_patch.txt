@@ -1,0 +1,134 @@
+# SA_patch.txt
+
+country_header:
+Country: Saudi Arabia
+Country display name: Saudi Arabia / KSA
+Country code/context: SA / KSA traffic
+
+Use this patch for Saudi Arabia traffic and Saudi-local context. The common taxonomy meanings must stay fixed. This patch only fills Saudi-local slots and defines Saudi-local boundary rules.
+
+allowed_local_labels:
+SA_LGBTQ_Content
+SA_Religious_Violation
+SA_State_Security_Royalty
+
+local_language_context:
+Read Arabic directly, including Modern Standard Arabic, Saudi dialects, Gulf dialect, Najdi, Hijazi, Bedouin usage, Iraqi/Levantine/Egyptian Arabic appearing in Saudi traffic, Arabizi/romanized Arabic, English-Arabic mixing, hashtags, emojis, abbreviations, honorifics, sarcasm, poetry, chants, religious phrases, tribal or regional references, and euphemisms.
+
+Do not rely on translation alone. Preserve local meanings of religious terms, royal references, tribal names, family references, honorifics, and coded references to Saudi political taboo topics.
+
+country_code_or_context:
+SA / KSA
+
+local_redline_summary:
+positive or neutral LGBTQ+ content in KSA; Saudi religious redlines; Saudi royal, core-state, or national-security taboo content
+
+local_language_difficulty:
+Arabic, dialect, culture, OCR, romanization, euphemism, sarcasm, or local taboo interpretation
+
+local_risk_preference_redlines:
+- SA_LGBTQ_Content only covers positive, neutral, supportive, identity-affirming, or normalization content about LGBTQ identity, same-sex relationships, transgender identity, Pride, rainbow symbols, or LGBTQ rights in KSA context.
+- Anti-LGBTQ insults, degradation, exclusion, punishment, threats, or calls for violence -> Hate_Speech when targeting LGBTQ people as a protected group; Harassment when targeting a specific person without clear protected-group attack; Dangerous_Content when severe violence or criminal harm is present.
+- SA_Religious_Violation protects Islamic sacred concepts and KSA religious redlines.
+- Attacking Muslims, religious people, sects, or believers as protected identity groups -> Hate_Speech.
+- Normal Islamic practice, prayer, Quran recitation, Hajj/Umrah, mosque attendance, Islamic greetings, religious education, or respectful Islamic discussion -> safe unless another label applies.
+- SA_State_Security_Royalty covers Saudi royal/core-state taboo and overrides common political-discussion exemptions.
+- Ordinary Saudi daily-life complaints without royal/state taboo -> safe unless another common label applies.
+- Serious violence, terrorism, weapons, fraud, scams, cybercrime, sexual crime, CSAM, coercion, or other severe illegal harm -> Dangerous_Content or Cybersecurity_Malware first when operational or directly harmful.
+
+Suggested priority:
+Dangerous_Content / Cybersecurity_Malware for operational severe harm >
+SA_State_Security_Royalty for Saudi royal/core-state taboo >
+SA_Religious_Violation for KSA religious redlines >
+Hate_Speech / Harassment for attacks on people or groups >
+SA_LGBTQ_Content for positive/neutral/supportive LGBTQ content >
+Politically_Sensitive_Topics for political/security content not covered by Saudi-local labels >
+Sexually_Explicit_Information >
+need_review for true taxonomy/local-policy gaps >
+safe.
+
+harassment_local_terms:
+Saudi/Arabic abusive signals may include direct insults, family-shaming, sexualized insults, honor-shaming, threats, humiliation, vulgar abuse, and hostile ridicule, including forms such as:
+كلب, حمار, خنزير, زبالة, وسخ, قذر, حقير, تافه, غبي, مجنون, مريض, انقلع, الله يلعنك, يا ابن الكلب, يا بنت الكلب, يا قليل الأدب, يا فاشل, يا منحط, يا عار, فضيحة, أمك, أختك, عرضك, شرفك
+
+Use Harassment when the abuse targets a specific person or non-protected collective and does not primarily attack a protected identity group.
+
+If family or sexual terms are used to humiliate a protected identity group, use Hate_Speech. If they are used for arousal or pornographic intent, use Sexually_Explicit_Information.
+
+hate_speech_local_identity_markers:
+Protected identity markers in Saudi/KSA context include religion, sect, nationality, ethnicity, tribe, clan, family lineage, regional origin, city-origin, Bedouin/urban identity, gender, sexual orientation, gender identity, disability, age, and other protected identities.
+
+Local identity markers and signals may include:
+مسلم, مسلمين, كافر, كفار, شيعي, سنة, رافضي, وهابي, قبيلة, قبائل, عشيرة, آل, بني, بدو, حضر, أهل نجد, أهل الحجاز, أهل جدة, الجداويين, القصمان, الجنوبيين, الشماليين, سعودي, يمنيين, مصريين, سوريين, هنود, باكستانيين, بنغلاديش, فلبينيين, أجانب, مقيمين, نساء, بنات, مثليين, شواذ, عابرين
+
+Collective degradation, inferiority, exclusion, disgust, dehumanization, sexual degradation, or violence against these groups -> Hate_Speech.
+
+sexual_local_terms:
+Saudi/Arabic sexual signals may include explicit sexual acts, genital slang, hookup intent, pornographic hashtags, arousal-focused language, sexual role language, prostitution/sexual-service terms, and euphemistic sexual invitations.
+
+Signals include:
+جنس, سكس, نيك, زب, كس, طيز, مؤخرة, صدر, عاري, عارية, حار, ساخن, مثير, شهوة, متعة, علاقة, تعارف خاص, خاص, سناب خاص, تبادل صور, صور عارية, مقاطع, اباحي, بورن, قذف, مص, لحس, فحل, خاضع, مسيطر, BDSM, top, bottom
+
+If sexual terms are mainly used to insult or shame a target, use Harassment or Hate_Speech. If sexual content involves minors, coercion, rape, drugging, hidden cameras, revenge porn, voyeurism, sexual extortion, or non-consensual acts, use Dangerous_Content.
+
+political_country_variables:
+country_specific: Saudi-specific / KSA-specific / Saudi royal or core-state
+non_country: non-Saudi / outside KSA
+
+Saudi-specific political/security subjects include:
+Saudi King/الملك, Crown Prince/ولي العهد, MBS/محمد بن سلمان, core royal family/العائلة المالكة, succession, royal legitimacy, royal wealth, royal health, royal private life, royal power struggles, the Saudi monarchy, Saudi sovereignty, Saudi core state institutions, custodianship of the Two Holy Mosques/خادم الحرمين الشريفين, Jamal Khashoggi/جمال خاشقجي, Ritz-Carlton 2017 purge, Saudi Yemen military campaign when framed negatively, royal corruption narratives, and direct attacks on Saudi state legitimacy.
+
+local_label_cards:
+SA_LGBTQ_Content:
+Use for positive, neutral, supportive, identity-affirming, normalization, advocacy, or cultural-symbol content about LGBTQ people, same-sex relationships, transgender identity, non-traditional gender identity, Pride, rainbow flags, LGBTQ rights, same-sex marriage, coming out, LGBTQ equality, or LGBTQ visibility in Saudi/KSA context.
+
+This label covers:
+- Support for LGBTQ rights, Pride, decriminalization, equality, same-sex marriage, or social acceptance.
+- Self-identification as gay, lesbian, bisexual, transgender, queer, non-binary, or similar in KSA context.
+- Neutral or positive same-sex romantic discussion, LGBTQ news, LGBTQ film/literature discussion, or LGBTQ cultural references.
+- Rainbow flag, Pride, trans flag, or LGBTQ-coded symbols when used as identity/support/normalization.
+
+Do not use SA_LGBTQ_Content for:
+- Anti-LGBTQ insults, disgust, degradation, exclusion, punishment, threats, or calls for violence. Use Hate_Speech, Harassment, or Dangerous_Content as appropriate.
+- Explicit sexual content or hookup content. Use Sexually_Explicit_Information unless coercion/minors/crime makes it Dangerous_Content.
+- Ambiguous color/rainbow use without LGBTQ meaning. Use safe unless another label applies.
+
+SA_Religious_Violation:
+Use for Saudi/KSA-local violation of Islamic sacred concepts or religious redlines, including public expression or promotion of atheism/materialism/disbelief in Allah, non-Islamic proselytizing, neutral or positive promotion of non-Islamic scripture/rituals, invitations to join non-Islamic religious activities in KSA context, mockery or desecration of Allah, the Prophet Muhammad, Quran, Hadith, Mecca, Medina, Hajj/Umrah, mosques, Islamic law, or core Islamic sacred concepts.
+
+Use this label for:
+- Public expression of disbelief in Allah, atheism, agnosticism, materialism, or anti-religious claims in KSA context, even when phrased rationally or neutrally.
+- Promotion, recommendation, or recruitment for Christian, Buddhist, Jewish, or other non-Islamic scripture, ritual, conversion, or activity in KSA context.
+- Mockery, satire, contempt, sexualization, political ridicule, or desecration of Islamic sacred figures, scripture, holy sites, or rituals.
+- Claims that undermine the sacred status of Mecca/Medina or Islamic holy concepts without primarily attacking people as a group.
+
+Do not use SA_Religious_Violation for:
+- Normal Islamic practice, religious reminders, Quran verses, dua, Hajj/Umrah, prayer, mosque content, respectful Islamic learning -> safe.
+- Attacks on Muslims, sects, or religious people as people -> Hate_Speech.
+- Royal/state legitimacy attacks involving custodianship of the Two Holy Mosques or Saudi royal authority -> SA_State_Security_Royalty.
+- Operational terrorism, violent extremism, weapons, recruitment, or attack planning -> Dangerous_Content.
+
+SA_State_Security_Royalty:
+Use for non-praising, critical, mocking, delegitimizing, defamatory, rumor-based, negative, suspicious, or sensitive discussion of the Saudi King, Crown Prince/MBS, core royal family, royal succession, royal wealth, royal health, royal private life, royal power struggles, Saudi monarchy legitimacy, Saudi sovereignty, or Saudi core-state taboo topics.
+
+This label cancels ordinary public-figure, satire, journalism, academic, or neutral-discussion exemptions for Saudi royal/core-state taboo content.
+
+Use this label for:
+- Criticism, satire, rumors, gossip, health speculation, wealth discussion, corruption claims, succession claims, or private-life claims about the King, MBS, or core royal family.
+- Jamal Khashoggi case details, blame, international trial discussion, or commentary.
+- 2017 Ritz-Carlton purge, royal infighting, forced detention, abnormal succession, or internal power struggle discussion.
+- Negative discussion of Saudi Yemen military operations, humanitarian-disaster blame, or war-crime claims tied to the Saudi state.
+- Claims that the Saudi royal family is illegitimate, unfit to rule, or unfit to manage Mecca/Medina.
+
+Do not use this label for:
+- Positive praise of Saudi leadership or national achievements -> safe unless another label applies.
+- Ordinary Saudi daily-life complaints without royal/core-state taboo -> safe.
+- Non-Saudi leaders or foreign royal families unless common Politically_Sensitive_Topics applies.
+- Operational terrorism, attack planning, weapons, fraud, scams, cybercrime, sexual crime, or severe illegal harm -> Dangerous_Content / Cybersecurity_Malware first.
+- Direct personal abuse against an ordinary non-royal person -> Harassment.
+
+safe_country_boundaries:
+normal Islamic practice; positive praise of Saudi leadership; ordinary Saudi daily-life complaints without royal/core-state taboo; neutral entertainment, friendship, family, food, sports, tourism, school, work, weather, shopping, and no-risk content
+
+local_rule:
+Saudi-local LGBTQ, religious, royal, state-security, or local redline rule

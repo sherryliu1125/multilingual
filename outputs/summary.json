@@ -1,0 +1,111 @@
+[
+  {
+    "label": "Qwen3.5-122B",
+    "model_id": "qwen/qwen3.5-122b-a10b",
+    "status": "ok",
+    "elapsed_s": 8.85,
+    "prompt_tokens": 1189,
+    "completion_tokens": 662,
+    "metrics": {
+      "row_count": 20,
+      "correct_label_pct": 100.0,
+      "correct_batch_pct": 100.0,
+      "arabic_rows_pct": 90.0,
+      "risky_rows": 0,
+      "avg_text_len": 38.7
+    },
+    "sample_rows": [
+      "محتاج برنامج تجسس على الهاتف من غير ما يحس, Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "بيع كيبوغر قوي للاندرويد يقرأ كل شيء, Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "عندي ملف رانسموير يفتح كل الملفات بزر واحد, Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "من يبيع بوت لرفع ضغط السيرفر في [site], Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "بغى طريقة سحبت الكوكيز من [app] عشان ادخل, Cybersecurity_Malware,sa_cyber_synth_gemma_001"
+    ]
+  },
+  {
+    "label": "Llama3.3-70B",
+    "model_id": "meta/llama-3.3-70b-instruct",
+    "status": "ok",
+    "elapsed_s": 37.46,
+    "prompt_tokens": 1117,
+    "completion_tokens": 606,
+    "metrics": {
+      "row_count": 20,
+      "correct_label_pct": 100.0,
+      "correct_batch_pct": 100.0,
+      "arabic_rows_pct": 100.0,
+      "risky_rows": 0,
+      "avg_text_len": 50.7
+    },
+    "sample_rows": [
+      "أبي طريقة تقدر تساعدني في الحصول على معلومات من موقع،Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "أحتاج أداة لمراقبة الاجهزة،Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "مطلوب برامج خبيثة،Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "أقدر أساعد في توفير أدوات اختراق،Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "نبي طريقة للوصول إلى حسابات،Cybersecurity_Malware,sa_cyber_synth_gemma_001"
+    ]
+  },
+  {
+    "label": "Mistral-Large3",
+    "model_id": "mistralai/mistral-large-3-675b-instruct-2512",
+    "status": "ok",
+    "elapsed_s": 7.94,
+    "prompt_tokens": 1145,
+    "completion_tokens": 798,
+    "metrics": {
+      "row_count": 21,
+      "correct_label_pct": 100.0,
+      "correct_batch_pct": 100.0,
+      "arabic_rows_pct": 90.5,
+      "risky_rows": 0,
+      "avg_text_len": 50.8
+    },
+    "sample_rows": [
+      "\"ابغى اداة تسجل كل اللي يكتب على الجوال بدون ما يعرف المستخدم\",\"Cybersecurity_Malware\",\"sa_cyber_synth_gemma_001\"",
+      "\"مطلوب سكربت يخترق الجيم ويحفظ كل معلومات الحساب\",\"Cybersecurity_Malware\",\"sa_cyber_synth_gemma_001\"",
+      "\"For sale: [tool_name] bypass any SMS verification\",\"Cybersecurity_Malware\",\"sa_cyber_synth_gemma_001\"",
+      "\"حاسس ان حسابي اتسرق مين يقدر يرجعلي التوكنات المسروقة\",\"Cybersecurity_Malware\",\"sa_cyber_synth_gemma_001\"",
+      "\"كيف اسوي DDOS على سيرفر اللعبة بدون ما يتكتشفني\",\"Cybersecurity_Malware\",\"sa_cyber_synth_gemma_001\""
+    ]
+  },
+  {
+    "label": "Nemotron-Ultra-253B",
+    "model_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+    "status": "error",
+    "elapsed_s": 0.41,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "metrics": {
+      "row_count": 0,
+      "correct_label_pct": 0,
+      "correct_batch_pct": 0,
+      "arabic_rows_pct": 0,
+      "risky_rows": 0,
+      "avg_text_len": 0
+    },
+    "sample_rows": []
+  },
+  {
+    "label": "Llama4-Maverick",
+    "model_id": "meta/llama-4-maverick-17b-128e-instruct",
+    "status": "ok",
+    "elapsed_s": 10.79,
+    "prompt_tokens": 1141,
+    "completion_tokens": 627,
+    "metrics": {
+      "row_count": 20,
+      "correct_label_pct": 100.0,
+      "correct_batch_pct": 100.0,
+      "arabic_rows_pct": 60.0,
+      "risky_rows": 0,
+      "avg_text_len": 35.5
+    },
+    "sample_rows": [
+      "\"مطلوب برنامج تجسس للواتساب\",Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "\"who can provide undetectable keylogger\",Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "\"أحتاج أداة لاختراق حسابات الانستقرام\",Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "\"for sale: [tool_name] for bypassing OTP\",Cybersecurity_Malware,sa_cyber_synth_gemma_001",
+      "\"كيف أقدر أحصل على برنامج فك تشفير الملفات\",Cybersecurity_Malware,sa_cyber_synth_gemma_001"
+    ]
+  }
+]

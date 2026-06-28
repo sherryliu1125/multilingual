@@ -1,0 +1,96 @@
+# BR_patch.txt
+
+country_header:
+Country: Brazil
+Country display name: Brazil
+Country code/context: BR / Brazil traffic
+
+Use this patch for Brazil traffic and Brazil-local context. The common taxonomy meanings must stay fixed. This patch only fills Brazil-local slots and defines Brazil-local boundary rules.
+
+allowed_local_labels:
+BR_State_Security_Democratic_Order
+
+local_language_context:
+Read Portuguese directly, including Brazilian Portuguese, regional slang, political slogans, meme language, football/fandom slang, English-Portuguese mixing, hashtags, emojis, abbreviations, coded references to elections, STF, TSE, Congresso/Congress, 8 de janeiro/January 8, AI-5, intervenção militar/military intervention, PCC, CV, milícia/militia, and local public-security factions.
+
+Do not rely on translation alone. Preserve local meanings of election-legitimacy claims, anti-democratic slogans, institutional references, faction names, milícia/militia language, territorial-control language, and coded calls for intervention.
+
+country_code_or_context:
+BR / Brazil
+
+local_redline_summary:
+Brazilian democratic-order threats, election-legitimacy attacks, anti-constitutional mobilization, military intervention, AI-5, violence against democratic institutions, and criminal factions or militias challenging state authority
+
+local_language_difficulty:
+Brazilian Portuguese, regional slang, political slogans, memes, OCR, abbreviations, faction aliases, coded intervention language, or local institutional context
+
+local_risk_preference_redlines:
+- BR_State_Security_Democratic_Order covers threats to Brazilian national security, democratic constitutional order, election legitimacy, institutional stability, public order, and the state's monopoly on legitimate force.
+- This label is not for ordinary political sensitivity and does not cover ordinary criticism, satire, news, academic discussion, policy debate, or insults against politicians/public figures.
+- Claims that Brazilian electronic voting machines, vote counting, TSE, or election results were systemically fraudulent/stolen/invalid, especially to deny democratic procedure or mobilize resistance -> BR_State_Security_Democratic_Order.
+- Support, restoration, justification, or mobilization for intervenção militar/military intervention, golpe/coup, ditadura militar/military dictatorship, fechar Congresso/STF/closing Congress/STF, restoring AI-5, or replacing democratic institutions with the army -> BR_State_Security_Democratic_Order.
+- Inciting, organizing, praising, repeating, or justifying invasion, occupation, destruction, or violent threats against STF, TSE, Congresso/Congress, Palácio do Planalto/presidential palace, Praça dos Três Poderes/Praca dos Tres Poderes, or democratic institutions -> BR_State_Security_Democratic_Order.
+- Glorification, support, recruitment, intimidation, instructions, or territorial-control propaganda for PCC, CV, milícia/militia, or other Brazilian criminal factions/militias as alternative governing authority -> BR_State_Security_Democratic_Order unless concrete criminal instructions/severe harm require Dangerous_Content.
+- Pix fraud, Jogo do Tigrinho scams/illegal gambling, drug trafficking, weapons, money laundering, and concrete serious illegal activity -> Dangerous_Content.
+- Ordinary insults against Lula, Bolsonaro, STF judges, parties, candidates, or public officials do not automatically trigger the Brazil-local label; use Harassment if personal abuse, or safe if ordinary political opinion.
+
+Suggested priority:
+Dangerous_Content / Cybersecurity_Malware for operational severe harm >
+BR_State_Security_Democratic_Order for Brazilian democratic-order/election/anti-constitutional/institutional-violence/state-authority redlines >
+Hate_Speech / Harassment for attacks on people or groups >
+Politically_Sensitive_Topics for political/security content not covered by the Brazil-local label >
+Sexually_Explicit_Information >
+need_review for true taxonomy/local-policy gaps >
+safe.
+
+harassment_local_terms:
+Brazilian Portuguese abusive signals may include direct insults, vulgar abuse, sexualized insults, family insults, humiliation, intimidation, and hostile ridicule, including forms such as:
+idiota, burro, imbécil/imbecil, otário/otario, babaca, merda, lixo, canalha, vagabundo, safado, nojento, ridículo/ridiculo, palhaço/palhaco, filho da puta, vai se ferrar, vai tomar no cu, arrombado, vendido, corrupto
+
+Use Harassment when the abuse targets a specific person or non-protected collective and does not primarily attack a protected identity group or Brazil-local democratic-order/state-authority redline.
+
+hate_speech_local_identity_markers:
+Protected identity markers in Brazil context include nationality, ethnicity, race, color, Indigenous identity, religion, regional origin, migrant/refugee status, gender, sexual orientation, gender identity, disability, age, and other protected identities.
+
+Local identity markers and signals may include:
+brasileiro, indígena/indigena, quilombola, negro, preta, pardo, branco, nordestino, sulista, paulista, carioca, gaúcho/gaucho, amazonense, migrante, refugiado, venezuelano, haitiano, boliviano, evangélico/evangelico, católico/catolico, umbandista, candomblé/candomble, judeu, mulher, LGBT, gay, lésbica/lesbica, trans, deficiente
+
+Collective degradation, inferiority, exclusion, dehumanization, sexual degradation, forced removal, or violence against these groups -> Hate_Speech.
+
+sexual_local_terms:
+Brazilian Portuguese sexual signals may include explicit sexual acts, genital slang, hookup intent, pornographic hashtags, arousal-focused language, sexual role language, sex-service terms, and euphemistic sexual invitations.
+
+Signals include:
+sexo, transar, foder, porno, pelado, pelada, nude, nudes, pack, tesão/tesao, safado, gostosa, gostoso, pau, pica, buceta, xereca, cu, bunda, peito, oral, anal, gozar, garota de programa, GP, acompanhante, BDSM, ativo, passivo, top, bottom
+
+If sexual terms are mainly used to insult or shame a target, use Harassment or Hate_Speech. If sexual content involves minors, coercion, rape, drugging, hidden cameras, revenge porn, voyeurism, sexual extortion, or non-consensual acts, use Dangerous_Content.
+
+political_country_variables:
+country_specific: Brazil-specific / Brazilian democratic order, election legitimacy, or state authority
+non_country: non-Brazil / outside Brazil
+
+Brazil-specific political/security subjects include:
+Brazilian electronic voting machines/urnas eletrônicas, urnas fraudadas, vote counting/apuração, TSE fraudou, eleição roubada, não reconheço o resultado, TSE, STF, Congresso/Congress, Palácio do Planalto/presidential palace, Praça dos Três Poderes/Praca dos Tres Poderes, invasão de 8 de janeiro/January 8 invasion, election legitimacy, intervenção militar/military intervention, coup support/golpe, AI-5, anti-constitutional mobilization, PCC, CV, milícia/militia, criminal factions challenging state authority, and violence against democratic institutions.
+
+local_label_cards:
+BR_State_Security_Democratic_Order:
+Use for Brazil-local content that threatens Brazilian national security, democratic constitutional order, election legitimacy, institutional stability, public order, or the state's monopoly on legitimate force.
+
+Use this label for:
+- Claims that Brazilian electronic voting machines/urnas eletrônicas, vote counting/apuração, TSE, or election results were systemically manipulated, stolen, fraudulent, or invalid, including terms such as urnas fraudadas, TSE fraudou, eleição roubada, or não reconheço o resultado, especially to deny democratic procedure or mobilize resistance.
+- Support, justification, praise, or mobilization for intervenção militar/military intervention, golpe militar/military coup, ditadura militar/military dictatorship, fechar Congresso/STF/closing Congress/STF, restoring AI-5, or letting the army replace democratic institutions.
+- Incitement, organization, praise, repetition, or justification of invasion, occupation, destruction, or violent threats against STF, TSE, Congresso/Congress, Palácio do Planalto/presidential palace, Praça dos Três Poderes/Praca dos Tres Poderes, or democratic institutions.
+- Glorification, support, recruitment, intimidation, orders, or territorial-control propaganda for PCC, CV, milícia/militia, or Brazilian criminal factions/militias when framed as authority replacing or challenging the state.
+
+Do not use this label for:
+- Ordinary criticism, satire, news, academic discussion, policy debate, or non-abusive political disagreement.
+- Ordinary insults against Lula, Bolsonaro, STF judges, parties, candidates, or public officials unless Harassment applies.
+- Pix fraud, illegal gambling, scams, drug trafficking, weapons, money laundering, or concrete serious illegal activity -> Dangerous_Content.
+- Protected identity attacks -> Hate_Speech.
+- Non-operational, neutral reporting on institutions or public security -> safe unless common political/security harm applies.
+
+safe_country_boundaries:
+ordinary Brazilian politics, policy criticism, satire, news, academic discussion, election discussion without fraud/delegitimization/mobilization, ordinary public-service complaints, non-operational public-security news, and no-risk content
+
+local_rule:
+Brazil-local democratic-order, election-legitimacy, anti-constitutional, institutional-violence, or criminal-faction-as-state-authority rule

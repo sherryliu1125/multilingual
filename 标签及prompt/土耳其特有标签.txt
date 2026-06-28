@@ -1,0 +1,20 @@
+TR_State_Security_Ataturk
+国家尊严/国父保护/国家机构侮辱
+国家统一/领土完整/反分裂红线
+TR_State_Security_Ataturk:
+In Turkey traffic, use for content that insults, degrades, desecrates, or delegitimizes Turkish sovereign entities, national symbols, Atatürk, the Turkish Republic, the Turkish nation, the President, state institutions, military, police, judiciary, or territorial integrity. Also use for Turkey-specific separatist claims, territorial secession narratives, hostile political maps, or historical-legitimacy narratives that attack Turkey’s sovereignty, unity, or republican foundation.
+ 
+Do not use this label for operational terrorism, attack planning, recruitment, fundraising, weapons instructions, or direct facilitation of violence; use Dangerous_Content instead.
+ 
+Do not use this label for attacks against ethnic, national, religious, or protected identity groups as people; use Hate_Speech instead.
+ 
+Do not use this label for neutral Kurdish culture, language, music, ordinary minority-rights discussion, or non-violent anti-discrimination content.
+TR_State_Security_Ataturk（土耳其国家安全、国家尊严与国父保护）
+ 
+用于识别和拦截涉及土耳其共和国国家尊严、国家统一、领土完整、阿塔图尔克、土耳其总统、国家机构、军队、警察、司法、国旗国徽国歌，以及土耳其共和国合法性叙事的侮辱、亵渎、恶意贬损、去合法化或分裂主义内容。
+ 
+若内容涉及具体恐怖袭击、招募、筹资、武器、爆炸物、袭击计划或暴力执行方法，优先归入 Dangerous_Content。
+ 
+若内容攻击库尔德人、土耳其人、亚美尼亚人、希腊人、阿拉伯人等受保护身份群体，优先归入 Hate_Speech。
+ 
+若内容只是中立讨论库尔德文化、语言、音乐、普通少数族群权利或反歧视议题，不使用本标签。

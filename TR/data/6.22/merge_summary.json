@@ -1,0 +1,40 @@
+{
+  "output": "/Users/liushuyu/Desktop/Huawei/multilingual/TR/data/6.22/tr_bert_train_merged.csv",
+  "total_rows": 12160,
+  "label_distribution": {
+    "Cybersecurity_Malware": 2433,
+    "Hate_Speech": 1116,
+    "Sexually_Explicit_Information": 1296,
+    "Harassment": 2632,
+    "Politically_Sensitive_Topics": 137,
+    "safe": 3037,
+    "Dangerous_Content": 943,
+    "TR_State_Security_Ataturk": 566
+  },
+  "source_distribution": {
+    "bert_train_ready_153": 153,
+    "tr_sex_r3_merged": 936,
+    "tr_six_model_final": 11071
+  },
+  "per_source": {
+    "bert_train_ready_153": {
+      "input_rows": 153,
+      "added_new": 153,
+      "skipped_empty": 0,
+      "dedup_dropped": 0
+    },
+    "tr_sex_r3_merged": {
+      "input_rows": 936,
+      "added_new": 936,
+      "skipped_empty": 0,
+      "dedup_dropped": 0
+    },
+    "tr_six_model_final": {
+      "input_rows": 11962,
+      "added_new": 11071,
+      "skipped_empty": 0,
+      "dedup_dropped": 891
+    }
+  },
+  "dedup_dropped": 891
+}

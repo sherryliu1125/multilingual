@@ -1,0 +1,132 @@
+# UAE_patch.txt
+
+country_header:
+Country: United Arab Emirates
+Country display name: United Arab Emirates / UAE
+Country code/context: UAE / United Arab Emirates traffic
+
+Use this patch for UAE traffic and UAE-local context. The common taxonomy meanings must stay fixed. This patch only fills UAE-local slots and defines UAE-local boundary rules.
+
+allowed_local_labels:
+UAE_State_Royalty_Security
+UAE_Public_Morals_Regulated_Conduct
+
+local_language_context:
+Read multilingual UAE traffic directly, including Arabic, Emirati/Gulf Arabic, Modern Standard Arabic, English, Hindi/Urdu-influenced English, Arabizi/romanized Arabic, English-Arabic mixing, hashtags, emojis, abbreviations, local ruler titles, emirate names, public-order references, crisis rumors, public morals references, and euphemisms.
+
+Do not rely on translation alone. Preserve local meanings of UAE rulers, ruling families, emirates, federal institutions, national symbols, public-order rumors, crisis content, alcohol/regulatory language, LGBTQ advocacy language, zina/adultery/cohabitation language, and coded public-morals references.
+
+country_code_or_context:
+UAE / United Arab Emirates
+
+local_redline_summary:
+UAE rulers, ruling families, federal governance, national symbols, national security, public-order rumors, crisis information control, UAE-local public morals, regulated conduct, and public-morals advocacy or evasion
+
+local_language_difficulty:
+Arabic, Emirati/Gulf dialect, English-Arabic mixing, Hindi/Urdu-influenced English, OCR, romanization, euphemism, crisis rumor context, public morals context, or UAE-local legal/cultural context
+
+local_risk_preference_redlines:
+- UAE_State_Royalty_Security covers UAE rulers, ruling families, federal governance, national symbols, national institutions, national security, public order, diplomatic/economic stability rumors, and crisis information control.
+- UAE_State_Royalty_Security does not cover ordinary social complaints, routine policy debate, ordinary public-service complaints, or neutral discussion of non-UAE politics.
+- UAE_Public_Morals_Regulated_Conduct is not a catch-all for all LGBTQ content, all alcohol content, all religion content, or all dating/marriage content.
+- UAE_Public_Morals_Regulated_Conduct requires UAE-local promotion, advocacy, organization, mobilization, glorification, or regulatory evasion involving public morals, sexual morals, minors, family ethics, alcohol regulation, or regulated conduct.
+- Ordinary "I am gay" identity expression or ordinary "respect sexual orientation" statements -> safe unless they include UAE-local advocacy, organization, mobilization, minors-targeted guidance, explicit sexual content, hate, or another label.
+- Ordinary marriage, divorce, dating, family conflict, legal hotel/bar alcohol information, GCGRA-licensed lottery/news, religion, atheism, other-religion belief, or academic religious discussion -> safe unless another label applies.
+- Attacks on LGBTQ people, women, religious groups, nationalities, ethnicities, or other protected identity groups -> Hate_Speech / Harassment.
+- Explicit sex, hookup, pornography, sexual services, sexual organs/acts -> Sexually_Explicit_Information.
+- Minors sexualization, grooming, CSAM, coercion, sexual crimes, illegal gambling scams, fraud, money laundering, phishing, terrorism, weapons, drug trafficking, smuggling, or severe illegal activity -> Dangerous_Content / Cybersecurity_Malware first.
+- Attacks on religious people or religious groups as a protected group -> Hate_Speech. Religious sacred-object blasphemy, mockery, desecration, or contempt -> Hate_Speech. Ordinary religious belief/disbelief, other-religion belief, or academic religious discussion -> safe unless another label applies.
+
+Suggested priority:
+Dangerous_Content / Cybersecurity_Malware for operational severe harm >
+UAE_State_Royalty_Security for UAE ruler/royalty/state/security/public-order/crisis redlines >
+Hate_Speech / Harassment for attacks on people or groups >
+Sexually_Explicit_Information for explicit sexual content >
+UAE_Public_Morals_Regulated_Conduct for non-explicit UAE-local public-morals/regulatory promotion, organization, glorification, or evasion >
+Politically_Sensitive_Topics for political/security content not covered by UAE-local labels >
+need_review for true taxonomy/local-policy gaps >
+safe.
+
+harassment_local_terms:
+UAE Arabic/English abusive signals may include direct insults, vulgar abuse, family-shaming, sexualized insults, honor-shaming, threats, humiliation, defamation, and hostile ridicule, including forms such as:
+كلب, حمار, خنزير, زبالة, وسخ, قذر, حقير, تافه, غبي, مجنون, مريض, انقلع, الله يلعنك, يا ابن الكلب, يا بنت الكلب, أمك, أختك, عرضك, شرفك, idiot, stupid, trash, dirty, disgusting, loser, fraud, clown
+
+Use Harassment when the abuse targets a specific person or non-protected collective and does not primarily attack a protected identity group or UAE ruler/state/national-symbol redline.
+
+If the target is a UAE ruler, ruling family, national symbol, or core state institution, use UAE_State_Royalty_Security instead.
+
+hate_speech_local_identity_markers:
+Protected identity markers in UAE context include nationality, ethnicity, race, religion, sect, caste, language, migrant status, regional origin, gender, sexual orientation, gender identity, disability, age, and other protected identities.
+
+Local identity markers and signals may include:
+Emirati, UAE national, expat, migrant, Arab, Gulf, South Asian, Indian, Pakistani, Bangladeshi, Filipino, African, Western expat, Muslim, Christian, Hindu, Buddhist, Jewish, Sunni, Shia, caste references, woman, LGBT, gay, lesbian, trans, disabled, عامل, عمال, أجانب, مقيمين, مواطنين, إماراتيين
+
+Collective degradation, inferiority, exclusion, dehumanization, sexual degradation, forced removal, or violence against these groups -> Hate_Speech.
+
+sexual_local_terms:
+UAE Arabic/English sexual signals may include explicit sexual acts, genital slang, hookup intent, pornographic hashtags, arousal-focused language, sexual role language, prostitution/sexual-service terms, massage-service euphemisms, and discreet sexual invitations.
+
+Signals include:
+sex, porn, nude, nudes, hookup, escort, massage special, private service, sugar, BDSM, top, bottom, جنس, سكس, نيك, زب, كس, طيز, عاري, عارية, مثير, شهوة, علاقة, خاص, صور عارية, مقاطع, اباحي, قذف, مص, لحس
+
+If sexual terms are mainly used to insult or shame a target, use Harassment or Hate_Speech. If sexual content involves minors, coercion, rape, drugging, hidden cameras, revenge porn, voyeurism, sexual extortion, or non-consensual acts, use Dangerous_Content.
+
+political_country_variables:
+country_specific: UAE-specific / Emirati ruler, royal, state, public-order, or national-security context
+non_country: non-UAE / outside UAE
+
+UAE-specific political/security subjects include:
+UAE/الإمارات, President/رئيس الدولة, Vice President/نائب الرئيس, Prime Minister/رئيس مجلس الوزراء, Abu Dhabi/أبوظبي ruling family, Dubai/دبي ruler, rulers of Sharjah/الشارقة, Ajman/عجمان, Fujairah/الفجيرة, Umm Al Quwain/أم القيوين, Ras Al Khaimah/رأس الخيمة, Supreme Council/المجلس الأعلى, ruling families, federal governance, seven-emirate structure, UAE sovereignty, national symbols, police, courts, prosecutors, immigration/border authorities, central bank, financial regulators, public-order rumors, diplomatic crisis rumors, economic stability rumors, infrastructure crisis rumors, and unverified crisis/security incident content.
+
+local_label_cards:
+UAE_State_Royalty_Security:
+Use for UAE-local content involving UAE supreme sovereign entities, federal governance, President, Vice President, Prime Minister, rulers of the seven emirates, core ruling families, national symbols, state institutions, national security, public order, diplomatic relations, economic stability, or crisis information control.
+
+This label is not ordinary political sensitivity. It does not cover ordinary social complaints, ordinary policy debate, ordinary public-service complaints, or neutral discussion of non-UAE political figures.
+
+Use this label for:
+- Non-praising discussion, criticism, satire, insults, negative rumors, health/wealth/succession/private-life/power-struggle claims, or political cartoons about UAE rulers or core ruling families.
+- Attacks on UAE federal governance, seven-emirate structure, Supreme Council, sovereignty, state legitimacy, national unity, or calls to oppose/overthrow/resist the UAE political order.
+- Insults, desecration, or degradation of UAE flag, emblem, anthem, national day, national symbols, Emirati heritage, traditional dress, national identity, or state culture symbols.
+- Malicious attacks, delegitimizing claims, or destabilizing rumors about UAE government, military, police, security services, judiciary, courts, prosecutors, immigration/border control, central bank, financial regulators, or core state institutions.
+- Rumors or unverified claims that could harm UAE national security, diplomatic relations, public order, currency stability, financial stability, airport/port/energy/infrastructure safety, or emergency response.
+- Unauthorized or panic-inducing crisis content during war, regional conflict, missile/drone attack, explosion, fire, police operation, terror incident, major accident, airport/port/military facility incident, including unconfirmed videos, screenshots, locations, casualty numbers, live descriptions, or AI-generated incident imagery.
+
+Do not use this label for:
+- Ordinary complaints such as rent, traffic, app usability, service delays, customer service, weather, school, work, shopping, or city life -> safe unless another label applies.
+- Ordinary non-UAE political discussion -> use common labels if needed.
+- Terrorism, attack planning, weapons, fraud, money laundering, cybercrime, sexual crime, or severe illegal activity -> Dangerous_Content / Cybersecurity_Malware first.
+- Ordinary abuse of a non-ruler individual or non-protected organization -> Harassment.
+
+UAE_Public_Morals_Regulated_Conduct:
+Use for UAE-local content that does not clearly reach Sexually_Explicit_Information, Dangerous_Content, or Hate_Speech, but clearly promotes, organizes, advocates, mobilizes, glorifies, or teaches evasion of UAE public morals, social values, sexual morals, minors protection, family ethics, alcohol regulation, or regulated conduct.
+
+This label is not a catch-all. It requires UAE-local public-morals or regulated-conduct risk plus promotion, organization, advocacy, mobilization, glorification, or evasion.
+
+Use this label for:
+- Non-explicit public advocacy, organizing, mobilization, or recruitment for UAE-local LGBTQ rights campaigns, Pride activities, rainbow-flag events, local community organizing, or resistance to UAE public-morals rules.
+- Guidance aimed at minors/students encouraging queer identity exploration, coming-out mobilization, LGBTQ community participation, or gender-identity transition in UAE-local context. If sexualized, grooming, coercive, or exploitative -> Dangerous_Content.
+- Non-explicit promotion or glorification of zina, adultery, extramarital sexual relationships, open relationships, or non-marital cohabiting sexual relationships as lifestyles to promote in UAE context.
+- Guidance for secretly maintaining adultery/zina, evading family/marriage restrictions, hiding extramarital cohabitation, or arranging secret sexual partner relationships without explicit sexual content.
+- Promotion of underground alcohol sales, unlicensed alcohol distribution, alcohol-regulation evasion, underage access to alcohol, illegal drinking events, or how to bypass local alcohol controls, when not concrete enough for Dangerous_Content.
+- Public-morals/regulatory advocacy clearly aimed at UAE audiences and clearly conflicting with local public morals, minors protection, family ethics, or regulated conduct.
+
+Do not use this label for:
+- Ordinary "I am gay" identity expression -> safe unless another label applies.
+- Ordinary "respect sexual orientation" or general tolerance statements -> safe unless they include UAE-local advocacy/organization/mobilization or another violation.
+- Attacks on LGBTQ people or individuals -> Hate_Speech / Harassment.
+- Explicit LGBTQ hookup, pornography, sex services, sexual organs/acts -> Sexually_Explicit_Information.
+- Minors sexualization, grooming, CSAM, sexual crime -> Dangerous_Content.
+- Illegal gambling platforms, betting agents, cash casinos, scams, money laundering, phishing, impersonation -> Dangerous_Content.
+- Terrorism, weapons, drugs, smuggling, or other serious illegal activity -> Dangerous_Content.
+- Ordinary dating, marriage, divorce, remarriage, family conflict, or relationship discussion -> safe.
+- Ordinary legal hotel/bar/restaurant alcohol information -> safe.
+- GCGRA-licensed lottery or commercial gaming neutral news/official information -> safe.
+- Ordinary religion, atheism, other-religion belief, religious freedom discussion, or religious academic discussion -> safe.
+- Attacks on religious groups as people, or religious sacred-object blasphemy/mockery/desecration/contempt -> Hate_Speech.
+
+safe_country_boundaries:
+ordinary UAE daily life, rent/traffic/service complaints without state-security rumor, ordinary identity expression, ordinary respect/tolerance statements, ordinary dating/marriage/family discussion, legal hotel/bar alcohol information, ordinary religion/atheism/other-religion/religious freedom/academic religious discussion, neutral non-UAE politics, and no-risk content
+
+local_rule:
+UAE-local ruler, royalty, state-security, public-order, crisis-information, public-morals, or regulated-conduct rule

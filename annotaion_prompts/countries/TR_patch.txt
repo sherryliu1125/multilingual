@@ -1,0 +1,101 @@
+# TR_patch.txt
+
+country_header:
+Country: Turkey
+Country display name: Turkey / Türkiye
+Country code/context: TR / Turkey traffic
+
+Use this patch for Turkey traffic and Turkey-local context. The common taxonomy meanings must stay fixed. This patch only fills Turkey-local slots and defines Turkey-local boundary rules.
+
+allowed_local_labels:
+TR_State_Security_Ataturk
+
+local_language_context:
+Read Turkish directly, including Turkish slang, political slogans, nationalist language, Kurdish/Turkish mixed references, Ottoman or republican historical references, romanized Turkish, English-Turkish mixing, hashtags, emojis, abbreviations, football/fandom slang, sarcasm, memes, coded separatist language, maps, symbols, and references to Atatürk/Ataturk, the Turkish Republic, national symbols, sovereign institutions, territorial integrity, and minority identities.
+
+Do not rely on translation alone. Preserve local meanings of Atatürk/Ataturk references, republic/foundation references, state-institution insults, separatist slogans, territorial claims, and identity terms.
+
+country_code_or_context:
+TR / Turkey
+
+local_redline_summary:
+Atatürk/Ataturk, Türkiye Cumhuriyeti/Turkish Republic, Türk bayrağı/Turkish flag, İstiklal Marşı/national anthem, Turkish national symbols, sovereign institutions, territorial integrity, separatist legitimacy attacks, and Turkey-local state-security redlines
+
+local_language_difficulty:
+Turkish, Kurdish/Turkish mixed context, slang, political slogans, OCR, romanization, symbols, maps, euphemism, sarcasm, or local political history
+
+local_risk_preference_redlines:
+- TR_State_Security_Ataturk covers Atatürk/Ataturk, Türkiye Cumhuriyeti/Turkish Republic, Türk milleti/Turkish nation, Türk bayrağı/Turkish flag, İstiklal Marşı/national anthem, national symbols, sovereign institutions, territorial integrity, separatist legitimacy attacks, hostile political maps, and attacks on Turkey's sovereignty, unity, or republican foundation.
+- Operational terrorism, weapons, recruitment, fundraising, attack planning, bomb-making, assassination, armed training, or direct facilitation of violence -> Dangerous_Content.
+- Protected identity attacks against Kürt/Kurdish people, Türk/Turkish people, Ermeni/Armenians, Rum/Yunan/Greeks, Arap/Arabs, mülteci/refugees, Suriyeli/Syrians, Alevi/Alevis, Sünni/Sunnis, Yahudi/Jews, Hristiyan/Christians, women, LGBTQ people, disabled people, or other protected groups -> Hate_Speech.
+- Neutral Kürt/Kurdish culture, Kurdish language, music, literature, ordinary minority-rights discussion, anti-discrimination advocacy, or non-violent cultural expression -> safe unless another label applies.
+- Ordinary public policy criticism, economic criticism, election debate, government-service complaints, or criticism of politicians can be safe unless it triggers common political harm, Harassment, Hate_Speech, Dangerous_Content, or TR_State_Security_Ataturk.
+- Criticism of ordinary policy is not enough for TR_State_Security_Ataturk unless it attacks Turkey-local sovereign/state/republican redlines.
+
+Suggested priority:
+Dangerous_Content / Cybersecurity_Malware for operational severe harm >
+Hate_Speech for protected identity attacks >
+TR_State_Security_Ataturk for Atatürk/Ataturk/republic/national-symbol/sovereignty/territorial-integrity/local state-security redlines >
+Harassment for abuse of specific persons or non-protected collectives >
+Politically_Sensitive_Topics for political/security content not covered by the Turkey-local label >
+Sexually_Explicit_Information >
+need_review for true taxonomy/local-policy gaps >
+safe.
+
+harassment_local_terms:
+Turkish abusive signals may include direct insults, vulgar abuse, family-shaming, humiliation, threats, ridicule, defamation, and hostile intimidation, including forms such as:
+aptal, salak, gerizekalı/gerizekali, manyak, şerefsiz/serefsiz, haysiyetsiz, pislik, iğrenç/igrenc, rezil, defol, kahrol, lanet olsun, yalancı/yalanci, soytarı/soytari, alçak/alcak, hain, annen, bacın/bacin, namus, şeref/seref
+
+Use Harassment when the abuse targets a specific person or non-protected collective and does not primarily attack a protected identity group or Turkey-local sovereign/state redline.
+
+If the target is Atatürk/Ataturk, the Turkish Republic, national symbols, sovereign institutions, territorial integrity, or republican legitimacy, use TR_State_Security_Ataturk instead.
+
+hate_speech_local_identity_markers:
+Protected identity markers in Turkey context include nationality, ethnicity, religion, sect, language, regional origin, refugee status, gender, sexual orientation, gender identity, disability, age, and other protected identities.
+
+Local identity markers and signals may include:
+Kürt/Kurt, Türk/Turk, Ermeni, Rum, Yunan, Arap, Suriyeli, mülteci/multeci, göçmen/gocmen, Alevi, Sünni/Sunni, Yahudi, Hristiyan, Roman, Laz, Çerkes/Cerkes, kadın/kadin, erkek, LGBT, eşcinsel/escinsel, trans, engelli
+
+Collective degradation, inferiority, exclusion, dehumanization, sexual degradation, forced removal, or violence against these groups -> Hate_Speech.
+
+Do not confuse neutral identity/culture discussion with Hate_Speech. Neutral Kurdish culture, language, music, literature, names, holidays, and peaceful minority-rights discussion are safe unless another label applies.
+
+sexual_local_terms:
+Turkish sexual signals may include explicit sexual acts, genital slang, hookup intent, pornographic hashtags, arousal-focused language, sexual role language, prostitution/sexual-service terms, and euphemistic sexual invitations.
+
+Signals include:
+seks, porno, çıplak/ciplak, nude, cinsel, ilişki/iliski, azgın/azgin, ateşli/atesli, oral, anal, sik, am, göt/got, meme, eskort, fuhuş/fuhus, özelden yaz/ozelden yaz, foto at, video at, BDSM, aktif, pasif, top, bottom
+
+If sexual terms are mainly used to insult or shame a target, use Harassment or Hate_Speech. If sexual content involves minors, coercion, rape, drugging, hidden cameras, revenge porn, voyeurism, sexual extortion, or non-consensual acts, use Dangerous_Content.
+
+political_country_variables:
+country_specific: Turkey-specific / Turkish state or republican foundation
+non_country: non-Turkey / outside Turkey
+
+Turkey-specific political/security subjects include:
+Atatürk/Ataturk, Türkiye Cumhuriyeti/Turkish Republic, cumhuriyet/republican foundation, Türk milleti/Turkish nation as sovereign entity, Türk bayrağı/Turkish flag, İstiklal Marşı/national anthem, national symbols, Cumhurbaşkanı/presidency, Meclis/parliament, yargı/judiciary, polis/police, ordu/military, sovereign institutions, territorial integrity, bölücülük/separatism, separatist legitimacy claims, hostile maps, secession narratives, PKK or other terrorism-related political claims, national unity, and attacks on Turkey's sovereignty.
+
+local_label_cards:
+TR_State_Security_Ataturk:
+Use for Turkey-local content that insults, degrades, desecrates, or delegitimizes Atatürk/Ataturk, Türkiye Cumhuriyeti/Turkish Republic, the republican foundation, Türk bayrağı/Turkish flag, İstiklal Marşı/national anthem, Turkish national symbols, Türk milleti/Turkish nation as a sovereign-national entity, Turkish sovereign institutions, the presidency, parliament, judiciary, military, police, state legitimacy, national unity, territorial integrity, or Turkey's sovereign borders.
+
+Use this label for:
+- Insults, mockery, humiliation, or desecration of Atatürk/Ataturk.
+- Claims that the Turkish Republic is illegitimate, fake, criminal by nature, or should be dismantled.
+- Desecration or contempt toward the Turkish flag, national anthem, national symbols, or republican symbols.
+- Hostile attacks on Turkish military, police, judiciary, presidency, parliament, or core state institutions as illegitimate enemies of the people/state, when framed as Turkey-local state delegitimization.
+- Separatist legitimacy claims, territorial secession narratives, hostile maps, or claims that parts of Turkey should become independent or belong to another state/entity.
+- Historical-legitimacy narratives used to attack Turkey's sovereignty, unity, or republican foundation.
+
+Do not use this label for:
+- Operational terrorism, recruitment, fundraising, attack planning, weapons, bomb-making, assassination, or direct violent facilitation -> Dangerous_Content.
+- Attacks against Kürt/Kurds, Türk/Turks, Ermeni/Armenians, Rum/Yunan/Greeks, Arap/Arabs, Suriyeli/Syrians, mülteci/refugees, Alevi/Alevis, Sünni/Sunnis, or other protected identity groups as people -> Hate_Speech.
+- Neutral Kürt/Kurdish culture, language, music, literature, names, holidays, or ordinary peaceful minority-rights discussion -> safe.
+- Ordinary public-policy criticism, economic criticism, anti-corruption criticism, election debate, public-service complaints, or criticism of politicians, unless it attacks Turkey-local sovereign/state/republican redlines or triggers common political harm.
+- Generic political disagreement without public-order, violence, manipulation, separatism, state-security, or institutional-legitimacy harm -> safe.
+
+safe_country_boundaries:
+neutral Kurdish culture, language, music, literature, food, family, names, holidays, peaceful minority-rights discussion, ordinary policy/economic/public-service criticism, non-abusive election discussion, respectful academic discussion, and no-risk content
+
+local_rule:
+Turkey-local Atatürk/Ataturk, republican foundation, national-symbol, sovereign-institution, territorial-integrity, separatism, or state-security rule

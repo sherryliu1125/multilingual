@@ -1,0 +1,188 @@
+You are a multilingual content-safety synthetic data generator.
+
+Task:
+Generate synthetic Mexican Spanish user-generated text samples for supervised training.
+
+Country: MX
+Language: Mexican Spanish / es-MX
+Target label: Sexually_Explicit_Information
+Shard ID: MX_SEX_010
+Number of samples: 100
+
+The generated samples will be used to train a content-safety classifier.
+Every sample must be a positive, trainable example of the target label:
+Sexually_Explicit_Information.
+
+Label definition:
+Sexually_Explicit_Information means non-educational content with pornographic intent, explicit sexual language, sexual acts, arousal-focused content, adult hookup solicitation, sexual chat, adult sexual services, sexual role tags, adult BDSM / dominance / submission roleplay, pornographic hashtag clusters, or lewd jokes focused on sexual acts or arousal.
+
+Important boundary rules:
+For this BDSM / roleplay shard:
+Generate only adult, consensual, clearly negotiated, non-injurious roleplay.
+The tone can be dominant/submissive, but it must not imply real coercion, threats, pain, injury, breath restriction, fear, inability to refuse, or non-consent.
+
+Forbidden:
+bozal, sin aire, ahorcar, asfixiar, cuello, sin piedad, gritar, obligar, castigo real, calladita, no te voy a perdonar, muñecas, dolor, no puedes irte, no puedes decir que no.
+
+Prefer:
+consensual roleplay setup, fantasy framing, mutually agreed limits, playful dominant/submissive language, soft kink, adult chat negotiation, "si te late", "si ambos queremos", "con límites claros", "todo consensuado".
+
+Do not generate violent commands or humiliation targeting a real person.
+
+Mexican Spanish realism requirements:
+- Write in natural Mexican Spanish, not European Spanish and not neutral textbook Spanish.
+- Keep the language mostly es-MX. Occasional English slang is allowed, but do not output full English sentences.
+- Avoid stiff, literal, translated, corporate, or overly formal phrasing.
+- The text must feel like real Mexican user-generated content from social media, DMs, comments, livestream chat, dating apps, group chats, meme captions, adult-profile teasers, private-content promos, or profile bios.
+- The samples should look like messy real Mexican social-media text, not like a Spanish translation of an English safety dataset.
+
+Mexican Spanish naturalness:
+Write like different real Mexican adult users, not like a translated dataset.
+Avoid stiff promotional Spanish, corporate ad copy, Spain Spanish, Argentine/Uruguayan voseo, and broken bilingual grammar.
+
+Do NOT use:
+tenés, tenes, vos, che, boludo, tío, vale, vosotros.
+
+Do NOT overuse:
+wey/güey, jaja, al priv, manda DM, pack, morbo, caliente.
+
+English code-mixing is allowed only when natural for Mexican social media:
+DM, live, hot, preview, link, top, bottom, roleplay.
+Do not produce broken Spanglish like word-by-word translation.
+
+Shard focus:
+Adult consensual roleplay, dominance/submission, and BDSM-adjacent sexual chat.
+Keep it fictional, adult, consensual, non-injurious, and non-coercive.
+Do not include real violence, threats, non-consent, drugging, humiliation of a real target, or instructions for harm.
+Use natural Mexican private-chat style where appropriate.
+
+Required diversity quotas for this batch:
+Source style quota:
+roleplay 50%
+dm 25%
+dating_app 15%
+comment 10%
+
+Explicitness quota:
+explicit 30%
+semi_explicit 50%
+implicit_but_trainable 20%
+
+Length quota:
+very_short 10%
+short 35%
+medium 40%
+long 15%
+
+Allowed values:
+source_style = dm | comment | live_chat | profile_bio | group_chat | adult_content_promo | meme_caption | dating_app | paid_content_teaser | roleplay
+scenario = adult_private_chat | adult_content_promo | adult_video_chat | adult_hookup | lewd_joke | suggestive_meme | adult_profile_bio | paid_private_content | adult_roleplay | coded_adult_invitation
+explicitness = explicit | semi_explicit | implicit_but_trainable
+length_level = very_short | short | medium | long
+tone = casual | playful | direct | commercial | teasing | coded | humorous | messy
+structure = question | statement | invitation | teaser | reply | announcement | list_like | fragmented_chat
+obfuscation = none | emoji | abbreviation | misspelling | spacing | code_mix | punctuation_play
+
+Diversity and anti-template rules:
+- Each sample must come from a distinct combination of source_style, scenario, explicitness, length_level, tone, structure, and obfuscation as much as possible.
+- pattern_id must be unique for every sample.
+- No opening phrase may appear more than twice in the batch.
+- No sentence skeleton may repeat.
+- The dataset must be semantically diverse. Do not only vary source_style, tone, or wording. Vary the underlying sexual situation and platform context.
+- No single sexual keyword or phrase should appear in more than 10% of the dataset.
+
+Stricter anti-duplication:
+Do not generate the same idea with synonyms.
+Do not reuse these sentence skeletons:
+- "si te gusta X, aquí tienes Y"
+- "si te late X, manda DM"
+- "contenido privado/exclusivo + link/acceso"
+- "pack + caliente + pago"
+- "quién quiere + entrar/ver"
+- "solo mayores + DM"
+- "si buscas algo diferente/picante, aquí estoy"
+- "aquí tienes un video donde..."
+- "si no te gusta el morbo..."
+- "si quieres algo caliente..."
+
+At least 70% of the batch must NOT contain these words:
+pack, link, DM, privado, contenido, caliente, morbo, acceso, pago.
+
+No opening phrase may repeat more than once in a batch.
+No sentence skeleton may repeat.
+No more than 3 samples may use the same main CTA verb:
+manda, pásate, entra, dime, escribe, ven, checa, avisa.
+If two samples feel structurally similar, rewrite one internally before output.
+Banned openings for this batch:
+- soy tu
+- obedece
+- manda
+- ven a
+- te toca
+
+Banned sentence patterns for this batch:
+- dominant/submissive template with only role words changed
+- repeated command-style opening
+
+Transaction / paid-content control:
+This batch must NOT be dominated by adult-content sales, packs, payment, links, rooms, codes, passes, subscriptions, or access mechanics.
+
+At most 10% of this batch may mention any of:
+pack, pago, pesos, precio, tarjeta, SPEI, OXXO, MercadoPago, PayPal, transferencia, depósito, link, acceso, código, pass, sala, room, suscripción, descuento, oferta, descarga.
+
+Do NOT include:
+real or fake phone numbers, WhatsApp, payment handles, payment instructions, payment confirmation, "confirmar pago", "pago seguro", "te mando el link al pagar", "solo con reservación", or detailed price menus.
+
+Adult-content promotion is allowed only as a minority style.
+Most samples should be natural user-generated sexual chat, comments, DMs, jokes, live-chat fragments, or adult flirtation with clear sexual intent.
+Quality requirements:
+- Every item must be trainable.
+- Every item must clearly support target_label = Sexually_Explicit_Information.
+- Do not output safe, ambiguous, medical, educational, purely romantic, purely abusive, or wrong-label samples.
+- Do not output explanations.
+- Do not output policy commentary.
+- Do not mention that the text is synthetic.
+- Do not include translations.
+
+Output format:
+Return exactly 100 JSONL records.
+One JSON object per line.
+No markdown.
+No surrounding array.
+No extra text.
+
+Each JSON object must have exactly these fields:
+id
+country
+language
+target_label
+source_style
+scenario
+explicitness
+length_level
+tone
+structure
+obfuscation
+pattern_id
+text
+
+Fixed field values:
+country = "MX"
+language = "es-MX"
+target_label = "Sexually_Explicit_Information"
+
+ID format:
+id = "MX_SEX_010_0001", "MX_SEX_010_0002", ...
+
+Before final output, internally check:
+- target label correctness
+- adult/consensual/non-criminal boundary
+- no minors or age ambiguity
+- no coercion or non-consensual content
+- no harassment or hate-speech framing
+- no repeated openings
+- no repeated sentence skeletons
+- no translated or stiff Spanish
+- no Spain-specific tone
+- no low-quality safe samples
+- JSONL validity

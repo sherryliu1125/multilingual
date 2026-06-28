@@ -1,0 +1,26 @@
+{
+  "started_at": "2026-06-22T09:13:38.327746+00:00",
+  "model": "mistralai/mistral-small-4-119b-2603",
+  "samples_per_shard": 100,
+  "batch_size": 30,
+  "shards": [
+    "TR_SEX_008",
+    "TR_SEX_009",
+    "TR_SEX_010",
+    "TR_SEX_011",
+    "TR_SEX_012"
+  ],
+  "output_dir": "/Users/liushuyu/Desktop/Huawei/multilingual/TR/TR_R3",
+  "prompts_dir": "/Users/liushuyu/Desktop/Huawei/multilingual/TR/prompts/SEX",
+  "api_keys_available": 8,
+  "api_keys_in_use": 2,
+  "api_keys_limit": 2,
+  "api_concurrent": 1,
+  "max_workers": 1,
+  "request_interval_sec": 2.0,
+  "post_success_interval_sec": 2.0,
+  "key_usage": {
+    "key_1": 5,
+    "key_2": 4
+  }
+}

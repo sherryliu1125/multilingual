@@ -1,0 +1,191 @@
+You are a multilingual content-safety synthetic data generator.
+
+Task:
+Generate synthetic Turkish user-generated text samples for supervised training.
+
+Country: TR
+Language: Turkish / tr-TR
+Target label: Sexually_Explicit_Information
+Shard ID: TR_SEX_005
+Number of samples: 100
+
+Every sample must be a positive, trainable example of Sexually_Explicit_Information for Türkiye traffic.
+
+Label definition (Sexually_Explicit_Information):
+Non-educational content with pornographic intent, explicit sexual language, sexual acts, arousal-focused chat, adult hookup solicitation, sexual services framing, sexual role tags, consensual adult BDSM/dominance/submission roleplay, pornographic hashtag use, or lewd jokes centered on sex/arousal — as defined in Turkey-local annotation practice.
+
+This is NOT a translation task from Brazilian Portuguese, Mexican Spanish, or English datasets.
+Do NOT imitate BR/MX phrasing patterns (e.g. "chama no privado", "pack caliente", "morbo", "link na bio", "wey").
+Generate original Turkish internet user text.
+
+=== Turkey-native quality bar (must pass) ===
+Each sample must read like a plausible message written by an adult Turkish internet user on a real platform.
+Prioritize communicative intent and natural tr-TR rhythm over keyword density.
+
+Authentic Turkish SEX UGC usually looks like:
+- short özel mesaj / DM flirt with direct adult intent ("özele gel", "mesaj kutum açık", "gece yazarsan cevaplarım")
+- Twitter/X or Instagram comment/reply with sexual joke or blunt solicitation
+- fragmented canlı yayın yorumu reacting to a streamer or live moment
+- dating-app or tanışma post with clear adult intent (not romance-only)
+- consensual adult couple/swing community wording (evli çift, gizli tanışma) without criminal framing
+- Turkish meme humor: caps, irony, knk/abi voice, exaggerated horny joke
+- natural euphemisms: ateşlisin, azdım, sevişelim, yaksın, çekilir misin, iş yapmak (sexual context), zevk, fantazi
+- occasional English platform words embedded in Turkish grammar (DM, live, sexting) — not full English sentences
+
+Low-quality TR spam you must NOT reproduce (reject internally, do not output):
+- SEO keyword dumps, fake Turkish morphology chains (-iyor/-mış/-tular spam words)
+- boilerplate #ücretlishow + #whatsappshow + görüntülüshow/Teldesex/sanalshow chains
+- trailing "LINK", phone numbers, WhatsApp numbers, payment menus
+- ensest, türbanli-as-spam-trope, liseli/üniversiteli/öğrenci youth framing in sexual context
+- ifşa/leak/non-consensual framing, gizli kamera, revenge framing
+- gibberish OCR-like strings, random Latin diacritics (ậ, ỗ, ̓), or word salad
+
+=== Boundary rules ===
+- Adult, consensual, fictional only.
+- No minors, teenagers, students, school context, grooming, CSAM, age ambiguity.
+- No coercion, rape, drugging, hidden camera, voyeurism, revenge porn, extortion, trafficking.
+- No sexual insults aimed at a person → Harassment/Hate_Speech, not this label.
+- No medical/sex-ed/neutral romance/swimsuit-only content unless adult sexual intent is unmistakable.
+- No real phone numbers, links, handles, addresses, payment IDs, public figures, or identifiable individuals.
+- Placeholders only: <user>, <link>, <platform>, <şehir>, <grup>.
+
+Forbidden youth-coded sexual terms:
+liseli, üniversiteli, üniversiteliyim, öğrenci, öğrenciyim, okul, lise, teen, bakire (youth-coded), çocuk, reşit değil.
+
+Forbidden non-consensual / criminal sexual framing:
+ifşa, leak, gizli kamera, zorla, boğ beni, tehdit, ensest, türbanli (spam trope).
+
+=== Turkish language realism ===
+- Natural Türkiye social-media Turkish: X/Twitter, Instagram, TikTok yorum, BiP/WhatsApp grup, Telegram, tanışma uygulaması.
+- Conversational markers (vary, do not spam): ya, lan, knk, abi, kanka, hadi, valla, tamam, bi, şimdi, bak, cidden, harbiden.
+- Imperfect typing is OK: missing ş/ı/ğ/ü/ö/ç, lowercase, repeated letters — but text must remain readable Turkish.
+- Emoji are OPTIONAL. Many real Turkish sexual UGC has zero emoji. Do not decorate every sample with emoji.
+
+=== Emoji rules (critical — avoid BERT learning emoji shortcuts) ===
+Per batch targets for the text field:
+- no emoji at all: at least 40% of samples
+- exactly 1 emoji: up to 35%
+- exactly 2 emojis: up to 25%
+- never 3 or more emojis in one sample
+- never emoji-only or emoji-dominant samples (text must carry the sexual intent in Turkish words)
+
+Do NOT repeat the same emoji palette on every line. Forbidden habits:
+- ending every sample with 😉 😌 😈 👀 🔥 💋 😘
+- using the same closing emoji on >8% of samples in one batch
+- copying one sentence skeleton and only swapping the trailing emoji
+
+When metadata obfuscation = none, the text should usually have no emoji.
+Vary obfuscation in metadata: prefer none, abbreviation, misspelling over emoji.
+
+=== Turkish language realism (continued) ===
+- Regional <şehir> or city hashtags may appear occasionally; do not make every sample Istanbul-centric.
+- Vary speakers: straight hookup, gay/bi adult flirt (consensual, not hate), couple/swing adult communities, solo creator teaser, horny joke commenter.
+- Do NOT sound like one translated template. Vary situation, platform, and sentence shape.
+
+English inserts allowed only as platform slang inside Turkish sentences:
+DM, live, hot, cam, sex, sexting, roleplay, preview, top, bottom.
+No English-dominant sentences. No broken word-by-word translation.
+
+=== Shard focus (Turkey-native scene) ===
+Özel içerik teaser ve yetişkin profil açıklaması: abone/özel kanal/premium ima.
+Türkçe creator economy dili (abone, özel kanal, sansürsüz) — fiyat menüsü veya havale talimatı yok.
+
+Turkish situational anchors for this shard (style guidance only — do not copy verbatim):
+- "yeni set yüklendi, aboneler gördü bile" tarzı teaser
+- bio: yetişkin tercih/fantazi özeti + özel içerik ima
+- placeholder <link> only; gerçek ödeme yolu yok
+
+Required diversity quotas:
+Source style quota:
+paid_content_teaser 45%
+profile_bio 35%
+adult_content_promo 15%
+comment 5%
+
+Explicitness quota:
+explicit 40%
+semi_explicit 40%
+implicit_but_trainable 20%
+
+Length quota:
+very_short 15%
+short 40%
+medium 35%
+long 10%
+
+Obfuscation quota (metadata obfuscation field — match the text):
+none 45%
+abbreviation 15%
+misspelling 15%
+emoji 15%
+spacing 8%
+code_mix 5%
+punctuation_play 3%
+
+Metadata fields (use exactly these allowed values):
+source_style = dm | comment | live_chat | profile_bio | group_chat | adult_content_promo | meme_caption | dating_app | paid_content_teaser | roleplay
+scenario = adult_private_chat | adult_content_promo | adult_video_chat | adult_hookup | lewd_joke | suggestive_meme | adult_profile_bio | paid_private_content | adult_roleplay | coded_adult_invitation
+explicitness = explicit | semi_explicit | implicit_but_trainable
+length_level = very_short | short | medium | long
+tone = casual | playful | direct | commercial | teasing | coded | humorous | messy
+structure = question | statement | invitation | teaser | reply | announcement | list_like | fragmented_chat
+obfuscation = none | emoji | abbreviation | misspelling | spacing | code_mix | punctuation_play
+
+Diversity rules:
+- Unique pattern_id per sample.
+- No opening phrase more than twice per batch.
+- No repeated sentence skeleton.
+- No near-duplicates by emoji/punctuation/city/synonym only.
+- Do not overuse any single emoji, emoji-ending pattern, sexual keyword, or CTA phrase.
+- Semantic diversity: different sexual situations and platforms, not just synonym swaps.
+- No single keyword/phrase in >10% of batch.
+- No single emoji character in >8% of batch.
+
+Banned openings for this batch:
+- abone ol hemen
+- havale yap
+- fiyat listesi
+
+Banned sentence patterns for this batch:
+- TL + havale + numara menu
+- confirm payment
+
+Extra quality rules:
+Max 15% samples with payment words (TL, havale, fiyat, ücretli).
+
+Quality gate before output (internal):
+1) Trainable Sexually_Explicit_Information positive — clear adult sexual intent in the Turkish text itself.
+2) Reads as natural Turkish UGC, not spam, not translated BR/MX/EN template.
+3) Passes all boundary rules above.
+4) Not ambiguous safe flirt, not harassment insult, not garbage morphology/SEO spam.
+5) JSONL valid, no markdown, no commentary, no "synthetic" mention, no translations.
+
+Output format:
+Return exactly 100 JSONL records.
+One JSON object per line.
+No markdown.
+No surrounding array.
+No extra text.
+
+Each JSON object must have exactly these fields:
+id
+country
+language
+target_label
+source_style
+scenario
+explicitness
+length_level
+tone
+structure
+obfuscation
+pattern_id
+text
+
+Fixed field values:
+country = "TR"
+language = "tr-TR"
+target_label = "Sexually_Explicit_Information"
+
+ID format:
+id = "TR_SEX_005_0001", "TR_SEX_005_0002", ...

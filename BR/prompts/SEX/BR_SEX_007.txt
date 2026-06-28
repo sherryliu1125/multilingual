@@ -1,0 +1,149 @@
+You are a multilingual content-safety synthetic data generator.
+
+Task:
+Generate synthetic Brazilian Portuguese user-generated text samples for supervised training.
+
+Country: BR
+Language: Brazilian Portuguese / pt-BR
+Target label: Sexually_Explicit_Information
+Shard ID: BR_SEX_007
+Number of samples: 100
+
+The generated samples will be used to train a content-safety classifier.
+Every sample must be a positive, trainable example of the target label:
+Sexually_Explicit_Information.
+
+Label definition:
+Sexually_Explicit_Information means non-educational content with pornographic intent, explicit sexual language, sexual acts, arousal-focused content, adult hookup solicitation, sexual chat, sexual services, sexual role tags, adult BDSM / dominance / submission roleplay, pornographic hashtag clusters, or lewd jokes focused on sexual acts or arousal.
+
+Important boundary rules:
+- Generate only adult, consensual, fictional, non-criminal sexual content.
+- Do NOT generate content involving minors, teenagers, students, school context, childlike framing, grooming, CSAM, age ambiguity, coercion, rape, drugging, hidden cameras, voyeurism, revenge porn, sexual extortion, leaked private images, blackmail, trafficking, or non-consensual acts.
+- Do NOT generate instructions for sexual crimes or exploitation.
+- Do NOT generate sexualized abuse targeting a specific person.
+- Do NOT generate misogynistic, gender-degrading, identity-based, racist, homophobic, transphobic, or nationality-based sexual degradation.
+- Do NOT generate ordinary insults or sexual words used mainly as insults. Those would be Harassment or Hate_Speech, not the target label.
+- Do NOT generate medical, scientific, sex-education, anatomy, public-health, or neutral relationship-advice content. Those are not target-label positives.
+- Do NOT generate merely romantic, flirtatious, beauty-related, swimsuit-related, fitness-related, or normal dating content unless the adult sexual intent is clear enough for the target label.
+- Do NOT include real phone numbers, real usernames, real links, real addresses, real payment handles, real public figures, real minors, real schools, or real private individuals.
+- Use placeholders if needed: <user>, <link>, <platform>, <city>, <group>.
+
+Brazilian Portuguese realism requirements:
+- Write in natural Brazilian Portuguese, not European Portuguese.
+- Keep the language mostly pt-BR. Occasional English slang is allowed, but do not output full English sentences.
+- Simulate realistic Brazilian user-generated content from social platforms, DMs, comments, bios, live chats, group chats, meme captions, adult-profile teasers, and private-content promos.
+- Vary register: casual, slangy, playful, direct, coded, commercial, humorous, messy, short-form, and semi-literate.
+- Use varied punctuation, capitalization, emoji density, abbreviations, spelling variation, and occasional English/Portuguese code-mixing.
+- Do not rely on a fixed keyword list. Prioritize realistic communicative intent and context.
+- The text should look like it could plausibly be written by different adult Brazilian internet users.
+
+Shard focus:
+Pornographic hashtag clusters, adult-profile bios, and short caption-like text.
+Do not make every sample a pure hashtag list. Mix captions, bios, and short posts.
+
+Required diversity quotas for this batch:
+Source style quota:
+profile_bio 35%
+adult_content_promo 25%
+paid_content_teaser 20%
+comment 20%
+
+Explicitness quota:
+explicit 45%
+semi_explicit 35%
+implicit_but_trainable 20%
+
+Length quota:
+very_short 25%
+short 45%
+medium 25%
+long 5%
+
+Allowed values:
+source_style = dm | comment | live_chat | profile_bio | group_chat | adult_content_promo | meme_caption | dating_app | paid_content_teaser | roleplay
+scenario = adult_private_chat | adult_content_promo | adult_video_chat | adult_hookup | lewd_joke | suggestive_meme | adult_profile_bio | paid_private_content | adult_roleplay | coded_adult_invitation
+explicitness = explicit | semi_explicit | implicit_but_trainable
+length_level = very_short | short | medium | long
+tone = casual | playful | direct | commercial | teasing | coded | humorous | messy
+structure = question | statement | invitation | teaser | reply | announcement | list_like | fragmented_chat
+obfuscation = none | emoji | abbreviation | misspelling | spacing | code_mix | punctuation_play
+
+Diversity and anti-template rules:
+- Each sample must come from a distinct combination of source_style, scenario, explicitness, length_level, tone, structure, and obfuscation as much as possible.
+- pattern_id must be unique for every sample.
+- No opening phrase may appear more than twice in the batch.
+- No sentence skeleton may repeat.
+- Do not create near-duplicates by only changing emoji, punctuation, usernames, platform names, cities, prices, times, or one synonym.
+- Do not overuse any single sexual keyword, slang term, emoji pattern, platform phrase, or CTA phrase.
+- Do not make the batch dominated by phrases like "chama no privado", "conteúdo adulto", "link na bio", "grupo privado", or "quer ver".
+- If two samples feel structurally similar, internally rewrite one before final output.
+- Avoid generic templated marketing language. Make the samples feel like varied Brazilian user-generated text.
+
+Banned openings for this batch:
+- #hot
+- #sexy
+- conteúdo adulto
+- perfil privado
+
+Banned sentence patterns for this batch:
+- hashtag-only list with repeated obvious terms
+
+Quality requirements:
+- Every item must be trainable.
+- Every item must clearly support target_label = Sexually_Explicit_Information.
+- Do not output safe, ambiguous, medical, educational, purely romantic, purely abusive, or wrong-label samples.
+- Do not output explanations.
+- Do not output policy commentary.
+- Do not mention that the text is synthetic.
+- Do not include translations.
+
+Extra quality rules:
+- Keep the language mainly natural Brazilian Portuguese. Occasional common English internet terms are allowed, but do not output full English sentences or English-dominant samples.
+- Avoid keyword/template repetition. Do not overuse the same sexual words, CTA phrases, openings, hashtags, emoji patterns, or sentence skeletons.
+- Each sample should differ in communicative intent, wording, and structure, not only by changing emojis, punctuation, platform names, or one synonym.
+- Implicit samples are allowed, but the text itself must still contain enough adult sexual intent to be trainable.
+- Adult consensual roleplay, including power-role fantasy, is allowed when clearly fictional/adult/consensual. Do not turn it into coercion, threat, blackmail, hidden recording, or non-consensual framing.
+
+For BR_SEX_007:
+Reduce repeated hashtag clusters and repeated explicit keywords. Keep explicit samples varied in wording and structure. Do not make the batch look like the same porn-tag template repeated with small changes.
+
+Output format:
+Return exactly 100 JSONL records.
+One JSON object per line.
+No markdown.
+No surrounding array.
+No extra text.
+
+Each JSON object must have exactly these fields:
+id
+country
+language
+target_label
+source_style
+scenario
+explicitness
+length_level
+tone
+structure
+obfuscation
+pattern_id
+text
+
+Fixed field values:
+country = "BR"
+language = "pt-BR"
+target_label = "Sexually_Explicit_Information"
+
+ID format:
+id = "BR_SEX_007_0001", "BR_SEX_007_0002", ...
+
+Before final output, internally check:
+- target label correctness
+- adult/consensual/non-criminal boundary
+- no minors or age ambiguity
+- no coercion or non-consensual content
+- no harassment or hate-speech framing
+- no repeated openings
+- no repeated sentence skeletons
+- no low-quality safe samples
+- JSONL validity

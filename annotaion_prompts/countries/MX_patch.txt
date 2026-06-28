@@ -1,0 +1,98 @@
+# MX_patch.txt
+
+country_header:
+Country: Mexico
+Country display name: Mexico
+Country code/context: MX / Mexico traffic
+
+Use this patch for Mexico traffic and Mexico-local context. The common taxonomy meanings must stay fixed. This patch only fills Mexico-local slots and defines Mexico-local boundary rules.
+
+allowed_local_labels:
+MX_Narco_Culture_And_Cartel_Glorification
+
+local_language_context:
+Read Spanish directly, including Mexican Spanish, regional slang, border slang, Spanglish, English-Spanish mixing, romanized or stylized spelling, hashtags, emojis, corrido/narcocorrido lyrics, corridos tumbados references, cartel aliases, plaza language, coded narco terms, memes, local place names, and references to Mexican organized-crime culture.
+
+Do not rely on translation alone. Preserve local meanings of cartel names, sicario language, narco-corrido aesthetics, symbols, emojis, honorifics such as patrón/patron/jefe, and coded references to organized-crime status or loyalty.
+
+country_code_or_context:
+MX / Mexico
+
+local_redline_summary:
+Mexican narco culture, cartel glorification, drug-lord worship, sicario identity, narcocorrido criminal glamour, and positive cartel lifestyle signaling
+
+local_language_difficulty:
+Mexican Spanish, Spanglish, regional slang, narcocorrido lyrics, cartel aliases, emojis, coded narco language, OCR, romanization, or local organized-crime context
+
+local_risk_preference_redlines:
+- MX_Narco_Culture_And_Cartel_Glorification covers praise, admiration, idolization, positive identity, normalization, recruitment-coded admiration, or cultural glorification of Mexican cartels, drug lords, sicarios, narco violence, cartel lifestyle, narco wealth, narcocorridos, or organized-crime status.
+- Drug sales, drug sourcing, prices, delivery, smuggling routes, production instructions, money laundering, cartel operational logistics, weapons instructions, kidnapping, extortion, killing threats, or concrete criminal facilitation -> Dangerous_Content.
+- Real violent threats, execution details, kidnapping, extortion, gore, beheading, dismemberment, or direct intimidation -> Dangerous_Content when severe harm or concrete violence is present.
+- Praise/glorification of cartels, drug lords, sicarios, narco wealth, cartel loyalty, or narcocorrido criminal lifestyle without concrete transaction/instruction/threat -> MX_Narco_Culture_And_Cartel_Glorification.
+- Neutral news or criticism of cartel violence, anti-cartel advocacy, mourning victims, or public-safety concern -> safe unless it includes graphic gore, destabilizing political/security claims, or another common-label violation.
+- Criticism of the Mexican government for failing to control cartel violence is usually safe unless it includes election manipulation, public disorder, political violence, destabilizing rumors, or other common political harm.
+- Nationality/ethnicity stereotypes such as claiming Mexicans are all drug traffickers -> Hate_Speech.
+
+Suggested priority:
+Dangerous_Content / Cybersecurity_Malware for operational severe harm >
+MX_Narco_Culture_And_Cartel_Glorification for non-operational narco/cartel glorification >
+Hate_Speech / Harassment for attacks on people or groups >
+Politically_Sensitive_Topics for political/security content not covered by the Mexico-local label >
+Sexually_Explicit_Information >
+need_review for true taxonomy/local-policy gaps >
+safe.
+
+harassment_local_terms:
+Mexican Spanish abusive signals may include direct insults, vulgar abuse, family insults, sexualized insults, humiliation, intimidation, and hostile ridicule, including forms such as:
+pendejo, idiota, imbécil/imbecil, estúpido/estupido, cabrón/cabron, culero, puto, puta, pinche, hijo de puta, chinga tu madre, vete a la verga, basura, rata, mugroso, asqueroso, fracasado, payaso, vendido
+
+Use Harassment when the abuse targets a specific person or non-protected collective and does not primarily attack a protected identity group.
+
+If sexual or family insults attack a protected identity group, use Hate_Speech. If sexual terms are used for arousal or pornographic intent, use Sexually_Explicit_Information.
+
+hate_speech_local_identity_markers:
+Protected identity markers in Mexico context include nationality, ethnicity, race, Indigenous identity, language, regional origin, migrant/refugee status, religion, gender, sexual orientation, gender identity, disability, age, and other protected identities.
+
+Local identity markers and signals may include:
+mexicano, mexicana, indígena/indigena, pueblos originarios, nahua, maya, zapoteco, mixteco, otomí/otomi, mazahua, rarámuri/raramuri, mestizo, afro mexicano, migrante, refugiado, centroamericano, guatemalteco, hondureño/hondureno, salvadoreño/salvadoreno, gringo, chilango, norteño/norteno, sureño/sureno, jarocho, yucateco, mujer, LGBT, gay, lesbiana, trans, discapacitado
+
+Collective degradation, inferiority, exclusion, dehumanization, sexual degradation, forced removal, or violence against these groups -> Hate_Speech.
+
+sexual_local_terms:
+Mexican Spanish sexual signals may include explicit sexual acts, genital slang, hookup intent, pornographic hashtags, arousal-focused language, sexual role language, sex-service terms, and euphemistic sexual invitations.
+
+Signals include:
+sexo, coger, follar, porno, desnudo, nude, pack, nudes, calentura, caliente, morbo, pito, verga, pene, vagina, panocha, culo, tetas, oral, anal, venirse, escorts, cariñosas/carinosas, servicio, sugar, BDSM, activo, pasivo, top, bottom
+
+If sexual terms are mainly used to insult or shame a target, use Harassment or Hate_Speech. If sexual content involves minors, coercion, rape, drugging, hidden cameras, revenge porn, voyeurism, sexual extortion, or non-consensual acts, use Dangerous_Content.
+
+political_country_variables:
+country_specific: Mexico-specific / Mexican public-security or organized-crime context
+non_country: non-Mexico / outside Mexico
+
+Mexico-specific political/security subjects include:
+Mexican cartel violence, public-security crisis, cartel-government collusion claims, narcopolítica/narco-politics, election violence, destabilizing cartel rumors, state capture claims, regional public disorder, and Mexican organized-crime narratives. Non-operational glorification of Mexican narco culture is handled by MX_Narco_Culture_And_Cartel_Glorification.
+
+local_label_cards:
+MX_Narco_Culture_And_Cartel_Glorification:
+Use for Mexico-local content that praises, glamorizes, idolizes, normalizes, culturally promotes, or positively identifies with Mexican drug cartels, drug lords, sicarios, narco violence, cartel lifestyle, narco wealth, narcocorridos, corridos tumbados criminal narratives, or organized-crime status.
+
+Use this label for:
+- Praise, tribute, admiration, nostalgia, heroization, or loyalty toward El Chapo, El Mencho, CJNG, Sinaloa Cartel, Los Zetas, or other cartel figures/groups.
+- Narcocorrido or corrido-style text that positively frames cartel life, sicario identity, armas largas, cuerno de chivo, blindadas, levantón, plaza control, rutas, paquetes, coca, lavado, money, jefe/patrón, bosses, or cartel loyalty as glory, wealth, power, masculinity, or success.
+- Non-operational identity or aspiration language such as wanting to serve a jefe, be a sicario, represent a cartel, defend a plaza, or live the narco lifestyle.
+- Cartel name plus positive symbols or slogans such as puro CJNG, puro Sinaloa, arriba el patrón/arriba el patron, la empresa, la maña, la plaza, when the overall meaning is organized-crime praise or identity.
+- Glorification of narco violence or cartel intimidation as justice, discipline, power, order, or rightful rule, without concrete threat/instruction.
+
+Do not use this label for:
+- Drug selling, sourcing, prices, trafficking instructions, smuggling routes, production methods, money laundering, weapons instructions, recruitment logistics, extortion, kidnapping, murder planning, or concrete criminal facilitation -> Dangerous_Content.
+- Real killing threats, kidnapping threats, extortion threats, graphic execution details, or severe violent intimidation -> Dangerous_Content.
+- Neutral news about narcocorridos or cartel violence -> safe unless common political/security harm applies.
+- Criticism of cartels, anti-drug advocacy, memorials for victims, or public-safety concern -> safe unless graphic gore, threats, or another common label applies.
+- Nationality/ethnicity attacks such as "Mexicans are all narcos" -> Hate_Speech.
+
+safe_country_boundaries:
+ordinary Mexican daily life, food, music without narco glorification, neutral news, anti-cartel criticism, victim remembrance, public-safety concern without destabilizing claims, ordinary government criticism without political harm, and no-risk content
+
+local_rule:
+Mexico-local narco culture, cartel glorification, drug-lord worship, sicario identity, or organized-crime lifestyle rule

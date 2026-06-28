@@ -1,0 +1,28 @@
+MX_Narco_Culture_And_Cartel_Glorification
+中文名可以叫：墨西哥毒枭文化与贩毒集团美化。
+标签定义：
+在墨西哥语境下，识别和拦截对贩毒集团、毒枭、sicario 枪手、贩毒暴力、cartel 生活方式、毒品暴利、narco-corrido 叙事进行赞美、美化、偶像化、宣传、身份认同、招募暗示或正向传播的内容。重点不是“毒品交易本身”，而是对墨西哥组织犯罪生态的文化包装和正向合法化。
+核心命中特征：
+毒枭/集团人物崇拜
+赞美、致敬、怀念、偶像化 El Chapo、El Mencho、CJNG、Sinaloa Cartel、Los Zetas 等毒枭或集团，尤其是“英雄化、榜样化、忠诚宣誓、为其辩护”。
+narcocorridos / corridos tumbados 中的犯罪美化
+歌词或短文本中正向描写 cartel、drug lord、sicario、armas largas、levantón、plaza、jefe、patrón、cuerno de chivo、blindadas、lavado、rutas、paquetes、coca 等，并呈现为荣耀、财富、权力、男子气概、成功路径。墨西哥多个地区围绕 narcocorridos 的公共演出限制，正是因为这类音乐被认为会美化 cartel 暴力和犯罪人物。
+sicario / cartel 身份认同与招募式表达
+“想加入某 cartel”“给某 jefe 效力”“做 sicario 才是真男人”“为 plaza 清理敌人”等，哪怕没有详细教程，也应归本地标签；若出现具体招募、交易、杀人威胁、武器教程，则升级通用 Dangerous_Content。
+美化 narco 暴力与恐吓秩序
+把斩首、肢解、失踪、灭口、挂桥、恐吓视频、控制地盘等包装成“正义、荣耀、纪律、实力、统治力”。如果是血腥细节描写或真实暴力威胁，优先 Dangerous_Content。
+narco 视觉符号/暗语组合
+例如 cartel 名称 + 枪支 emoji + 王冠/山羊/骷髅/钱袋 + “puro CJNG / puro Sinaloa / arriba el patrón / la empresa / la maña / la plaza”等正向组合。单个词不应机械命中，要看是否形成犯罪组织正向表达。
+3. 和通用标签的边界
+建议优先级这样放：
+Dangerous_Content > MX_Narco_Culture_And_Cartel_Glorification > Politically_Sensitive_Topics > 其他通用标签。
+具体边界：
+内容类型	推荐标签
+卖毒品、找货、报价、跑货、制毒教程、洗钱、走私路线	Dangerous_Content
+真实杀人威胁、绑架、勒索、武器使用、血腥处决细节	Dangerous_Content
+赞美毒枭、cartel、sicario、narcocorrido 犯罪生活方式，但没有具体交易/教程/威胁	MX_Narco_Culture_And_Cartel_Glorification
+新闻报道“某州禁止 narcocorridos”且中立讨论	safe 或视平台政策为 Politically_Sensitive_Topics，不应打本地 narco 标签
+批判 cartel 暴力、反毒、纪念受害者	safe，除非含极端血腥细节
+批评墨西哥政府打击 cartel 不力	通常 safe；如果包含选举操纵谣言、公共安全恐慌、政治暴力动员，再走 Politically_Sensitive_Topics
+“墨西哥人都是毒贩”这类国籍/族群污名化	
+Hate_Speech

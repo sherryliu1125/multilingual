@@ -1,0 +1,86 @@
+Eres un generador de datos sintéticos de entrenamiento para seguridad de contenido.
+Tarea: generar muestras positivas de MX_Narco_Culture_And_Cartel_Glorification en español mexicano.
+
+Definición del label:
+MX_Narco_Culture_And_Cartel_Glorification identifica contenido que glorifica, romantiza,
+idolatra o promueve positivamente el narco, carteles, sicarios, el estilo de vida narco
+o la cultura de corridos/tumbados en contexto mexicano.
+No es sobre tráfico de drogas en sí, sino sobre la glorificación cultural y la identidad cartel.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Semántica que DEBE cubrirse (al menos uno por muestra):
+1. Idolatría de narcos/carteles: alabar, recordar con nostalgia o idolizar a El Chapo,
+   El Mencho, CJNG, Cártel de Sinaloa, Los Zetas, Los Chapitos, La Familia, etc.
+   como héroes, protectores, exitosos o leyendas.
+2. Narcocorrido/corridos tumbados: fragmentos líricos o comentarios de fans que
+   glorifican jefe, plaza, trocas, blindadas, joyas, radios, la sierra, respeto.
+3. Identidad sicario/cartel: querer ser sicario, pertenecer a la empresa, lealtad
+   al jefe/patrón, sentirse parte de la maña o guardar la plaza.
+4. Glorificación de la violencia narco como orden: describir el control de plaza o
+   disciplina cartel como justicia, protección, respeto o poder.
+5. Símbolos narco: combinación de nombre/argot cartel + emoji/simbología visual
+   formando semántica glorificadora (mínimo 12 palabras, no solo símbolos).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Idioma y estilo:
+* Solo español mexicano. Natural, como lo escribiría un usuario real en TikTok,
+  WhatsApp, Telegram, Instagram, Twitter, foros o comentarios de YouTube.
+* Puede incluir slang mexicano: compa, plebes, morro, jefe, patrón, la plaza,
+  la empresa, la maña, la sierra, el rancho, troca, blindada, corridón, bélico,
+  al tiro, firme, macizo, puro, arriba, ánimo.
+* Puede mezclar poco inglés de redes: boss, flow, status (muy poca proporción).
+* No generar texto en chino, no traducir al chino, no explicar en chino.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Distribución de longitud:
+* 20%: 12–24 palabras. Comentario corto, estado, fragmento de corrido.
+* 70%: 25–55 palabras. Publicación social, caption, corrido completo, post de fan.
+* 10%: 56–90 palabras. Caption largo, post narrativo, pequeño ensayo de fan.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROHIBIDO GENERAR (si aparece, reescribir antes de incluir en CSV):
+✗ Transacciones de droga: vendo, precio, disponible, WhatsApp para comprar, entrega.
+✗ Tutoriales: fabricar, esconder, rutas de tráfico, lavado de dinero, modificar armas.
+✗ Amenazas reales: "voy a matar a X", levantones, cobro de piso específico.
+✗ Detalles sangrientos: decapitaciones, desmembramiento, torturas, cuerpos colgados.
+✗ Reclutamiento real: contacto, teléfono, lugar, sueldo, pasos para unirse.
+✗ Estigmatización étnica: "los mexicanos son narcos", atacar a toda una región como grupo.
+✗ Contenido safe: noticias neutrales, antinarcóticos, homenajes a víctimas,
+  crítica al gobierno, comentario musical ordinario ("este corrido tiene buen ritmo").
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Anti-plantilla / diversidad:
+* No repetir la misma apertura de frase.
+* No que más del 30% de muestras contenga "puro", "patrón", "CJNG", "Sinaloa" o "respeto".
+* No que todos sean corridos; incluir posts, captions, estados, comentarios, narrativas.
+* No solo "cartel + emoji". Cada muestra debe tener semántica completa entrenable.
+* Diversificar: alabanza directa / identidad / defensa/normalización / glorificación de poder /
+  estilo de vida lujoso / lealtad al jefe / orgullo regional narco / simbología codificada.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Autocomprobación antes de cada muestra:
+1. ¿Es español mexicano natural? Si no → reescribir.
+2. ¿Glorifica claramente narco/cartel/sicario/corrido/estilo narco? Si no → reescribir.
+3. ¿Contiene transacción, tutorial, amenaza real, detalle sangriento o reclutamiento? Si sí → descartar.
+4. ¿Tiene menos de 12 palabras o es solo fragmento de entidad? Si sí → descartar.
+5. ¿Es contenido safe, noticias, antinarcóticos o crítica ordinaria? Si sí → descartar.
+6. ¿Es muy similar a la muestra anterior del mismo shard? Si sí → reescribir.
+7. ¿Contiene etiqueta/header CSV/texto en chino/JSON/markdown? Si sí → reescribir.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Formato de salida:
+* CSV puro, primera línea: text,final_category
+* final_category fijo: MX_Narco_Culture_And_Cartel_Glorification
+* Sin explicaciones, sin numeración, sin markdown.
+* Si text contiene comas o comillas, usar escape CSV estándar.
+* Prohibido incluir saltos de línea dentro del campo text.
+
+SHARD 004: Glamurización del estilo de vida narco
+Coches de lujo, joyas, ranchos, fiestas, poder, guardaespaldas.
+El mensaje central es que el narco es éxito, estatus y meta de vida.
+No mencionar transacciones concretas de droga.
+
+SHARD_ID = 004
+NUM_ROWS = 200
+
+Generar CSV (con encabezado text,final_category):
